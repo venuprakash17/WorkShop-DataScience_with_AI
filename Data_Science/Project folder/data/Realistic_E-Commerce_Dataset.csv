@@ -1,0 +1,1201 @@
+user_id,session_id,date,gender,age,location,membership_status,returning_customer,device_type,browser,time_of_day,time_spent_minutes,pages_viewed,scroll_depth,clicks,traffic_source,ad_campaign,coupon_used,discount_applied,product_category,wishlist_items,cart_items,avg_session_value,payment_method,purchase
+1,4174,2023-01-01 00:00:00,Female,45,Australia,Registered,0,Mobile,Edge,Morning,59,14,17,35,Referral,Campaign_B,0,0,Sports,4,2,345.4,COD,1
+2,4507,2023-01-01 01:00:00,Male,34,USA,Guest,0,Mobile,Edge,Evening,6,17,86,49,Social,Campaign_C,0,1,Books,9,1,286.72,Debit Card,1
+3,1860,2023-01-01 02:00:00,Male,48,Canada,Guest,0,Mobile,Safari,Evening,52,13,22,16,Organic,Campaign_C,0,0,Electronics,6,2,190.42,UPI,1
+4,2294,2023-01-01 03:00:00,Female,25,Germany,Registered,0,Desktop,Edge,Night,15,10,49,40,Social,Campaign_B,0,1,Home,7,7,328.79,UPI,1
+5,2130,2023-01-01 04:00:00,Female,57,UK,Registered,0,Desktop,Chrome,Morning,24,1,67,47,Social,Campaign_A,1,0,Clothing,7,1,85.97,NetBanking,1
+6,2095,2023-01-01 05:00:00,Male,42,UK,Registered,0,Mobile,Firefox,Morning,21,1,27,39,Direct,None,0,0,Clothing,0,6,36.43,COD,1
+7,4772,2023-01-01 06:00:00,Male,26,Germany,Guest,0,Mobile,Edge,Night,7,15,66,27,Organic,None,0,0,Books,0,2,427.98,COD,0
+8,4092,2023-01-01 07:00:00,Male,19,Canada,Registered,0,Desktop,Edge,Afternoon,57,16,92,41,Social,None,0,1,Books,2,1,284.15,Credit Card,1
+9,2638,2023-01-01 08:00:00,Female,32,India,Registered,1,Desktop,Firefox,Afternoon,29,12,47,38,Ads,Campaign_B,0,1,Electronics,0,1,326.3,COD,1
+10,3169,2023-01-01 09:00:00,Female,20,USA,Premium,0,Desktop,Chrome,Evening,32,6,41,25,Organic,Campaign_B,1,0,Electronics,0,5,157.08,UPI,1
+11,1466,2023-01-01 10:00:00,Male,53,Canada,Guest,1,Mobile,Chrome,Morning,32,6,95,26,Direct,Campaign_B,0,1,Clothing,9,6,189.12,COD,1
+12,2238,2023-01-01 11:00:00,Male,21,Australia,Guest,1,Tablet,Edge,Afternoon,53,12,75,14,Referral,Campaign_A,0,0,Clothing,7,5,45.77,NetBanking,1
+13,1330,2023-01-01 12:00:00,Female,31,Germany,Registered,0,Mobile,Safari,Evening,59,15,86,14,Social,Campaign_C,1,0,Clothing,0,1,429.21,NetBanking,1
+14,2482,2023-01-01 13:00:00,Male,58,USA,Registered,1,Desktop,Edge,Evening,5,4,96,14,Ads,None,1,0,Clothing,8,1,298.26,UPI,0
+15,3135,2023-01-01 14:00:00,Male,58,UK,Registered,1,Mobile,Firefox,Evening,4,4,34,25,Direct,None,0,0,Sports,1,0,46.4,UPI,1
+16,4444,2023-01-01 15:00:00,Female,42,India,Registered,1,Desktop,Firefox,Afternoon,22,2,67,36,Organic,None,0,0,Electronics,8,7,403.24,UPI,0
+17,4171,2023-01-01 16:00:00,Female,27,Australia,Registered,0,Mobile,Firefox,Afternoon,18,12,84,4,Social,Campaign_B,0,0,Electronics,6,1,224.84,COD,1
+18,3919,2023-01-01 17:00:00,Female,38,UK,Premium,0,Mobile,Edge,Morning,35,7,42,47,Direct,Campaign_B,0,1,Clothing,8,7,383.73,COD,0
+19,4735,2023-01-01 18:00:00,Female,53,Germany,Registered,1,Mobile,Edge,Morning,17,9,97,15,Direct,None,1,1,Home,2,5,11.25,Debit Card,0
+20,1130,2023-01-01 19:00:00,Male,29,USA,Premium,1,Mobile,Chrome,Evening,50,9,75,32,Ads,Campaign_B,0,1,Clothing,0,1,19.23,Credit Card,1
+21,2685,2023-01-01 20:00:00,Male,44,Germany,Registered,1,Desktop,Safari,Evening,50,8,39,18,Referral,Campaign_B,0,0,Beauty,0,4,89.54,COD,1
+22,4380,2023-01-01 21:00:00,Female,57,USA,Premium,0,Desktop,Edge,Afternoon,56,14,90,14,Referral,Campaign_B,1,1,Books,9,0,109.4,Debit Card,0
+23,1769,2023-01-01 22:00:00,Male,19,Canada,Premium,1,Tablet,Chrome,Afternoon,24,1,43,1,Referral,Campaign_B,0,1,Beauty,5,1,383.16,Debit Card,0
+24,3391,2023-01-01 23:00:00,Male,30,India,Guest,1,Mobile,Edge,Morning,2,12,95,42,Organic,Campaign_A,0,0,Home,6,5,354.81,NetBanking,0
+25,2515,2023-01-02 00:00:00,Male,49,Canada,Premium,0,Desktop,Chrome,Morning,13,2,78,20,Direct,None,1,1,Books,8,5,309.96,COD,0
+26,4485,2023-01-02 01:00:00,Male,48,Canada,Guest,0,Desktop,Chrome,Night,54,13,57,10,Organic,None,1,0,Home,5,3,443.01,Debit Card,1
+27,3853,2023-01-02 02:00:00,Male,33,Germany,Premium,0,Mobile,Safari,Morning,15,4,49,10,Direct,Campaign_B,1,0,Books,4,5,127.34,NetBanking,0
+28,3433,2023-01-02 03:00:00,Male,49,India,Registered,1,Mobile,Edge,Afternoon,5,18,60,24,Ads,Campaign_A,0,0,Clothing,1,7,452.68,Credit Card,0
+29,2215,2023-01-02 04:00:00,Male,49,USA,Guest,1,Desktop,Chrome,Evening,3,19,89,34,Ads,None,1,0,Clothing,1,0,455.19,NetBanking,0
+30,1955,2023-01-02 05:00:00,Male,51,USA,Registered,1,Tablet,Firefox,Night,37,16,22,28,Organic,Campaign_B,0,1,Home,7,7,219.96,Credit Card,1
+31,3324,2023-01-02 06:00:00,Female,28,Australia,Premium,0,Desktop,Firefox,Morning,37,14,99,27,Organic,Campaign_B,0,0,Books,0,5,51.72,UPI,1
+32,2184,2023-01-02 07:00:00,Female,27,UK,Guest,0,Mobile,Firefox,Morning,37,8,40,40,Ads,Campaign_A,1,0,Sports,7,4,364.65,UPI,1
+33,1459,2023-01-02 08:00:00,Female,32,Australia,Registered,0,Mobile,Safari,Afternoon,3,12,48,1,Social,Campaign_B,0,1,Home,9,2,171.78,NetBanking,0
+34,4385,2023-01-02 09:00:00,Female,34,Australia,Registered,0,Mobile,Chrome,Night,35,9,72,33,Referral,None,1,1,Home,6,4,398.49,UPI,1
+35,1021,2023-01-02 10:00:00,Female,57,USA,Premium,1,Desktop,Safari,Morning,52,6,57,4,Referral,None,0,1,Beauty,6,6,86.03,COD,1
+36,3300,2023-01-02 11:00:00,Male,35,Germany,Registered,1,Desktop,Edge,Evening,23,18,96,7,Ads,Campaign_B,0,0,Electronics,4,7,272.06,NetBanking,1
+37,1747,2023-01-02 12:00:00,Female,26,Canada,Guest,1,Mobile,Edge,Afternoon,28,2,57,9,Referral,Campaign_B,1,0,Home,2,4,256.5,Debit Card,0
+38,3904,2023-01-02 13:00:00,Female,42,Canada,Guest,1,Desktop,Chrome,Night,30,8,70,16,Social,Campaign_A,0,1,Sports,6,0,54.66,COD,0
+39,4632,2023-01-02 14:00:00,Female,57,Canada,Registered,0,Mobile,Firefox,Morning,18,14,21,5,Social,Campaign_A,0,0,Clothing,6,0,184.85,NetBanking,0
+40,1474,2023-01-02 15:00:00,Male,31,India,Registered,0,Tablet,Chrome,Morning,58,6,87,34,Direct,None,0,0,Books,6,3,46.95,Credit Card,1
+41,2082,2023-01-02 16:00:00,Male,42,USA,Premium,1,Mobile,Chrome,Night,52,10,65,23,Organic,None,1,0,Electronics,1,5,235.05,UPI,1
+42,3558,2023-01-02 17:00:00,Male,39,Germany,Guest,1,Mobile,Chrome,Afternoon,36,8,27,43,Referral,Campaign_C,0,0,Books,2,3,422.24,UPI,1
+43,4753,2023-01-02 18:00:00,Male,47,India,Registered,0,Mobile,Safari,Night,33,17,36,25,Social,None,0,0,Clothing,2,0,138.75,UPI,0
+44,3047,2023-01-02 19:00:00,Female,37,UK,Guest,0,Mobile,Edge,Night,26,12,37,13,Organic,None,0,0,Home,3,5,383.61,NetBanking,1
+45,4547,2023-01-02 20:00:00,Female,38,Germany,Guest,0,Mobile,Chrome,Afternoon,48,17,91,24,Organic,None,1,0,Beauty,8,0,95.8,COD,1
+46,3747,2023-01-02 21:00:00,Male,61,Australia,Registered,1,Mobile,Chrome,Morning,40,13,89,11,Direct,Campaign_A,1,0,Sports,9,0,338.5,Credit Card,0
+47,1975,2023-01-02 22:00:00,Other,49,Germany,Registered,0,Mobile,Chrome,Evening,17,19,61,17,Organic,Campaign_A,1,0,Electronics,0,2,458.19,UPI,1
+48,2806,2023-01-02 23:00:00,Female,63,Germany,Registered,0,Desktop,Safari,Afternoon,40,12,25,37,Organic,None,0,0,Sports,6,4,165.34,COD,1
+49,1189,2023-01-03 00:00:00,Male,38,Canada,Premium,0,Mobile,Safari,Evening,7,16,86,13,Ads,Campaign_B,0,1,Sports,6,3,450.7,Debit Card,1
+50,4005,2023-01-03 01:00:00,Male,52,Germany,Registered,0,Mobile,Safari,Morning,57,5,67,27,Direct,None,0,1,Sports,3,7,255.18,Debit Card,1
+51,3734,2023-01-03 02:00:00,Male,49,Australia,Premium,1,Mobile,Chrome,Night,8,16,18,20,Direct,None,0,0,Sports,0,3,161.82,Credit Card,0
+52,4005,2023-01-03 03:00:00,Male,47,Australia,Premium,0,Desktop,Firefox,Evening,53,6,35,33,Referral,None,0,0,Clothing,2,1,448.77,UPI,1
+53,1562,2023-01-03 04:00:00,Male,56,USA,Registered,1,Mobile,Firefox,Morning,56,11,37,42,Organic,Campaign_B,1,0,Sports,4,6,20.86,Debit Card,1
+54,2899,2023-01-03 05:00:00,Male,29,Germany,Premium,1,Tablet,Firefox,Morning,31,17,86,32,Referral,None,1,0,Beauty,1,2,18.87,COD,0
+55,4638,2023-01-03 06:00:00,Male,58,Canada,Registered,1,Desktop,Edge,Night,59,14,45,8,Social,Campaign_B,0,0,Sports,6,0,301.92,COD,0
+56,2267,2023-01-03 07:00:00,Male,64,Germany,Guest,0,Mobile,Chrome,Night,58,6,18,29,Organic,None,0,0,Clothing,9,0,399.39,Debit Card,0
+57,3879,2023-01-03 08:00:00,Female,35,UK,Registered,1,Mobile,Firefox,Morning,12,11,56,40,Social,Campaign_A,1,1,Books,9,2,377.02,UPI,1
+58,2528,2023-01-03 09:00:00,Male,38,UK,Guest,0,Mobile,Firefox,Morning,48,12,87,19,Ads,Campaign_C,0,1,Clothing,6,5,44.34,Credit Card,0
+59,4202,2023-01-03 10:00:00,Female,30,Canada,Registered,1,Mobile,Firefox,Evening,31,13,60,6,Organic,None,0,0,Beauty,9,3,475.37,UPI,0
+60,4556,2023-01-03 11:00:00,Male,38,USA,Registered,1,Desktop,Chrome,Morning,44,4,85,44,Referral,Campaign_C,0,0,Beauty,4,0,353.02,NetBanking,0
+61,4890,2023-01-03 12:00:00,Other,25,USA,Guest,0,Tablet,Firefox,Morning,19,7,66,39,Referral,Campaign_C,0,1,Home,9,6,474.81,Debit Card,1
+62,1646,2023-01-03 13:00:00,Male,63,Australia,Guest,0,Mobile,Firefox,Evening,10,2,41,48,Organic,None,1,0,Clothing,5,1,167.9,NetBanking,0
+63,3068,2023-01-03 14:00:00,Male,57,Australia,Premium,0,Mobile,Chrome,Afternoon,39,6,76,41,Referral,Campaign_C,0,1,Books,0,3,348.5,Debit Card,1
+64,3888,2023-01-03 15:00:00,Other,63,India,Registered,0,Desktop,Edge,Evening,12,6,66,21,Organic,None,0,0,Home,3,4,430.67,Credit Card,1
+65,3214,2023-01-03 16:00:00,Female,24,Canada,Guest,0,Desktop,Safari,Evening,20,18,63,22,Direct,Campaign_A,0,1,Home,3,7,193.33,UPI,0
+66,2297,2023-01-03 17:00:00,Female,40,Germany,Registered,0,Mobile,Firefox,Night,37,8,25,42,Referral,None,1,1,Electronics,7,7,482.61,UPI,1
+67,3435,2023-01-03 18:00:00,Male,61,Canada,Registered,0,Mobile,Safari,Evening,48,8,71,10,Organic,None,0,1,Sports,1,6,136.17,Debit Card,1
+68,1600,2023-01-03 19:00:00,Male,49,India,Registered,0,Mobile,Edge,Morning,41,8,93,10,Organic,Campaign_C,0,0,Home,0,2,161.23,COD,0
+69,3363,2023-01-03 20:00:00,Female,28,Australia,Premium,0,Desktop,Edge,Morning,7,8,65,29,Referral,Campaign_A,1,0,Home,6,3,460.56,NetBanking,1
+70,3061,2023-01-03 21:00:00,Female,39,Canada,Registered,0,Mobile,Firefox,Morning,52,1,32,16,Direct,Campaign_C,1,0,Beauty,5,7,484.98,UPI,0
+71,1241,2023-01-03 22:00:00,Female,39,Canada,Guest,0,Mobile,Chrome,Afternoon,54,2,26,1,Referral,Campaign_A,1,1,Books,4,4,146.17,UPI,0
+72,3041,2023-01-03 23:00:00,Female,60,Australia,Premium,0,Tablet,Edge,Morning,58,12,89,17,Organic,Campaign_A,1,0,Home,7,1,72.51,Debit Card,1
+73,3824,2023-01-04 00:00:00,Male,42,India,Premium,0,Desktop,Safari,Afternoon,14,15,47,30,Direct,None,0,0,Books,1,5,380.73,COD,1
+74,4417,2023-01-04 01:00:00,Female,39,Australia,Guest,0,Desktop,Safari,Morning,11,4,81,26,Social,Campaign_A,0,0,Sports,1,7,465.18,NetBanking,0
+75,3612,2023-01-04 02:00:00,Male,45,USA,Guest,1,Mobile,Safari,Evening,7,3,92,46,Ads,Campaign_A,0,0,Beauty,8,2,302.35,COD,1
+76,3945,2023-01-04 03:00:00,Male,46,Germany,Guest,0,Mobile,Safari,Night,29,14,39,19,Referral,None,0,0,Electronics,0,5,319.09,COD,1
+77,2363,2023-01-04 04:00:00,Male,30,Australia,Registered,0,Tablet,Edge,Morning,10,8,67,21,Organic,Campaign_A,1,0,Electronics,5,7,382.66,Debit Card,1
+78,3139,2023-01-04 05:00:00,Female,35,India,Registered,0,Mobile,Firefox,Afternoon,29,13,87,17,Direct,Campaign_B,1,0,Sports,2,6,80.78,COD,1
+79,2390,2023-01-04 06:00:00,Male,19,UK,Registered,1,Mobile,Firefox,Afternoon,9,19,31,46,Direct,Campaign_A,1,0,Sports,4,0,486.87,NetBanking,0
+80,4003,2023-01-04 07:00:00,Male,46,USA,Premium,1,Mobile,Safari,Night,36,5,26,40,Social,Campaign_C,0,1,Beauty,7,5,185.34,Credit Card,1
+81,2478,2023-01-04 08:00:00,Female,38,UK,Registered,1,Mobile,Firefox,Morning,48,13,24,21,Referral,None,1,1,Beauty,6,0,315.98,Credit Card,0
+82,4499,2023-01-04 09:00:00,Male,32,Australia,Guest,1,Mobile,Safari,Evening,10,1,57,41,Direct,None,1,1,Clothing,3,6,236.96,NetBanking,0
+83,3556,2023-01-04 10:00:00,Female,44,USA,Guest,0,Desktop,Safari,Morning,19,16,41,40,Social,Campaign_B,0,0,Home,7,7,236.75,Debit Card,1
+84,1775,2023-01-04 11:00:00,Male,48,Germany,Registered,0,Tablet,Chrome,Morning,56,2,86,45,Organic,Campaign_A,1,1,Home,9,4,352.86,UPI,0
+85,1034,2023-01-04 12:00:00,Female,32,Australia,Guest,0,Tablet,Edge,Night,31,7,94,49,Social,Campaign_A,0,0,Home,1,3,497.36,Debit Card,0
+86,3253,2023-01-04 13:00:00,Female,40,Germany,Registered,1,Mobile,Edge,Morning,17,6,49,19,Referral,Campaign_C,0,0,Books,6,1,331.23,NetBanking,1
+87,4152,2023-01-04 14:00:00,Male,41,Canada,Premium,1,Mobile,Safari,Evening,9,5,66,7,Social,None,0,0,Clothing,4,4,398.06,COD,0
+88,2955,2023-01-04 15:00:00,Male,61,UK,Guest,1,Mobile,Edge,Afternoon,45,4,67,17,Direct,Campaign_B,0,0,Home,5,1,18.67,Credit Card,1
+89,2585,2023-01-04 16:00:00,Male,30,USA,Registered,0,Desktop,Firefox,Night,33,2,25,1,Direct,Campaign_B,0,0,Books,2,5,406.16,COD,0
+90,4943,2023-01-04 17:00:00,Male,39,Germany,Registered,1,Mobile,Safari,Evening,34,10,37,37,Ads,Campaign_A,0,1,Books,9,1,153.49,Debit Card,1
+91,4459,2023-01-04 18:00:00,Other,60,India,Registered,0,Desktop,Chrome,Afternoon,45,5,10,6,Social,None,1,0,Electronics,6,5,67.72,NetBanking,0
+92,4073,2023-01-04 19:00:00,Male,54,Germany,Guest,0,Desktop,Firefox,Night,24,18,50,26,Organic,None,0,0,Books,6,1,61.1,Credit Card,0
+93,2021,2023-01-04 20:00:00,Female,50,India,Registered,0,Mobile,Chrome,Night,9,10,57,2,Referral,None,1,0,Sports,1,2,341.54,NetBanking,1
+94,4461,2023-01-04 21:00:00,Male,20,Australia,Guest,0,Mobile,Chrome,Afternoon,7,15,40,32,Ads,None,0,0,Beauty,0,4,498.82,Credit Card,1
+95,3613,2023-01-04 22:00:00,Female,36,USA,Premium,0,Tablet,Edge,Afternoon,16,9,45,48,Social,Campaign_C,0,0,Books,9,7,334.77,Credit Card,1
+96,2129,2023-01-04 23:00:00,Female,40,Germany,Guest,1,Tablet,Edge,Evening,19,11,42,5,Organic,Campaign_A,0,0,Sports,1,7,134.86,Credit Card,0
+97,4843,2023-01-05 00:00:00,Female,46,Germany,Registered,0,Mobile,Safari,Morning,39,17,42,37,Ads,Campaign_B,0,1,Sports,7,2,105.64,Debit Card,1
+98,4893,2023-01-05 01:00:00,Male,47,USA,Registered,0,Mobile,Edge,Morning,6,9,91,31,Direct,None,0,0,Electronics,9,3,265.35,NetBanking,1
+99,2500,2023-01-05 02:00:00,Male,56,Germany,Premium,0,Tablet,Chrome,Morning,50,16,32,12,Referral,None,0,0,Electronics,2,7,37.19,UPI,1
+100,1702,2023-01-05 03:00:00,Male,61,India,Guest,0,Mobile,Chrome,Morning,51,6,69,35,Social,Campaign_C,0,1,Books,3,3,202.67,UPI,1
+101,3449,2023-01-05 04:00:00,Female,64,Germany,Guest,1,Mobile,Firefox,Morning,11,11,96,30,Organic,None,0,1,Electronics,7,0,334.79,UPI,0
+102,3777,2023-01-05 05:00:00,Female,42,UK,Guest,1,Mobile,Chrome,Evening,12,17,88,48,Direct,None,1,1,Electronics,2,7,483.99,NetBanking,1
+103,2579,2023-01-05 06:00:00,Other,54,Australia,Guest,1,Mobile,Safari,Night,58,4,99,6,Ads,None,0,1,Beauty,5,0,215.7,COD,0
+104,1161,2023-01-05 07:00:00,Male,64,Canada,Guest,1,Mobile,Safari,Evening,42,15,39,15,Referral,Campaign_C,0,0,Home,1,7,104.11,NetBanking,1
+105,1201,2023-01-05 08:00:00,Female,25,India,Registered,1,Mobile,Edge,Evening,13,1,98,15,Ads,None,0,0,Books,2,7,409.59,Credit Card,1
+106,2981,2023-01-05 09:00:00,Female,59,UK,Guest,0,Mobile,Edge,Evening,12,1,54,16,Ads,Campaign_B,0,1,Books,0,0,373.38,COD,0
+107,1995,2023-01-05 10:00:00,Male,33,Australia,Guest,1,Mobile,Edge,Night,21,9,89,20,Organic,None,0,1,Books,8,6,430.55,Credit Card,1
+108,3317,2023-01-05 11:00:00,Male,25,USA,Premium,0,Tablet,Safari,Evening,10,12,48,13,Direct,None,1,0,Electronics,3,3,111.29,Credit Card,0
+109,4934,2023-01-05 12:00:00,Female,18,India,Guest,0,Desktop,Chrome,Evening,20,4,54,44,Social,Campaign_B,1,0,Beauty,5,1,205.39,NetBanking,1
+110,1815,2023-01-05 13:00:00,Female,61,Canada,Guest,0,Desktop,Edge,Night,50,13,87,42,Organic,None,0,1,Electronics,6,5,490.87,UPI,1
+111,4342,2023-01-05 14:00:00,Female,22,Australia,Guest,1,Desktop,Firefox,Evening,36,7,90,46,Referral,None,0,0,Sports,1,6,83.23,COD,1
+112,1455,2023-01-05 15:00:00,Male,20,Canada,Premium,1,Mobile,Edge,Morning,28,8,21,31,Ads,Campaign_A,0,0,Clothing,7,1,337.37,Debit Card,1
+113,4533,2023-01-05 16:00:00,Female,18,USA,Guest,0,Mobile,Safari,Afternoon,24,13,41,34,Referral,Campaign_C,1,0,Clothing,8,4,122.41,UPI,1
+114,4798,2023-01-05 17:00:00,Male,21,USA,Premium,1,Tablet,Edge,Evening,5,11,65,29,Organic,Campaign_A,0,1,Clothing,9,3,252.58,Debit Card,1
+115,2275,2023-01-05 18:00:00,Male,57,India,Registered,1,Mobile,Chrome,Afternoon,37,9,33,3,Organic,None,0,1,Home,1,7,401.25,NetBanking,1
+116,2016,2023-01-05 19:00:00,Male,52,Germany,Guest,0,Mobile,Edge,Evening,12,16,22,9,Social,None,1,0,Electronics,4,7,246.85,COD,1
+117,4773,2023-01-05 20:00:00,Female,49,USA,Premium,0,Desktop,Safari,Evening,58,10,29,11,Ads,Campaign_A,1,0,Sports,1,7,403.71,NetBanking,1
+118,3343,2023-01-05 21:00:00,Female,59,Australia,Guest,1,Mobile,Safari,Morning,35,11,88,11,Organic,Campaign_A,1,0,Sports,4,5,216.04,Debit Card,1
+119,4796,2023-01-05 22:00:00,Female,51,Germany,Guest,0,Mobile,Firefox,Night,40,12,65,25,Referral,Campaign_C,1,0,Clothing,6,5,499.68,Credit Card,1
+120,3767,2023-01-05 23:00:00,Male,60,UK,Premium,1,Tablet,Safari,Afternoon,54,14,62,22,Social,Campaign_B,1,0,Beauty,5,5,220.73,NetBanking,1
+121,4820,2023-01-06 00:00:00,Female,42,Canada,Registered,0,Desktop,Firefox,Night,2,19,77,42,Referral,Campaign_A,0,0,Home,3,0,78.94,COD,0
+122,1337,2023-01-06 01:00:00,Male,27,Germany,Registered,0,Mobile,Chrome,Morning,50,12,63,46,Ads,Campaign_C,0,0,Home,1,5,203.93,NetBanking,1
+123,1878,2023-01-06 02:00:00,Female,38,Canada,Guest,1,Tablet,Safari,Morning,41,18,43,9,Social,Campaign_B,1,1,Clothing,6,5,372.58,UPI,0
+124,2076,2023-01-06 03:00:00,Male,63,Germany,Registered,1,Desktop,Edge,Afternoon,45,17,37,20,Social,Campaign_A,0,1,Clothing,9,3,424.73,NetBanking,1
+125,1791,2023-01-06 04:00:00,Male,56,UK,Registered,1,Desktop,Chrome,Night,39,3,59,21,Social,None,1,0,Electronics,8,1,232.75,Debit Card,0
+126,4993,2023-01-06 05:00:00,Male,44,USA,Guest,1,Mobile,Edge,Morning,42,1,11,10,Direct,None,0,0,Beauty,0,6,299.27,NetBanking,0
+127,3264,2023-01-06 06:00:00,Male,44,UK,Guest,1,Mobile,Edge,Evening,9,19,35,22,Social,None,0,1,Home,2,6,423.22,COD,1
+128,1763,2023-01-06 07:00:00,Female,19,USA,Guest,1,Desktop,Edge,Evening,22,4,60,29,Referral,None,0,0,Sports,6,7,407.71,NetBanking,0
+129,3235,2023-01-06 08:00:00,Female,58,USA,Guest,0,Desktop,Chrome,Evening,47,16,56,9,Referral,Campaign_B,0,1,Clothing,8,1,330.57,NetBanking,1
+130,1379,2023-01-06 09:00:00,Male,30,Canada,Premium,0,Desktop,Chrome,Night,5,12,35,5,Ads,Campaign_B,0,0,Electronics,4,2,408.44,COD,0
+131,1492,2023-01-06 10:00:00,Female,26,Australia,Registered,0,Mobile,Safari,Evening,12,13,93,40,Organic,Campaign_B,1,1,Sports,6,2,290.08,NetBanking,1
+132,4112,2023-01-06 11:00:00,Male,53,UK,Premium,1,Mobile,Edge,Evening,1,17,93,11,Organic,None,0,1,Home,9,4,7.3,COD,0
+133,2180,2023-01-06 12:00:00,Female,39,Germany,Guest,0,Desktop,Firefox,Morning,44,8,84,1,Direct,None,1,1,Clothing,6,3,25.43,Debit Card,1
+134,3062,2023-01-06 13:00:00,Female,59,UK,Registered,0,Mobile,Safari,Morning,22,13,83,42,Social,None,0,1,Beauty,3,2,490.01,COD,1
+135,4884,2023-01-06 14:00:00,Female,43,Canada,Guest,0,Mobile,Chrome,Evening,38,5,70,1,Direct,None,0,1,Clothing,4,2,76.77,Debit Card,0
+136,1064,2023-01-06 15:00:00,Male,29,USA,Guest,1,Mobile,Firefox,Evening,51,18,32,39,Ads,None,0,0,Beauty,1,3,205.24,Debit Card,0
+137,4928,2023-01-06 16:00:00,Female,34,Canada,Guest,1,Mobile,Chrome,Morning,19,15,46,46,Ads,Campaign_B,0,0,Electronics,7,1,467.24,COD,1
+138,4910,2023-01-06 17:00:00,Female,31,India,Guest,0,Desktop,Firefox,Afternoon,16,12,50,5,Organic,Campaign_C,1,0,Electronics,0,7,101.54,NetBanking,1
+139,3568,2023-01-06 18:00:00,Male,31,India,Registered,1,Desktop,Safari,Night,31,17,61,49,Ads,Campaign_A,1,1,Home,1,4,422.68,UPI,0
+140,2367,2023-01-06 19:00:00,Male,51,Germany,Premium,0,Mobile,Firefox,Night,51,15,92,22,Social,Campaign_A,1,1,Beauty,2,4,410.04,COD,1
+141,2152,2023-01-06 20:00:00,Female,37,Canada,Registered,0,Mobile,Safari,Morning,3,2,91,26,Referral,None,1,0,Clothing,6,4,493.23,NetBanking,0
+142,3027,2023-01-06 21:00:00,Female,28,Germany,Guest,1,Desktop,Chrome,Night,23,6,58,6,Ads,Campaign_C,0,0,Electronics,5,2,144.43,Debit Card,1
+143,3695,2023-01-06 22:00:00,Female,33,Germany,Guest,0,Mobile,Firefox,Morning,42,17,36,32,Direct,Campaign_C,1,1,Clothing,6,1,161.09,Credit Card,1
+144,2495,2023-01-06 23:00:00,Female,48,India,Guest,1,Mobile,Edge,Morning,59,16,15,48,Social,Campaign_C,1,0,Home,4,4,451.92,UPI,1
+145,4134,2023-01-07 00:00:00,Female,23,Germany,Registered,0,Tablet,Edge,Morning,18,17,83,11,Ads,Campaign_B,1,0,Beauty,3,3,120.87,NetBanking,1
+146,2162,2023-01-07 01:00:00,Male,36,India,Registered,0,Mobile,Chrome,Morning,26,9,75,10,Ads,Campaign_C,0,1,Clothing,6,4,276.21,UPI,1
+147,2522,2023-01-07 02:00:00,Male,54,USA,Premium,1,Tablet,Firefox,Afternoon,13,5,33,47,Social,Campaign_C,1,0,Sports,2,6,355.14,Credit Card,1
+148,3640,2023-01-07 03:00:00,Male,21,Canada,Guest,0,Mobile,Edge,Evening,58,1,47,39,Ads,Campaign_B,0,0,Clothing,9,0,139.58,Credit Card,0
+149,1391,2023-01-07 04:00:00,Female,64,Germany,Registered,1,Mobile,Safari,Evening,18,6,37,34,Referral,None,1,0,Books,6,1,469.51,Credit Card,0
+150,2698,2023-01-07 05:00:00,Male,21,India,Registered,1,Mobile,Firefox,Afternoon,3,14,37,31,Organic,Campaign_C,0,0,Books,1,0,334.52,COD,0
+151,1418,2023-01-07 06:00:00,Female,37,UK,Registered,0,Tablet,Firefox,Night,58,17,75,12,Social,None,0,0,Home,7,1,28.33,UPI,0
+152,3336,2023-01-07 07:00:00,Female,27,Germany,Registered,0,Mobile,Edge,Night,23,19,70,44,Direct,None,0,0,Home,5,5,72.19,COD,1
+153,1378,2023-01-07 08:00:00,Female,41,Australia,Registered,0,Mobile,Safari,Evening,3,1,55,16,Ads,None,0,0,Home,2,3,99.44,Credit Card,1
+154,2796,2023-01-07 09:00:00,Male,52,USA,Registered,0,Tablet,Safari,Night,55,1,78,38,Organic,None,0,0,Sports,2,5,126.25,NetBanking,0
+155,4561,2023-01-07 10:00:00,Female,43,USA,Guest,0,Mobile,Safari,Evening,25,13,84,3,Direct,Campaign_B,1,0,Beauty,4,2,366.69,Credit Card,1
+156,3278,2023-01-07 11:00:00,Male,54,UK,Registered,0,Mobile,Firefox,Evening,27,14,83,2,Direct,Campaign_A,0,0,Sports,2,2,49.02,COD,1
+157,4065,2023-01-07 12:00:00,Female,55,India,Guest,0,Mobile,Chrome,Afternoon,58,6,52,5,Referral,Campaign_B,0,1,Clothing,5,5,178.54,Credit Card,1
+158,3088,2023-01-07 13:00:00,Male,38,Germany,Registered,0,Desktop,Firefox,Night,44,6,68,11,Organic,Campaign_B,0,0,Electronics,1,1,456.13,Credit Card,1
+159,4099,2023-01-07 14:00:00,Male,57,India,Registered,1,Mobile,Firefox,Afternoon,27,1,11,25,Social,None,0,1,Beauty,7,4,280.55,COD,0
+160,3182,2023-01-07 15:00:00,Female,56,USA,Registered,1,Mobile,Edge,Evening,52,14,24,35,Organic,None,0,1,Books,8,0,136.42,COD,0
+161,1200,2023-01-07 16:00:00,Male,38,India,Premium,1,Mobile,Chrome,Evening,39,3,46,35,Organic,Campaign_A,0,0,Books,6,3,478.74,NetBanking,0
+162,2863,2023-01-07 17:00:00,Male,27,USA,Premium,0,Mobile,Safari,Evening,25,10,80,22,Direct,Campaign_A,0,1,Books,2,4,125.94,COD,1
+163,1779,2023-01-07 18:00:00,Female,55,India,Premium,1,Tablet,Edge,Morning,24,19,29,37,Referral,Campaign_A,0,0,Clothing,9,2,453.02,NetBanking,1
+164,3977,2023-01-07 19:00:00,Female,63,UK,Registered,0,Tablet,Firefox,Morning,8,19,44,22,Referral,None,0,1,Clothing,3,4,364.26,Debit Card,0
+165,4104,2023-01-07 20:00:00,Female,21,Canada,Registered,1,Desktop,Chrome,Morning,9,19,43,11,Organic,None,0,0,Home,9,7,371.56,Debit Card,1
+166,4119,2023-01-07 21:00:00,Female,62,UK,Registered,1,Desktop,Safari,Afternoon,46,4,95,32,Organic,None,0,1,Electronics,1,7,383.64,COD,1
+167,1502,2023-01-07 22:00:00,Female,37,UK,Premium,0,Desktop,Safari,Evening,37,19,40,35,Ads,None,1,0,Home,8,5,255.75,Credit Card,0
+168,3454,2023-01-07 23:00:00,Male,34,Canada,Registered,1,Mobile,Firefox,Night,30,10,96,31,Direct,Campaign_B,0,1,Clothing,4,7,408.22,UPI,1
+169,4645,2023-01-08 00:00:00,Male,24,Canada,Premium,1,Desktop,Safari,Afternoon,53,2,28,45,Social,Campaign_B,0,0,Sports,1,5,418.92,Credit Card,0
+170,2751,2023-01-08 01:00:00,Male,21,Germany,Premium,1,Mobile,Safari,Afternoon,19,4,77,8,Social,Campaign_B,0,1,Home,9,6,183.44,COD,1
+171,1804,2023-01-08 02:00:00,Female,46,Germany,Registered,1,Mobile,Chrome,Afternoon,53,6,33,20,Referral,Campaign_B,0,0,Beauty,5,6,203.17,NetBanking,1
+172,3146,2023-01-08 03:00:00,Female,31,UK,Guest,0,Desktop,Edge,Night,16,7,93,42,Direct,None,0,1,Clothing,6,0,444.93,Credit Card,0
+173,3731,2023-01-08 04:00:00,Male,20,UK,Guest,0,Mobile,Chrome,Evening,24,16,48,34,Referral,Campaign_C,0,0,Clothing,1,7,264.74,Debit Card,0
+174,2895,2023-01-08 05:00:00,Male,41,USA,Premium,0,Desktop,Edge,Morning,44,7,63,4,Social,None,0,0,Sports,0,2,434.14,COD,1
+175,3773,2023-01-08 06:00:00,Female,54,USA,Guest,1,Mobile,Edge,Evening,21,18,48,18,Organic,Campaign_C,0,1,Sports,6,1,315.25,Credit Card,1
+176,2570,2023-01-08 07:00:00,Male,33,Germany,Premium,0,Desktop,Edge,Evening,36,19,26,4,Direct,Campaign_A,0,1,Sports,0,7,298.82,Credit Card,1
+177,1960,2023-01-08 08:00:00,Female,21,Australia,Registered,1,Mobile,Safari,Afternoon,40,9,28,20,Direct,Campaign_A,0,0,Electronics,2,3,20.34,NetBanking,0
+178,4810,2023-01-08 09:00:00,Female,41,Australia,Registered,0,Desktop,Chrome,Afternoon,39,10,57,9,Ads,Campaign_C,1,1,Beauty,3,5,142.56,NetBanking,1
+179,3660,2023-01-08 10:00:00,Female,51,Germany,Premium,0,Desktop,Safari,Afternoon,47,13,44,16,Organic,None,0,1,Clothing,1,7,253.52,NetBanking,1
+180,2485,2023-01-08 11:00:00,Male,47,USA,Registered,0,Mobile,Firefox,Morning,6,18,41,26,Organic,Campaign_B,0,1,Sports,6,3,295.72,UPI,1
+181,3690,2023-01-08 12:00:00,Female,35,USA,Registered,1,Mobile,Chrome,Morning,5,16,56,38,Referral,None,1,0,Electronics,4,2,317.07,COD,0
+182,4840,2023-01-08 13:00:00,Female,36,Australia,Registered,0,Mobile,Edge,Morning,14,17,56,25,Direct,None,1,0,Books,0,1,359.53,COD,0
+183,2028,2023-01-08 14:00:00,Female,48,India,Guest,0,Mobile,Safari,Evening,53,13,73,4,Referral,Campaign_C,0,1,Beauty,7,6,329.84,Debit Card,0
+184,4289,2023-01-08 15:00:00,Female,36,India,Registered,0,Desktop,Safari,Afternoon,45,12,55,41,Organic,None,1,0,Books,9,5,425.05,Debit Card,1
+185,1502,2023-01-08 16:00:00,Female,63,USA,Guest,0,Tablet,Chrome,Night,42,10,44,45,Ads,Campaign_C,0,0,Books,6,0,151.26,COD,1
+186,3814,2023-01-08 17:00:00,Female,36,India,Premium,0,Mobile,Chrome,Evening,50,1,26,41,Direct,None,0,0,Clothing,3,3,322.58,Credit Card,0
+187,1397,2023-01-08 18:00:00,Male,39,Canada,Premium,1,Desktop,Edge,Morning,4,8,51,38,Organic,None,0,0,Electronics,1,7,30.32,COD,1
+188,1870,2023-01-08 19:00:00,Female,41,Germany,Guest,0,Desktop,Edge,Night,8,18,38,19,Ads,None,0,1,Electronics,6,2,242.69,UPI,1
+189,3842,2023-01-08 20:00:00,Female,62,Germany,Registered,0,Mobile,Firefox,Night,24,2,79,14,Social,Campaign_B,0,1,Books,1,3,137.68,Debit Card,0
+190,1392,2023-01-08 21:00:00,Male,29,USA,Registered,1,Desktop,Edge,Afternoon,11,16,26,21,Organic,Campaign_C,0,0,Beauty,5,7,193.54,Debit Card,1
+191,1206,2023-01-08 22:00:00,Female,47,UK,Guest,1,Desktop,Safari,Night,17,12,90,15,Social,Campaign_A,0,0,Home,0,6,180.56,Debit Card,1
+192,2038,2023-01-08 23:00:00,Female,55,Australia,Premium,1,Mobile,Firefox,Morning,50,9,23,3,Referral,Campaign_B,0,0,Books,6,6,34.91,COD,1
+193,2881,2023-01-09 00:00:00,Female,48,USA,Guest,0,Mobile,Firefox,Afternoon,21,3,33,37,Social,None,0,0,Clothing,6,1,235.99,Debit Card,0
+194,4625,2023-01-09 01:00:00,Male,53,India,Guest,1,Mobile,Firefox,Night,57,4,66,46,Organic,None,0,0,Books,3,0,497.34,Debit Card,0
+195,3939,2023-01-09 02:00:00,Male,36,Australia,Registered,1,Tablet,Chrome,Afternoon,26,2,59,16,Social,Campaign_B,0,1,Beauty,3,6,152.97,COD,0
+196,2484,2023-01-09 03:00:00,Other,62,UK,Registered,1,Tablet,Edge,Night,43,8,66,14,Direct,Campaign_A,0,1,Beauty,9,1,369.39,Credit Card,1
+197,4762,2023-01-09 04:00:00,Female,53,India,Registered,0,Desktop,Firefox,Evening,48,10,70,9,Organic,Campaign_B,1,0,Books,4,6,276.16,Debit Card,0
+198,4646,2023-01-09 05:00:00,Male,47,Canada,Registered,0,Mobile,Chrome,Evening,44,16,48,47,Ads,Campaign_C,0,1,Electronics,1,5,165.99,Debit Card,1
+199,1863,2023-01-09 06:00:00,Female,50,India,Registered,1,Mobile,Chrome,Morning,45,11,64,7,Social,Campaign_B,0,0,Books,8,4,49.36,Debit Card,1
+200,3790,2023-01-09 07:00:00,Female,35,Canada,Registered,0,Mobile,Firefox,Evening,27,18,45,14,Direct,Campaign_B,1,1,Sports,9,1,111.85,UPI,0
+201,4312,2023-01-09 08:00:00,Female,45,Australia,Guest,0,Mobile,Firefox,Evening,16,14,46,6,Referral,None,0,0,Sports,3,1,392.02,COD,1
+202,1563,2023-01-09 09:00:00,Female,64,Canada,Guest,1,Desktop,Safari,Evening,55,8,23,21,Referral,Campaign_A,1,1,Home,8,3,143.11,Debit Card,0
+203,2020,2023-01-09 10:00:00,Male,28,Australia,Guest,1,Tablet,Firefox,Night,26,15,36,15,Social,Campaign_C,0,0,Clothing,2,6,76.43,UPI,1
+204,1095,2023-01-09 11:00:00,Male,62,Australia,Guest,0,Tablet,Safari,Night,53,17,92,8,Referral,None,0,0,Clothing,8,1,168.99,Credit Card,1
+205,2923,2023-01-09 12:00:00,Male,50,Australia,Registered,1,Desktop,Firefox,Afternoon,33,18,40,34,Ads,Campaign_B,0,0,Electronics,0,2,294.1,Credit Card,1
+206,2757,2023-01-09 13:00:00,Female,34,Australia,Guest,0,Mobile,Firefox,Night,31,6,82,40,Organic,None,0,0,Clothing,6,5,353.21,UPI,1
+207,3532,2023-01-09 14:00:00,Male,23,Australia,Guest,0,Mobile,Edge,Evening,48,14,90,1,Direct,None,0,0,Home,3,3,196.75,Credit Card,1
+208,4478,2023-01-09 15:00:00,Male,21,India,Guest,1,Mobile,Firefox,Night,47,3,92,32,Social,None,1,0,Sports,6,3,251.58,NetBanking,0
+209,3278,2023-01-09 16:00:00,Male,37,Australia,Premium,0,Desktop,Firefox,Morning,6,7,53,49,Referral,Campaign_C,1,0,Electronics,9,4,230.18,Credit Card,1
+210,3796,2023-01-09 17:00:00,Female,64,India,Premium,0,Desktop,Safari,Afternoon,44,15,77,5,Organic,Campaign_B,0,1,Beauty,5,5,9.46,NetBanking,1
+211,2678,2023-01-09 18:00:00,Female,44,Australia,Registered,1,Mobile,Safari,Afternoon,8,16,57,30,Ads,None,1,0,Sports,3,7,200.82,UPI,1
+212,4242,2023-01-09 19:00:00,Male,32,Canada,Premium,0,Mobile,Edge,Night,7,16,66,22,Referral,None,0,1,Home,3,2,295.72,NetBanking,1
+213,1540,2023-01-09 20:00:00,Male,23,Australia,Registered,0,Mobile,Firefox,Evening,34,8,84,20,Referral,Campaign_B,0,0,Electronics,7,5,287.12,Credit Card,1
+214,2059,2023-01-09 21:00:00,Female,64,UK,Registered,1,Mobile,Firefox,Afternoon,44,7,31,16,Direct,Campaign_A,0,1,Books,6,1,376.13,Debit Card,0
+215,3572,2023-01-09 22:00:00,Male,31,Australia,Guest,1,Mobile,Safari,Morning,53,6,13,7,Ads,Campaign_A,1,1,Clothing,3,4,336.84,NetBanking,0
+216,2183,2023-01-09 23:00:00,Male,28,Australia,Registered,1,Mobile,Chrome,Morning,14,2,90,7,Ads,Campaign_A,0,0,Home,5,2,142.02,Credit Card,0
+217,4910,2023-01-10 00:00:00,Male,56,Canada,Registered,1,Mobile,Chrome,Afternoon,16,13,81,2,Social,Campaign_C,0,1,Electronics,5,4,131.54,Debit Card,0
+218,2722,2023-01-10 01:00:00,Male,26,Germany,Registered,0,Desktop,Chrome,Evening,43,12,55,47,Direct,Campaign_A,1,0,Sports,0,5,234.75,UPI,1
+219,4314,2023-01-10 02:00:00,Male,43,Canada,Registered,1,Mobile,Safari,Evening,52,15,68,14,Social,Campaign_B,0,1,Electronics,1,0,367.82,UPI,1
+220,4157,2023-01-10 03:00:00,Female,33,UK,Registered,0,Mobile,Safari,Night,9,9,43,31,Direct,None,0,0,Books,3,5,51.44,COD,1
+221,2819,2023-01-10 04:00:00,Male,22,Germany,Registered,1,Mobile,Chrome,Night,10,2,20,41,Ads,Campaign_B,0,0,Home,5,1,474.42,UPI,0
+222,3625,2023-01-10 05:00:00,Female,27,USA,Premium,0,Mobile,Chrome,Afternoon,17,17,40,14,Direct,None,0,0,Electronics,5,4,273.86,COD,1
+223,3729,2023-01-10 06:00:00,Male,20,USA,Guest,1,Mobile,Firefox,Night,12,5,20,5,Direct,None,0,0,Beauty,0,0,156.67,UPI,0
+224,3604,2023-01-10 07:00:00,Female,30,UK,Registered,0,Mobile,Safari,Night,6,11,65,11,Direct,Campaign_B,1,0,Home,7,1,348.23,UPI,0
+225,2597,2023-01-10 08:00:00,Female,60,Canada,Registered,0,Mobile,Safari,Night,19,19,47,40,Organic,None,0,1,Home,1,4,27.14,UPI,1
+226,4060,2023-01-10 09:00:00,Male,47,India,Registered,1,Mobile,Chrome,Morning,43,7,30,5,Organic,None,0,0,Sports,4,4,244.78,COD,0
+227,3693,2023-01-10 10:00:00,Female,62,UK,Registered,1,Desktop,Chrome,Night,41,2,19,29,Ads,Campaign_B,0,0,Clothing,3,5,245.55,COD,0
+228,1795,2023-01-10 11:00:00,Male,23,Germany,Guest,1,Mobile,Edge,Afternoon,53,16,35,11,Direct,Campaign_B,0,0,Beauty,4,6,85.18,NetBanking,1
+229,2051,2023-01-10 12:00:00,Other,34,Germany,Registered,0,Desktop,Safari,Evening,29,12,17,5,Ads,Campaign_C,0,0,Books,4,4,419.51,Credit Card,1
+230,2643,2023-01-10 13:00:00,Male,62,Australia,Guest,0,Mobile,Edge,Night,6,15,17,49,Organic,None,1,0,Electronics,9,4,399.42,Credit Card,1
+231,4627,2023-01-10 14:00:00,Male,36,USA,Registered,1,Mobile,Firefox,Evening,59,1,69,32,Direct,None,0,1,Clothing,7,3,80.6,Credit Card,0
+232,2363,2023-01-10 15:00:00,Male,59,Germany,Registered,1,Mobile,Edge,Night,25,13,81,36,Social,Campaign_A,0,0,Sports,9,6,185.09,UPI,1
+233,4869,2023-01-10 16:00:00,Other,52,UK,Registered,1,Mobile,Chrome,Afternoon,57,6,43,15,Organic,None,0,0,Clothing,6,4,54.71,Credit Card,0
+234,2981,2023-01-10 17:00:00,Female,63,Germany,Guest,1,Tablet,Safari,Morning,24,13,25,19,Organic,Campaign_C,0,0,Home,8,5,425.06,COD,1
+235,2354,2023-01-10 18:00:00,Female,43,UK,Registered,1,Desktop,Safari,Afternoon,25,18,22,22,Organic,Campaign_C,1,0,Home,0,3,165.04,NetBanking,1
+236,2663,2023-01-10 19:00:00,Male,22,India,Guest,0,Tablet,Edge,Morning,16,3,96,34,Direct,None,1,1,Books,5,3,222.46,Debit Card,0
+237,2529,2023-01-10 20:00:00,Female,46,Australia,Premium,1,Tablet,Edge,Night,52,1,85,17,Referral,Campaign_C,0,0,Beauty,5,7,165.32,NetBanking,0
+238,3038,2023-01-10 21:00:00,Male,54,USA,Premium,1,Desktop,Firefox,Night,16,15,31,12,Social,None,1,0,Electronics,1,0,158.46,Credit Card,0
+239,4419,2023-01-10 22:00:00,Female,37,Germany,Premium,1,Mobile,Firefox,Morning,6,13,36,25,Social,None,0,0,Electronics,7,1,374.91,Credit Card,0
+240,2496,2023-01-10 23:00:00,Male,38,UK,Registered,1,Mobile,Chrome,Afternoon,37,5,73,17,Ads,None,0,0,Sports,5,3,375.05,COD,1
+241,4302,2023-01-11 00:00:00,Male,27,Canada,Registered,1,Tablet,Chrome,Afternoon,21,13,11,10,Direct,Campaign_A,0,0,Books,9,2,261.31,NetBanking,1
+242,3237,2023-01-11 01:00:00,Male,22,USA,Guest,0,Desktop,Chrome,Morning,4,5,35,28,Organic,None,0,0,Electronics,8,3,330.52,COD,0
+243,4296,2023-01-11 02:00:00,Male,53,India,Guest,0,Mobile,Edge,Night,34,19,92,18,Referral,None,1,1,Beauty,9,7,258.27,COD,1
+244,2408,2023-01-11 03:00:00,Female,23,UK,Registered,0,Desktop,Edge,Morning,28,18,78,18,Direct,Campaign_A,0,0,Home,4,2,19.15,Debit Card,1
+245,2400,2023-01-11 04:00:00,Male,43,Australia,Registered,1,Mobile,Safari,Night,38,10,93,45,Direct,Campaign_C,0,0,Books,6,7,37.67,COD,1
+246,2306,2023-01-11 05:00:00,Female,21,Australia,Premium,1,Mobile,Chrome,Morning,41,8,39,32,Referral,Campaign_B,1,0,Clothing,5,7,194.95,COD,0
+247,3680,2023-01-11 06:00:00,Male,56,India,Guest,0,Mobile,Edge,Night,28,15,17,14,Organic,None,0,0,Books,4,6,376.12,Debit Card,1
+248,3675,2023-01-11 07:00:00,Female,56,India,Premium,1,Desktop,Safari,Morning,17,4,47,16,Direct,None,1,0,Books,5,0,457.05,UPI,0
+249,1972,2023-01-11 08:00:00,Male,52,Australia,Registered,0,Desktop,Chrome,Evening,14,2,70,18,Social,Campaign_A,0,1,Beauty,3,2,19.71,UPI,0
+250,2768,2023-01-11 09:00:00,Male,18,Germany,Registered,0,Mobile,Firefox,Night,7,6,90,16,Social,None,0,1,Beauty,2,0,187.17,Debit Card,0
+251,2282,2023-01-11 10:00:00,Female,41,Germany,Guest,1,Mobile,Firefox,Afternoon,22,3,74,17,Referral,Campaign_A,1,0,Electronics,0,0,115.77,COD,0
+252,4430,2023-01-11 11:00:00,Male,53,UK,Guest,1,Mobile,Edge,Morning,51,7,76,7,Organic,None,0,0,Sports,0,0,408.53,Credit Card,0
+253,1709,2023-01-11 12:00:00,Male,23,Canada,Registered,0,Desktop,Safari,Afternoon,1,10,55,12,Referral,Campaign_C,1,0,Sports,5,2,423.75,NetBanking,0
+254,2479,2023-01-11 13:00:00,Female,58,UK,Registered,0,Mobile,Firefox,Morning,29,6,99,34,Direct,Campaign_B,0,0,Beauty,8,2,107.17,Credit Card,0
+255,2434,2023-01-11 14:00:00,Female,63,Canada,Guest,0,Mobile,Safari,Afternoon,52,16,81,10,Social,Campaign_A,1,1,Electronics,7,0,356.86,Credit Card,0
+256,1648,2023-01-11 15:00:00,Male,61,India,Registered,0,Mobile,Safari,Afternoon,31,2,52,5,Ads,Campaign_A,0,1,Electronics,1,6,367.22,COD,0
+257,1317,2023-01-11 16:00:00,Male,48,USA,Premium,0,Mobile,Firefox,Morning,30,17,68,21,Referral,None,0,1,Electronics,8,0,92.64,NetBanking,0
+258,4748,2023-01-11 17:00:00,Female,37,UK,Premium,0,Mobile,Safari,Morning,57,13,55,3,Ads,Campaign_C,1,0,Beauty,7,6,219.68,NetBanking,1
+259,4296,2023-01-11 18:00:00,Male,41,UK,Premium,0,Desktop,Firefox,Afternoon,15,1,81,19,Ads,Campaign_A,0,0,Sports,8,1,312.07,UPI,0
+260,4890,2023-01-11 19:00:00,Male,42,Canada,Guest,0,Mobile,Edge,Afternoon,18,6,44,45,Social,Campaign_A,1,1,Electronics,3,6,17.9,Debit Card,1
+261,2257,2023-01-11 20:00:00,Male,53,India,Guest,0,Desktop,Chrome,Afternoon,35,5,48,44,Referral,Campaign_A,1,1,Beauty,8,6,205.27,COD,0
+262,1683,2023-01-11 21:00:00,Female,38,India,Registered,0,Mobile,Chrome,Night,50,13,60,35,Ads,None,1,1,Clothing,1,6,81.7,NetBanking,0
+263,1663,2023-01-11 22:00:00,Female,47,Canada,Registered,1,Mobile,Edge,Night,30,18,13,6,Direct,None,1,0,Clothing,0,0,273.24,COD,0
+264,2998,2023-01-11 23:00:00,Male,41,India,Guest,1,Mobile,Firefox,Evening,34,12,89,14,Organic,Campaign_A,0,0,Home,8,4,422.24,UPI,0
+265,4898,2023-01-12 00:00:00,Male,61,Australia,Guest,0,Desktop,Firefox,Night,42,7,86,4,Organic,Campaign_C,0,0,Clothing,9,1,264.75,Credit Card,1
+266,4445,2023-01-12 01:00:00,Male,59,Germany,Registered,0,Tablet,Firefox,Night,11,15,93,45,Social,Campaign_A,0,0,Books,7,1,22.81,NetBanking,1
+267,4743,2023-01-12 02:00:00,Female,47,Australia,Guest,0,Tablet,Firefox,Morning,27,3,60,18,Referral,None,0,0,Home,6,7,19.68,UPI,0
+268,2631,2023-01-12 03:00:00,Male,39,USA,Guest,0,Mobile,Edge,Evening,24,16,14,29,Referral,None,0,1,Clothing,7,1,304.72,COD,1
+269,2495,2023-01-12 04:00:00,Male,45,UK,Guest,0,Mobile,Chrome,Evening,35,1,64,35,Organic,None,0,0,Books,0,4,167.35,UPI,1
+270,4304,2023-01-12 05:00:00,Female,24,USA,Guest,0,Desktop,Safari,Night,39,16,29,38,Direct,None,0,0,Clothing,8,1,288.47,UPI,1
+271,4763,2023-01-12 06:00:00,Male,52,UK,Registered,0,Desktop,Safari,Morning,8,12,33,16,Organic,None,0,1,Beauty,9,1,86.0,UPI,1
+272,2136,2023-01-12 07:00:00,Female,45,Germany,Registered,1,Mobile,Chrome,Morning,51,19,45,20,Organic,None,0,0,Books,8,2,389.55,UPI,0
+273,2853,2023-01-12 08:00:00,Male,31,India,Registered,0,Desktop,Edge,Evening,18,8,43,24,Referral,Campaign_C,1,1,Electronics,8,5,431.06,UPI,1
+274,2520,2023-01-12 09:00:00,Male,27,Australia,Guest,0,Mobile,Safari,Morning,13,12,63,35,Ads,Campaign_B,0,0,Beauty,5,7,445.17,UPI,1
+275,3489,2023-01-12 10:00:00,Male,33,Canada,Guest,1,Mobile,Chrome,Afternoon,45,15,43,44,Direct,Campaign_B,0,0,Books,3,2,155.52,Debit Card,1
+276,1563,2023-01-12 11:00:00,Female,33,Australia,Registered,0,Mobile,Edge,Night,24,2,92,19,Referral,Campaign_B,1,1,Beauty,1,0,332.06,COD,0
+277,2291,2023-01-12 12:00:00,Female,48,Germany,Registered,0,Mobile,Safari,Afternoon,51,17,26,4,Organic,None,0,1,Electronics,3,7,143.13,Credit Card,0
+278,4581,2023-01-12 13:00:00,Female,59,USA,Registered,0,Mobile,Firefox,Evening,23,7,14,33,Ads,Campaign_A,1,0,Books,6,0,382.56,COD,0
+279,4878,2023-01-12 14:00:00,Male,42,Canada,Guest,0,Mobile,Firefox,Evening,12,13,98,2,Direct,Campaign_B,0,1,Books,0,7,64.66,NetBanking,1
+280,4457,2023-01-12 15:00:00,Female,30,India,Premium,1,Mobile,Edge,Morning,49,1,27,13,Social,Campaign_C,0,0,Beauty,8,6,382.57,NetBanking,1
+281,4458,2023-01-12 16:00:00,Male,23,Germany,Guest,0,Mobile,Firefox,Morning,30,6,64,45,Direct,Campaign_B,0,0,Clothing,2,3,222.67,COD,1
+282,4184,2023-01-12 17:00:00,Male,61,Canada,Registered,0,Mobile,Edge,Evening,31,13,62,30,Direct,Campaign_C,1,0,Books,3,7,428.5,UPI,1
+283,2636,2023-01-12 18:00:00,Female,26,Germany,Registered,0,Desktop,Chrome,Evening,28,11,59,34,Organic,None,0,0,Clothing,4,5,370.77,Debit Card,1
+284,4696,2023-01-12 19:00:00,Male,62,Germany,Registered,0,Mobile,Chrome,Afternoon,22,10,81,30,Organic,None,1,1,Books,2,4,191.38,Credit Card,0
+285,3999,2023-01-12 20:00:00,Male,53,India,Guest,1,Mobile,Safari,Afternoon,44,16,88,24,Social,None,0,1,Sports,3,2,452.25,UPI,1
+286,4152,2023-01-12 21:00:00,Male,60,UK,Registered,1,Mobile,Edge,Morning,28,17,54,48,Social,Campaign_C,0,1,Home,4,7,145.25,COD,0
+287,1698,2023-01-12 22:00:00,Male,37,Canada,Registered,0,Tablet,Safari,Afternoon,13,17,22,44,Social,Campaign_C,0,1,Clothing,0,0,483.66,COD,0
+288,3160,2023-01-12 23:00:00,Male,35,India,Guest,0,Mobile,Safari,Morning,25,4,25,33,Referral,Campaign_A,0,0,Clothing,8,4,384.77,Debit Card,1
+289,1001,2023-01-13 00:00:00,Female,60,Germany,Guest,0,Mobile,Chrome,Morning,44,5,95,41,Referral,None,0,1,Electronics,9,1,495.38,Debit Card,1
+290,1641,2023-01-13 01:00:00,Male,38,India,Guest,1,Mobile,Safari,Night,51,14,93,49,Organic,Campaign_B,1,1,Sports,9,4,31.68,COD,1
+291,3267,2023-01-13 02:00:00,Female,21,UK,Premium,0,Desktop,Firefox,Morning,46,10,22,10,Organic,Campaign_A,0,1,Electronics,3,2,140.65,UPI,0
+292,2589,2023-01-13 03:00:00,Female,50,Australia,Guest,0,Mobile,Safari,Afternoon,7,14,29,18,Social,None,0,1,Sports,8,5,371.93,UPI,1
+293,1854,2023-01-13 04:00:00,Male,44,Canada,Premium,0,Mobile,Edge,Evening,45,1,75,19,Referral,Campaign_A,0,1,Sports,3,3,461.51,UPI,0
+294,2759,2023-01-13 05:00:00,Male,24,UK,Registered,0,Mobile,Firefox,Evening,6,11,56,7,Ads,Campaign_B,1,0,Beauty,0,6,19.24,Credit Card,1
+295,4296,2023-01-13 06:00:00,Male,23,USA,Premium,0,Mobile,Chrome,Afternoon,24,18,28,19,Referral,Campaign_A,1,1,Beauty,4,2,5.0,Credit Card,1
+296,3432,2023-01-13 07:00:00,Female,32,Canada,Premium,0,Desktop,Edge,Evening,19,16,54,24,Organic,Campaign_A,1,1,Beauty,8,6,131.84,UPI,1
+297,4474,2023-01-13 08:00:00,Male,35,UK,Registered,0,Desktop,Firefox,Morning,19,18,46,15,Referral,Campaign_A,1,1,Books,2,5,427.13,COD,0
+298,2661,2023-01-13 09:00:00,Female,49,Germany,Guest,0,Desktop,Edge,Evening,36,8,63,41,Organic,Campaign_A,1,0,Electronics,4,0,384.74,Debit Card,0
+299,2153,2023-01-13 10:00:00,Male,28,Canada,Guest,0,Desktop,Firefox,Afternoon,51,10,15,42,Social,None,1,0,Home,2,6,173.44,NetBanking,0
+300,2076,2023-01-13 11:00:00,Female,37,Canada,Guest,1,Mobile,Edge,Evening,9,10,23,23,Social,None,1,1,Sports,2,0,6.0,Debit Card,0
+301,2707,2023-01-13 12:00:00,Male,41,India,Registered,0,Mobile,Edge,Morning,48,5,13,4,Social,Campaign_B,0,0,Sports,0,4,279.58,Debit Card,1
+302,3777,2023-01-13 13:00:00,Male,32,Germany,Guest,0,Desktop,Firefox,Morning,59,10,95,38,Ads,None,0,1,Clothing,1,2,122.79,NetBanking,1
+303,2695,2023-01-13 14:00:00,Female,24,USA,Guest,1,Mobile,Chrome,Afternoon,36,18,64,4,Ads,Campaign_B,0,0,Books,1,0,374.08,UPI,0
+304,2733,2023-01-13 15:00:00,Female,38,Australia,Registered,0,Desktop,Chrome,Afternoon,38,6,43,5,Organic,Campaign_B,0,0,Home,8,1,225.94,Debit Card,0
+305,2439,2023-01-13 16:00:00,Male,59,UK,Premium,1,Mobile,Edge,Afternoon,40,3,36,41,Direct,Campaign_A,0,0,Beauty,6,1,340.91,NetBanking,0
+306,3294,2023-01-13 17:00:00,Female,43,India,Guest,1,Mobile,Edge,Night,59,8,16,44,Ads,None,0,0,Sports,7,3,426.89,COD,0
+307,1835,2023-01-13 18:00:00,Female,61,UK,Guest,0,Desktop,Chrome,Night,29,9,12,23,Organic,Campaign_C,1,0,Clothing,1,4,270.2,COD,0
+308,4510,2023-01-13 19:00:00,Female,31,USA,Guest,1,Desktop,Chrome,Morning,24,5,56,40,Referral,None,0,0,Electronics,8,0,171.3,COD,0
+309,1202,2023-01-13 20:00:00,Female,54,USA,Premium,0,Desktop,Safari,Night,48,2,11,37,Social,None,1,0,Sports,2,3,385.92,UPI,0
+310,4255,2023-01-13 21:00:00,Male,38,Canada,Registered,0,Mobile,Chrome,Night,5,2,89,11,Social,Campaign_C,1,0,Clothing,9,1,136.27,Debit Card,0
+311,1122,2023-01-13 22:00:00,Male,35,USA,Guest,0,Desktop,Edge,Evening,53,7,34,11,Social,None,1,0,Electronics,1,3,446.3,Debit Card,1
+312,1400,2023-01-13 23:00:00,Male,22,UK,Guest,0,Mobile,Firefox,Night,54,17,69,13,Organic,None,1,0,Books,0,7,40.36,Credit Card,1
+313,1766,2023-01-14 00:00:00,Female,20,Germany,Guest,1,Mobile,Chrome,Evening,42,10,88,14,Social,Campaign_B,1,0,Beauty,8,3,418.56,COD,0
+314,1293,2023-01-14 01:00:00,Female,40,Germany,Guest,1,Tablet,Safari,Afternoon,55,12,33,8,Ads,Campaign_B,0,1,Electronics,7,0,50.32,UPI,0
+315,3327,2023-01-14 02:00:00,Male,43,Canada,Premium,1,Desktop,Safari,Evening,45,2,24,25,Referral,None,0,0,Sports,3,0,32.79,NetBanking,0
+316,4908,2023-01-14 03:00:00,Male,54,Australia,Registered,1,Mobile,Safari,Evening,26,10,23,18,Social,None,0,0,Home,6,0,184.81,UPI,0
+317,3931,2023-01-14 04:00:00,Female,41,UK,Registered,1,Desktop,Firefox,Afternoon,14,1,63,44,Organic,Campaign_A,1,1,Electronics,2,4,478.49,Debit Card,0
+318,4681,2023-01-14 05:00:00,Other,36,UK,Premium,1,Mobile,Chrome,Afternoon,39,4,87,44,Referral,Campaign_B,1,0,Home,2,6,491.83,COD,1
+319,1197,2023-01-14 06:00:00,Female,42,USA,Guest,0,Mobile,Chrome,Morning,29,13,15,18,Social,Campaign_C,1,1,Home,3,3,105.02,Credit Card,1
+320,4029,2023-01-14 07:00:00,Male,38,UK,Registered,0,Mobile,Chrome,Morning,52,12,87,10,Direct,Campaign_C,0,1,Electronics,1,3,78.58,UPI,1
+321,2930,2023-01-14 08:00:00,Male,29,India,Premium,0,Tablet,Firefox,Morning,6,11,90,7,Social,Campaign_A,0,0,Books,9,4,179.71,Credit Card,0
+322,4582,2023-01-14 09:00:00,Male,58,Australia,Guest,1,Mobile,Firefox,Morning,7,10,27,44,Ads,None,0,0,Electronics,3,1,171.86,Debit Card,1
+323,3799,2023-01-14 10:00:00,Female,50,USA,Registered,0,Desktop,Edge,Evening,37,15,29,14,Referral,None,0,0,Clothing,9,2,381.0,NetBanking,1
+324,3191,2023-01-14 11:00:00,Male,21,India,Guest,0,Mobile,Safari,Evening,53,5,71,15,Ads,Campaign_C,0,0,Beauty,2,6,224.78,UPI,1
+325,1608,2023-01-14 12:00:00,Female,59,Canada,Guest,0,Desktop,Safari,Morning,18,17,90,16,Direct,None,0,0,Home,7,1,391.04,Debit Card,0
+326,4272,2023-01-14 13:00:00,Male,24,Germany,Guest,0,Mobile,Chrome,Night,23,5,89,2,Direct,None,1,0,Beauty,1,4,375.61,COD,1
+327,2147,2023-01-14 14:00:00,Female,39,Canada,Registered,0,Desktop,Firefox,Morning,44,2,49,30,Ads,Campaign_A,0,1,Sports,8,6,291.26,UPI,1
+328,1186,2023-01-14 15:00:00,Female,50,Germany,Registered,0,Mobile,Firefox,Night,38,9,48,30,Referral,Campaign_B,0,0,Home,2,6,417.59,Credit Card,1
+329,4397,2023-01-14 16:00:00,Female,34,Canada,Premium,1,Desktop,Chrome,Afternoon,59,6,61,18,Direct,Campaign_C,1,0,Sports,3,3,101.85,UPI,1
+330,3511,2023-01-14 17:00:00,Male,41,UK,Registered,0,Tablet,Chrome,Evening,1,18,41,31,Direct,None,0,1,Clothing,9,3,85.1,Debit Card,1
+331,4420,2023-01-14 18:00:00,Male,51,India,Premium,1,Desktop,Edge,Evening,4,14,82,44,Social,Campaign_A,0,0,Clothing,9,0,376.57,Debit Card,1
+332,2794,2023-01-14 19:00:00,Male,45,Germany,Premium,0,Mobile,Safari,Night,51,19,36,48,Organic,None,0,0,Beauty,2,0,126.17,Credit Card,1
+333,1659,2023-01-14 20:00:00,Female,60,USA,Guest,0,Tablet,Safari,Morning,44,14,61,13,Direct,Campaign_C,0,0,Clothing,2,7,6.38,Debit Card,1
+334,3811,2023-01-14 21:00:00,Female,58,India,Registered,0,Mobile,Safari,Evening,47,8,72,20,Referral,Campaign_B,0,0,Electronics,7,3,456.42,UPI,0
+335,4002,2023-01-14 22:00:00,Female,56,USA,Guest,0,Desktop,Edge,Night,35,17,83,49,Referral,Campaign_B,0,1,Home,7,3,313.35,Credit Card,1
+336,2955,2023-01-14 23:00:00,Female,39,India,Registered,0,Desktop,Chrome,Afternoon,23,3,72,35,Social,Campaign_A,0,0,Sports,5,5,225.24,Debit Card,0
+337,3450,2023-01-15 00:00:00,Female,34,India,Premium,0,Mobile,Chrome,Afternoon,27,10,26,23,Referral,None,0,0,Beauty,3,6,364.24,Debit Card,1
+338,2369,2023-01-15 01:00:00,Male,51,Canada,Guest,0,Mobile,Safari,Evening,26,17,58,42,Social,None,0,0,Beauty,0,0,170.0,UPI,0
+339,2986,2023-01-15 02:00:00,Female,23,Germany,Registered,0,Mobile,Safari,Morning,52,11,90,33,Direct,Campaign_C,1,0,Clothing,3,0,477.06,Debit Card,1
+340,2534,2023-01-15 03:00:00,Male,63,Germany,Registered,0,Mobile,Edge,Night,8,8,91,38,Direct,None,0,0,Clothing,7,1,38.97,UPI,0
+341,1146,2023-01-15 04:00:00,Male,23,India,Registered,1,Desktop,Firefox,Evening,43,1,32,35,Direct,None,1,1,Sports,5,3,322.27,COD,0
+342,4219,2023-01-15 05:00:00,Female,51,UK,Guest,1,Mobile,Firefox,Afternoon,16,13,81,36,Direct,Campaign_C,0,1,Home,1,6,389.76,UPI,1
+343,3911,2023-01-15 06:00:00,Male,18,UK,Guest,0,Mobile,Safari,Morning,41,4,22,20,Organic,None,0,0,Home,2,3,237.22,NetBanking,1
+344,2734,2023-01-15 07:00:00,Male,27,USA,Guest,1,Mobile,Edge,Night,3,7,32,3,Organic,Campaign_C,1,0,Beauty,6,4,378.71,Debit Card,0
+345,2843,2023-01-15 08:00:00,Female,38,USA,Guest,0,Mobile,Safari,Evening,32,14,66,8,Direct,Campaign_C,0,1,Sports,3,1,463.82,COD,1
+346,1488,2023-01-15 09:00:00,Male,22,Canada,Guest,1,Mobile,Firefox,Night,5,5,71,40,Referral,Campaign_A,0,0,Beauty,3,2,373.28,Credit Card,0
+347,3976,2023-01-15 10:00:00,Female,19,India,Registered,1,Desktop,Safari,Morning,20,11,63,32,Social,None,0,0,Books,4,2,158.14,NetBanking,0
+348,2959,2023-01-15 11:00:00,Male,39,USA,Guest,1,Mobile,Firefox,Morning,14,17,29,29,Ads,Campaign_A,0,0,Home,7,2,283.11,Credit Card,1
+349,2663,2023-01-15 12:00:00,Male,19,USA,Premium,0,Desktop,Firefox,Afternoon,32,5,95,7,Social,None,1,0,Sports,6,6,456.24,NetBanking,0
+350,3598,2023-01-15 13:00:00,Male,27,Australia,Registered,0,Mobile,Firefox,Morning,26,3,61,2,Ads,None,1,0,Sports,8,5,227.3,COD,0
+351,3385,2023-01-15 14:00:00,Male,51,India,Registered,0,Mobile,Chrome,Evening,47,5,32,21,Ads,Campaign_B,0,1,Beauty,4,0,342.44,COD,1
+352,3919,2023-01-15 15:00:00,Female,33,Canada,Registered,0,Desktop,Chrome,Night,6,15,44,6,Direct,Campaign_B,0,1,Clothing,0,6,235.43,COD,1
+353,1640,2023-01-15 16:00:00,Male,56,USA,Registered,0,Mobile,Safari,Morning,59,19,76,28,Ads,Campaign_C,0,0,Sports,3,2,65.07,NetBanking,1
+354,2802,2023-01-15 17:00:00,Female,39,Canada,Premium,0,Mobile,Firefox,Morning,58,16,43,48,Direct,Campaign_C,1,0,Beauty,5,4,34.01,UPI,1
+355,3520,2023-01-15 18:00:00,Male,29,Germany,Guest,0,Mobile,Chrome,Evening,36,8,42,42,Organic,Campaign_B,1,1,Electronics,5,7,476.38,Credit Card,1
+356,2969,2023-01-15 19:00:00,Female,41,Canada,Guest,0,Mobile,Safari,Night,40,13,55,36,Referral,Campaign_C,1,0,Clothing,8,6,308.21,UPI,1
+357,3198,2023-01-15 20:00:00,Female,64,UK,Registered,1,Mobile,Safari,Night,51,16,90,32,Ads,Campaign_B,0,1,Clothing,9,6,56.39,UPI,0
+358,2438,2023-01-15 21:00:00,Female,57,UK,Guest,1,Mobile,Safari,Afternoon,59,3,54,45,Referral,Campaign_A,1,0,Home,4,7,429.43,Debit Card,0
+359,4369,2023-01-15 22:00:00,Male,55,Canada,Guest,1,Mobile,Safari,Afternoon,5,1,28,42,Direct,Campaign_A,0,0,Books,4,0,263.73,Credit Card,0
+360,2634,2023-01-15 23:00:00,Male,27,UK,Guest,0,Mobile,Safari,Night,13,9,96,46,Ads,Campaign_A,0,0,Home,5,0,387.11,NetBanking,0
+361,1262,2023-01-16 00:00:00,Male,52,Germany,Guest,1,Mobile,Edge,Evening,32,9,24,9,Social,None,1,1,Electronics,5,2,67.74,Debit Card,0
+362,2787,2023-01-16 01:00:00,Female,49,India,Registered,1,Mobile,Firefox,Evening,16,17,87,11,Organic,None,0,0,Beauty,2,0,453.92,Debit Card,0
+363,3191,2023-01-16 02:00:00,Male,24,UK,Guest,0,Mobile,Safari,Afternoon,1,2,75,23,Organic,Campaign_C,1,0,Clothing,5,7,297.32,COD,0
+364,3393,2023-01-16 03:00:00,Female,38,UK,Premium,0,Mobile,Edge,Morning,13,9,48,11,Ads,Campaign_C,0,0,Clothing,7,1,370.44,NetBanking,1
+365,1623,2023-01-16 04:00:00,Female,37,Canada,Registered,1,Tablet,Firefox,Evening,54,19,27,49,Organic,Campaign_A,1,1,Sports,5,7,20.53,UPI,1
+366,2016,2023-01-16 05:00:00,Male,43,Germany,Registered,0,Mobile,Chrome,Morning,11,13,79,2,Social,Campaign_C,0,1,Books,4,7,161.08,UPI,1
+367,4643,2023-01-16 06:00:00,Female,21,India,Registered,0,Desktop,Safari,Evening,53,5,68,3,Referral,Campaign_A,0,1,Books,2,1,137.39,UPI,1
+368,1880,2023-01-16 07:00:00,Male,63,Canada,Premium,0,Mobile,Edge,Night,8,9,41,11,Social,None,0,1,Sports,0,7,475.05,COD,1
+369,3049,2023-01-16 08:00:00,Male,39,Canada,Guest,0,Tablet,Chrome,Afternoon,25,13,30,35,Organic,None,0,0,Electronics,4,2,96.74,UPI,1
+370,3944,2023-01-16 09:00:00,Female,32,Australia,Premium,1,Mobile,Edge,Morning,40,1,49,15,Referral,Campaign_A,0,0,Books,5,6,354.99,Credit Card,0
+371,2327,2023-01-16 10:00:00,Female,57,Germany,Registered,1,Tablet,Firefox,Morning,32,15,36,43,Social,None,0,0,Clothing,5,4,26.16,UPI,1
+372,3301,2023-01-16 11:00:00,Female,38,India,Registered,0,Desktop,Firefox,Night,24,4,11,11,Direct,Campaign_A,0,0,Electronics,5,0,102.85,UPI,0
+373,4723,2023-01-16 12:00:00,Male,32,Germany,Registered,0,Mobile,Chrome,Evening,28,4,89,31,Direct,Campaign_B,0,1,Home,2,3,172.61,Credit Card,0
+374,1452,2023-01-16 13:00:00,Male,39,India,Guest,0,Desktop,Edge,Morning,14,10,48,28,Referral,Campaign_A,0,1,Home,3,6,398.28,COD,1
+375,4108,2023-01-16 14:00:00,Female,45,Germany,Registered,0,Mobile,Safari,Evening,45,6,95,28,Referral,Campaign_B,0,0,Electronics,2,2,396.04,Debit Card,1
+376,2183,2023-01-16 15:00:00,Female,31,Canada,Registered,0,Mobile,Safari,Night,3,12,65,32,Referral,Campaign_A,1,1,Clothing,1,5,476.54,NetBanking,0
+377,4062,2023-01-16 16:00:00,Female,44,Canada,Guest,1,Desktop,Chrome,Afternoon,36,16,22,25,Direct,Campaign_B,1,1,Home,7,0,458.8,COD,1
+378,3056,2023-01-16 17:00:00,Male,58,USA,Registered,0,Tablet,Chrome,Morning,27,3,65,20,Social,Campaign_C,0,0,Beauty,6,2,45.35,UPI,0
+379,4304,2023-01-16 18:00:00,Female,57,UK,Guest,0,Mobile,Chrome,Evening,20,14,75,28,Referral,Campaign_B,0,0,Clothing,7,7,415.78,Debit Card,1
+380,4170,2023-01-16 19:00:00,Male,45,Australia,Guest,1,Mobile,Edge,Morning,47,1,87,25,Direct,None,1,0,Sports,5,2,228.33,NetBanking,0
+381,2682,2023-01-16 20:00:00,Male,43,Germany,Guest,0,Desktop,Safari,Evening,15,10,65,11,Referral,None,0,0,Books,6,4,433.61,NetBanking,1
+382,3863,2023-01-16 21:00:00,Female,19,Australia,Guest,1,Desktop,Safari,Evening,27,15,37,19,Referral,Campaign_C,0,0,Electronics,0,3,49.2,NetBanking,1
+383,3255,2023-01-16 22:00:00,Male,42,USA,Registered,1,Desktop,Safari,Evening,53,7,73,28,Referral,Campaign_A,0,0,Books,9,0,412.27,Credit Card,0
+384,2154,2023-01-16 23:00:00,Female,20,UK,Guest,1,Desktop,Chrome,Night,45,4,80,1,Direct,Campaign_B,0,0,Sports,4,2,84.02,Credit Card,0
+385,1403,2023-01-17 00:00:00,Male,25,Germany,Premium,0,Mobile,Safari,Afternoon,41,14,91,5,Social,None,0,1,Home,3,2,170.25,Debit Card,1
+386,3199,2023-01-17 01:00:00,Male,61,India,Registered,0,Tablet,Firefox,Morning,28,16,73,10,Direct,Campaign_C,0,0,Beauty,9,6,19.28,UPI,0
+387,3101,2023-01-17 02:00:00,Female,50,UK,Guest,0,Mobile,Chrome,Afternoon,25,14,65,42,Direct,Campaign_C,0,0,Clothing,2,0,66.25,Debit Card,0
+388,4191,2023-01-17 03:00:00,Female,59,Canada,Registered,0,Mobile,Safari,Evening,42,3,50,46,Referral,Campaign_A,0,1,Clothing,1,7,225.63,UPI,0
+389,2696,2023-01-17 04:00:00,Female,52,USA,Premium,1,Mobile,Edge,Evening,44,17,50,34,Ads,Campaign_C,0,0,Sports,8,2,410.08,COD,1
+390,4991,2023-01-17 05:00:00,Female,23,UK,Registered,1,Mobile,Chrome,Afternoon,46,14,13,36,Ads,Campaign_B,0,0,Electronics,7,2,387.97,NetBanking,0
+391,1627,2023-01-17 06:00:00,Female,56,UK,Guest,1,Mobile,Firefox,Afternoon,33,18,66,2,Ads,None,0,1,Books,9,2,121.47,NetBanking,0
+392,1586,2023-01-17 07:00:00,Female,40,Canada,Premium,1,Desktop,Firefox,Morning,46,3,39,18,Direct,None,0,0,Beauty,1,1,80.09,Credit Card,1
+393,2648,2023-01-17 08:00:00,Female,42,Germany,Registered,1,Mobile,Edge,Evening,14,19,97,13,Referral,Campaign_A,1,1,Home,5,1,197.69,COD,1
+394,2443,2023-01-17 09:00:00,Male,60,India,Guest,0,Mobile,Edge,Afternoon,8,3,93,5,Ads,Campaign_C,0,0,Electronics,2,3,442.22,COD,0
+395,2445,2023-01-17 10:00:00,Female,36,Canada,Guest,0,Desktop,Chrome,Night,48,12,55,20,Organic,Campaign_B,0,0,Beauty,2,4,50.26,UPI,1
+396,1103,2023-01-17 11:00:00,Male,22,India,Registered,1,Mobile,Chrome,Evening,14,5,65,2,Organic,Campaign_C,0,0,Beauty,4,6,273.74,COD,1
+397,4923,2023-01-17 12:00:00,Other,28,Germany,Guest,0,Mobile,Firefox,Evening,1,10,40,11,Organic,None,0,0,Sports,6,6,48.96,Credit Card,0
+398,1253,2023-01-17 13:00:00,Female,29,UK,Premium,0,Mobile,Edge,Morning,16,9,97,30,Social,Campaign_C,0,1,Sports,6,0,237.75,UPI,0
+399,4298,2023-01-17 14:00:00,Male,27,India,Guest,0,Tablet,Chrome,Night,18,1,16,32,Referral,Campaign_B,0,1,Clothing,9,4,67.76,Debit Card,0
+400,4183,2023-01-17 15:00:00,Female,25,USA,Premium,1,Mobile,Firefox,Morning,7,13,99,32,Direct,Campaign_B,1,1,Home,0,7,44.77,UPI,1
+401,3557,2023-01-17 16:00:00,Female,41,USA,Registered,0,Mobile,Edge,Night,15,3,86,38,Direct,None,0,1,Electronics,6,4,99.47,Debit Card,0
+402,2496,2023-01-17 17:00:00,Male,45,Canada,Guest,1,Mobile,Firefox,Morning,24,19,63,28,Referral,None,1,0,Clothing,6,6,131.35,UPI,1
+403,1098,2023-01-17 18:00:00,Female,58,Germany,Guest,1,Mobile,Safari,Night,49,11,17,10,Social,Campaign_C,0,1,Home,5,7,141.75,NetBanking,0
+404,3200,2023-01-17 19:00:00,Female,53,Canada,Registered,0,Mobile,Edge,Night,51,16,64,22,Referral,Campaign_B,1,1,Books,5,1,324.41,Debit Card,1
+405,2884,2023-01-17 20:00:00,Male,54,Canada,Registered,0,Mobile,Chrome,Night,55,6,78,17,Social,Campaign_B,1,1,Books,1,3,32.22,Credit Card,0
+406,3961,2023-01-17 21:00:00,Female,38,Australia,Registered,0,Mobile,Chrome,Afternoon,13,3,53,22,Ads,None,1,1,Clothing,2,7,45.0,Debit Card,0
+407,2919,2023-01-17 22:00:00,Male,25,Canada,Guest,1,Tablet,Safari,Evening,9,19,22,43,Ads,Campaign_C,0,0,Electronics,2,7,98.41,Debit Card,0
+408,1877,2023-01-17 23:00:00,Female,26,Australia,Guest,1,Mobile,Edge,Night,56,6,29,19,Social,Campaign_C,0,0,Home,2,4,436.67,UPI,1
+409,1337,2023-01-18 00:00:00,Other,64,USA,Guest,1,Mobile,Firefox,Afternoon,56,8,87,17,Referral,Campaign_C,1,1,Books,1,6,316.16,NetBanking,1
+410,4777,2023-01-18 01:00:00,Female,32,USA,Registered,0,Mobile,Chrome,Afternoon,15,13,41,24,Ads,None,1,0,Books,8,4,366.53,UPI,1
+411,3869,2023-01-18 02:00:00,Male,63,Canada,Guest,0,Mobile,Safari,Morning,57,12,69,36,Referral,Campaign_B,1,0,Electronics,5,2,188.33,UPI,1
+412,4234,2023-01-18 03:00:00,Female,57,USA,Registered,0,Desktop,Safari,Evening,58,10,59,32,Ads,Campaign_A,0,1,Clothing,1,0,110.54,NetBanking,0
+413,4791,2023-01-18 04:00:00,Female,35,Germany,Registered,1,Mobile,Edge,Evening,35,3,36,46,Referral,Campaign_C,1,0,Sports,2,3,23.79,UPI,0
+414,1956,2023-01-18 05:00:00,Male,59,Australia,Premium,0,Mobile,Edge,Morning,24,4,34,36,Referral,None,0,0,Beauty,9,6,246.83,NetBanking,1
+415,2704,2023-01-18 06:00:00,Female,37,Australia,Guest,0,Desktop,Chrome,Evening,33,1,61,28,Organic,None,0,0,Home,5,0,289.27,Credit Card,1
+416,1160,2023-01-18 07:00:00,Male,23,Canada,Guest,0,Mobile,Safari,Morning,16,13,77,14,Social,None,0,1,Books,3,7,449.02,NetBanking,0
+417,2603,2023-01-18 08:00:00,Female,29,USA,Registered,0,Mobile,Firefox,Afternoon,8,4,30,36,Direct,Campaign_B,0,0,Beauty,6,1,441.64,COD,1
+418,3848,2023-01-18 09:00:00,Male,19,India,Registered,0,Mobile,Safari,Afternoon,29,11,27,6,Social,Campaign_A,1,1,Beauty,5,4,215.22,NetBanking,1
+419,1397,2023-01-18 10:00:00,Male,24,Australia,Guest,0,Mobile,Firefox,Night,23,19,48,9,Referral,None,0,0,Sports,5,4,214.67,NetBanking,0
+420,2300,2023-01-18 11:00:00,Male,33,Canada,Premium,0,Mobile,Firefox,Morning,45,11,24,21,Referral,Campaign_C,0,0,Beauty,2,5,84.76,COD,0
+421,1815,2023-01-18 12:00:00,Female,20,Canada,Premium,0,Mobile,Chrome,Afternoon,31,12,62,12,Social,None,0,0,Electronics,7,0,132.44,NetBanking,0
+422,4987,2023-01-18 13:00:00,Male,62,Germany,Guest,1,Mobile,Safari,Afternoon,40,11,47,30,Referral,None,0,1,Clothing,8,1,463.2,Debit Card,1
+423,2527,2023-01-18 14:00:00,Female,20,UK,Guest,1,Desktop,Firefox,Morning,49,6,57,31,Ads,Campaign_C,0,0,Home,5,6,74.81,UPI,1
+424,2919,2023-01-18 15:00:00,Male,44,UK,Registered,0,Mobile,Edge,Afternoon,54,12,61,40,Referral,Campaign_B,0,1,Electronics,1,5,484.51,UPI,1
+425,2415,2023-01-18 16:00:00,Male,60,Australia,Registered,1,Mobile,Firefox,Evening,55,9,97,4,Social,None,0,1,Clothing,0,7,254.85,Credit Card,0
+426,2158,2023-01-18 17:00:00,Female,57,Germany,Guest,0,Mobile,Edge,Afternoon,14,10,81,31,Social,None,1,1,Electronics,2,5,231.02,Credit Card,0
+427,2218,2023-01-18 18:00:00,Female,55,Germany,Registered,0,Mobile,Edge,Morning,59,3,37,27,Social,Campaign_C,1,1,Books,2,2,91.45,COD,1
+428,1400,2023-01-18 19:00:00,Male,50,Germany,Registered,1,Mobile,Safari,Evening,53,3,94,25,Organic,Campaign_C,0,0,Books,7,5,332.46,Debit Card,0
+429,1639,2023-01-18 20:00:00,Female,45,Australia,Guest,1,Tablet,Edge,Evening,30,16,25,5,Organic,Campaign_A,0,0,Sports,4,5,232.62,Credit Card,1
+430,4104,2023-01-18 21:00:00,Female,18,UK,Registered,1,Desktop,Firefox,Afternoon,53,3,25,6,Organic,Campaign_A,0,1,Electronics,0,2,188.48,UPI,0
+431,3735,2023-01-18 22:00:00,Female,25,Germany,Premium,0,Tablet,Edge,Night,39,10,44,5,Organic,Campaign_B,1,1,Beauty,3,4,135.94,Credit Card,1
+432,1459,2023-01-18 23:00:00,Male,54,USA,Guest,0,Desktop,Safari,Evening,27,11,26,27,Organic,Campaign_B,0,1,Books,6,4,37.91,Credit Card,1
+433,1954,2023-01-19 00:00:00,Male,49,Canada,Guest,1,Mobile,Chrome,Morning,47,8,82,8,Organic,None,0,1,Clothing,4,7,262.07,NetBanking,1
+434,4954,2023-01-19 01:00:00,Female,60,Canada,Registered,0,Mobile,Firefox,Night,16,6,61,9,Organic,None,0,1,Sports,9,3,159.89,Credit Card,1
+435,1469,2023-01-19 02:00:00,Male,54,India,Premium,0,Mobile,Firefox,Night,51,11,91,15,Social,None,1,0,Beauty,5,5,355.39,COD,0
+436,4446,2023-01-19 03:00:00,Female,21,India,Premium,1,Mobile,Safari,Evening,6,12,21,36,Direct,Campaign_C,0,1,Home,9,0,363.14,UPI,0
+437,2045,2023-01-19 04:00:00,Female,47,Australia,Registered,1,Tablet,Safari,Afternoon,55,16,92,41,Organic,Campaign_A,0,1,Electronics,3,4,169.39,COD,1
+438,3797,2023-01-19 05:00:00,Female,23,Australia,Registered,1,Mobile,Safari,Night,33,18,57,7,Social,None,1,1,Books,1,1,336.21,COD,1
+439,2693,2023-01-19 06:00:00,Female,63,Canada,Registered,0,Desktop,Safari,Afternoon,44,13,31,32,Direct,Campaign_B,0,0,Beauty,8,6,133.04,Debit Card,1
+440,3085,2023-01-19 07:00:00,Other,36,USA,Registered,1,Mobile,Firefox,Evening,18,3,58,8,Organic,Campaign_A,1,1,Clothing,1,0,364.95,NetBanking,0
+441,3277,2023-01-19 08:00:00,Male,49,UK,Guest,0,Desktop,Chrome,Morning,16,15,61,47,Direct,Campaign_C,0,1,Electronics,1,3,12.96,COD,1
+442,4436,2023-01-19 09:00:00,Female,26,UK,Guest,0,Tablet,Edge,Night,12,14,88,15,Direct,None,1,0,Clothing,1,5,80.05,Debit Card,1
+443,1562,2023-01-19 10:00:00,Male,29,Australia,Guest,1,Desktop,Edge,Morning,20,18,10,37,Ads,None,0,1,Sports,0,2,126.28,UPI,1
+444,3485,2023-01-19 11:00:00,Male,28,USA,Registered,0,Desktop,Chrome,Afternoon,45,14,75,19,Referral,Campaign_A,1,0,Books,2,3,387.6,UPI,0
+445,2799,2023-01-19 12:00:00,Female,63,Australia,Guest,0,Mobile,Chrome,Afternoon,40,5,73,39,Ads,None,0,1,Books,5,0,37.86,Debit Card,1
+446,4354,2023-01-19 13:00:00,Female,33,UK,Premium,1,Desktop,Chrome,Morning,59,14,17,6,Direct,Campaign_B,1,0,Sports,6,2,98.09,COD,0
+447,3074,2023-01-19 14:00:00,Other,18,Australia,Guest,0,Tablet,Safari,Evening,29,8,95,19,Social,Campaign_A,0,0,Clothing,0,7,182.52,COD,0
+448,1225,2023-01-19 15:00:00,Female,62,Germany,Guest,0,Desktop,Firefox,Evening,30,15,34,28,Organic,None,0,0,Electronics,4,1,9.54,NetBanking,1
+449,4348,2023-01-19 16:00:00,Male,38,Australia,Registered,0,Desktop,Firefox,Night,26,15,75,17,Referral,None,1,1,Clothing,4,2,382.25,NetBanking,0
+450,1797,2023-01-19 17:00:00,Male,47,Canada,Registered,0,Desktop,Firefox,Night,22,19,82,42,Organic,Campaign_C,0,0,Electronics,0,2,282.25,UPI,1
+451,4680,2023-01-19 18:00:00,Female,30,Australia,Guest,0,Desktop,Safari,Evening,33,6,82,19,Social,Campaign_C,0,1,Beauty,3,1,450.84,NetBanking,0
+452,3331,2023-01-19 19:00:00,Male,51,Canada,Guest,1,Mobile,Firefox,Evening,58,19,86,31,Referral,None,0,1,Sports,9,4,20.36,Debit Card,1
+453,3926,2023-01-19 20:00:00,Male,21,USA,Premium,1,Desktop,Safari,Morning,53,8,79,11,Ads,None,1,1,Home,0,4,139.34,UPI,1
+454,1959,2023-01-19 21:00:00,Male,45,UK,Guest,0,Mobile,Firefox,Afternoon,39,6,88,15,Direct,None,0,0,Electronics,0,2,366.97,COD,1
+455,2504,2023-01-19 22:00:00,Male,55,India,Guest,1,Mobile,Chrome,Afternoon,47,15,60,10,Social,Campaign_C,1,1,Books,6,6,339.2,UPI,1
+456,1452,2023-01-19 23:00:00,Male,48,India,Premium,0,Mobile,Edge,Night,29,3,62,43,Direct,None,0,1,Beauty,6,2,125.31,Credit Card,0
+457,4067,2023-01-20 00:00:00,Male,44,UK,Guest,0,Mobile,Edge,Evening,22,10,24,23,Direct,None,0,0,Books,2,3,299.87,UPI,1
+458,4900,2023-01-20 01:00:00,Male,22,India,Registered,1,Mobile,Safari,Morning,45,15,59,3,Organic,Campaign_A,0,0,Beauty,6,6,397.91,NetBanking,1
+459,1815,2023-01-20 02:00:00,Male,42,Australia,Guest,0,Mobile,Firefox,Night,13,16,80,3,Social,None,0,0,Books,2,4,21.52,Debit Card,1
+460,1658,2023-01-20 03:00:00,Other,20,USA,Guest,1,Mobile,Edge,Morning,9,17,84,18,Direct,Campaign_C,0,1,Clothing,1,1,360.23,COD,1
+461,4587,2023-01-20 04:00:00,Male,50,USA,Guest,0,Mobile,Chrome,Evening,24,19,47,25,Ads,Campaign_B,0,0,Clothing,9,5,129.79,COD,0
+462,1546,2023-01-20 05:00:00,Male,21,UK,Guest,1,Mobile,Chrome,Evening,15,11,49,43,Referral,None,0,0,Clothing,3,5,474.19,NetBanking,1
+463,2215,2023-01-20 06:00:00,Female,42,India,Guest,0,Desktop,Chrome,Evening,36,16,75,20,Social,Campaign_A,1,1,Beauty,9,2,271.42,NetBanking,0
+464,4120,2023-01-20 07:00:00,Male,37,Australia,Guest,0,Tablet,Safari,Afternoon,13,5,48,29,Organic,Campaign_C,0,0,Beauty,2,2,21.53,NetBanking,1
+465,4583,2023-01-20 08:00:00,Female,51,USA,Registered,0,Desktop,Safari,Evening,27,5,83,22,Social,None,0,1,Books,6,5,204.7,Credit Card,1
+466,1016,2023-01-20 09:00:00,Female,43,USA,Guest,1,Tablet,Firefox,Night,44,14,26,15,Organic,Campaign_B,0,1,Electronics,0,3,483.32,Debit Card,1
+467,4243,2023-01-20 10:00:00,Male,22,Germany,Registered,0,Desktop,Chrome,Afternoon,37,18,16,39,Referral,Campaign_C,0,0,Beauty,5,3,366.53,Credit Card,1
+468,2243,2023-01-20 11:00:00,Male,52,Germany,Premium,1,Mobile,Firefox,Morning,7,8,48,10,Ads,None,0,1,Books,1,3,153.74,NetBanking,1
+469,3205,2023-01-20 12:00:00,Female,45,USA,Registered,0,Desktop,Firefox,Night,8,5,77,21,Direct,Campaign_C,0,0,Electronics,7,7,289.76,Debit Card,1
+470,3524,2023-01-20 13:00:00,Female,46,UK,Guest,0,Desktop,Chrome,Night,37,7,44,29,Social,Campaign_B,1,0,Clothing,4,0,301.56,NetBanking,0
+471,2069,2023-01-20 14:00:00,Male,26,Canada,Premium,0,Mobile,Firefox,Morning,41,16,60,32,Organic,Campaign_C,0,1,Beauty,2,1,16.56,Debit Card,1
+472,4444,2023-01-20 15:00:00,Female,55,Canada,Guest,1,Mobile,Edge,Afternoon,14,14,56,10,Referral,Campaign_C,0,0,Home,9,0,93.52,COD,1
+473,3565,2023-01-20 16:00:00,Male,23,Australia,Guest,1,Desktop,Safari,Night,58,5,45,13,Direct,None,0,1,Clothing,6,2,278.13,Credit Card,1
+474,3146,2023-01-20 17:00:00,Other,36,USA,Registered,0,Mobile,Firefox,Night,12,9,73,47,Referral,None,0,0,Sports,1,3,204.36,NetBanking,0
+475,4963,2023-01-20 18:00:00,Male,61,USA,Registered,1,Desktop,Chrome,Night,36,4,98,23,Ads,Campaign_C,0,0,Electronics,4,3,99.07,NetBanking,1
+476,2768,2023-01-20 19:00:00,Female,28,USA,Registered,0,Mobile,Safari,Afternoon,52,4,22,23,Direct,None,0,1,Home,7,5,387.47,UPI,1
+477,2060,2023-01-20 20:00:00,Female,19,UK,Guest,1,Mobile,Safari,Afternoon,40,16,27,31,Direct,Campaign_C,0,0,Clothing,0,7,247.05,COD,1
+478,3327,2023-01-20 21:00:00,Female,64,Germany,Registered,1,Mobile,Firefox,Afternoon,17,17,30,4,Direct,Campaign_B,0,1,Beauty,0,5,158.44,NetBanking,1
+479,4420,2023-01-20 22:00:00,Female,61,USA,Guest,0,Mobile,Edge,Night,40,15,74,49,Organic,None,1,0,Home,2,6,85.03,Credit Card,1
+480,3544,2023-01-20 23:00:00,Male,61,USA,Premium,0,Mobile,Firefox,Evening,53,4,17,3,Direct,None,0,1,Books,2,3,307.53,COD,1
+481,1301,2023-01-21 00:00:00,Male,26,India,Guest,1,Desktop,Edge,Morning,29,6,57,21,Referral,Campaign_C,0,0,Electronics,6,7,334.8,NetBanking,1
+482,1180,2023-01-21 01:00:00,Male,38,UK,Premium,1,Desktop,Safari,Evening,27,16,94,2,Organic,Campaign_A,0,0,Sports,5,4,336.45,Credit Card,0
+483,1606,2023-01-21 02:00:00,Male,41,Australia,Registered,0,Desktop,Firefox,Afternoon,1,4,52,4,Direct,Campaign_A,0,0,Books,6,5,114.04,UPI,0
+484,4170,2023-01-21 03:00:00,Female,51,USA,Premium,0,Mobile,Chrome,Night,52,6,62,1,Referral,Campaign_B,0,0,Home,3,1,299.69,UPI,0
+485,1699,2023-01-21 04:00:00,Male,39,India,Registered,0,Desktop,Firefox,Night,34,5,94,15,Referral,Campaign_B,0,1,Clothing,1,7,453.18,Credit Card,0
+486,1992,2023-01-21 05:00:00,Male,20,Canada,Registered,0,Mobile,Edge,Evening,4,16,36,33,Social,None,1,0,Electronics,1,0,179.83,COD,1
+487,2139,2023-01-21 06:00:00,Other,29,Australia,Guest,1,Mobile,Edge,Evening,24,16,28,6,Referral,Campaign_A,0,0,Beauty,9,7,109.33,Credit Card,0
+488,1190,2023-01-21 07:00:00,Female,45,USA,Guest,1,Mobile,Firefox,Morning,21,10,32,7,Ads,None,0,0,Sports,0,1,387.21,Credit Card,0
+489,3300,2023-01-21 08:00:00,Female,47,USA,Guest,0,Mobile,Edge,Night,33,9,59,19,Direct,Campaign_B,0,1,Clothing,8,5,92.56,UPI,1
+490,1980,2023-01-21 09:00:00,Other,43,India,Premium,0,Mobile,Safari,Evening,7,4,60,44,Direct,Campaign_B,0,1,Sports,6,3,130.61,UPI,0
+491,3975,2023-01-21 10:00:00,Male,38,UK,Premium,0,Mobile,Firefox,Morning,1,14,52,1,Direct,Campaign_C,0,0,Beauty,9,2,54.82,UPI,0
+492,3006,2023-01-21 11:00:00,Male,45,USA,Registered,0,Desktop,Edge,Afternoon,41,4,60,39,Referral,Campaign_B,0,0,Electronics,2,7,137.6,NetBanking,1
+493,2184,2023-01-21 12:00:00,Female,43,Canada,Guest,0,Desktop,Firefox,Evening,3,12,78,19,Referral,None,0,0,Home,1,4,208.12,NetBanking,0
+494,4327,2023-01-21 13:00:00,Female,50,USA,Guest,0,Mobile,Firefox,Afternoon,44,10,50,45,Direct,Campaign_A,0,1,Sports,2,5,36.76,Debit Card,1
+495,4394,2023-01-21 14:00:00,Male,38,Canada,Registered,0,Mobile,Chrome,Morning,51,4,81,26,Organic,Campaign_C,0,0,Electronics,6,1,436.5,NetBanking,1
+496,1127,2023-01-21 15:00:00,Female,52,Australia,Registered,0,Mobile,Firefox,Afternoon,15,18,20,44,Organic,None,1,0,Sports,4,7,259.27,COD,1
+497,3065,2023-01-21 16:00:00,Male,51,Australia,Registered,0,Mobile,Chrome,Night,31,13,89,12,Ads,None,0,1,Clothing,2,2,296.11,COD,0
+498,2816,2023-01-21 17:00:00,Male,58,Germany,Premium,0,Desktop,Edge,Night,54,13,97,22,Social,Campaign_B,0,1,Sports,8,5,188.79,UPI,1
+499,2758,2023-01-21 18:00:00,Female,64,Germany,Guest,0,Mobile,Chrome,Afternoon,16,14,94,13,Ads,Campaign_C,1,0,Clothing,1,3,336.57,Credit Card,1
+500,3613,2023-01-21 19:00:00,Female,35,Canada,Registered,0,Desktop,Chrome,Night,10,18,61,28,Direct,None,1,1,Clothing,6,6,218.73,UPI,1
+501,1569,2023-01-21 20:00:00,Female,28,UK,Registered,0,Desktop,Chrome,Morning,54,1,32,14,Direct,None,1,0,Electronics,9,3,381.85,Credit Card,0
+502,2346,2023-01-21 21:00:00,Male,40,USA,Guest,0,Mobile,Safari,Night,29,16,58,22,Direct,None,0,1,Books,5,3,411.59,UPI,1
+503,2895,2023-01-21 22:00:00,Female,39,USA,Guest,0,Tablet,Chrome,Afternoon,59,15,47,30,Social,Campaign_B,1,0,Beauty,5,3,337.57,UPI,0
+504,3733,2023-01-21 23:00:00,Male,34,Germany,Guest,1,Mobile,Firefox,Afternoon,59,5,56,44,Referral,None,0,0,Sports,6,5,248.21,COD,0
+505,4863,2023-01-22 00:00:00,Male,22,Canada,Premium,1,Mobile,Chrome,Afternoon,6,6,81,20,Social,Campaign_A,0,1,Home,5,6,392.22,Credit Card,1
+506,1625,2023-01-22 01:00:00,Female,61,USA,Registered,1,Mobile,Firefox,Evening,29,6,16,44,Ads,Campaign_A,0,0,Clothing,1,4,249.67,Debit Card,1
+507,4359,2023-01-22 02:00:00,Female,28,USA,Registered,0,Mobile,Chrome,Afternoon,17,3,75,27,Referral,None,1,0,Books,4,4,60.2,Debit Card,0
+508,3901,2023-01-22 03:00:00,Female,47,UK,Premium,1,Mobile,Safari,Morning,53,16,86,38,Referral,Campaign_A,0,0,Clothing,2,1,62.59,UPI,1
+509,2686,2023-01-22 04:00:00,Female,32,India,Registered,1,Mobile,Edge,Night,22,12,71,42,Ads,Campaign_A,0,1,Books,8,5,474.55,UPI,0
+510,4009,2023-01-22 05:00:00,Female,44,Germany,Guest,0,Desktop,Chrome,Night,24,4,96,41,Referral,Campaign_B,0,0,Books,7,7,110.71,COD,1
+511,4710,2023-01-22 06:00:00,Female,52,Germany,Registered,0,Tablet,Chrome,Evening,17,1,38,34,Organic,Campaign_C,0,1,Home,9,7,408.88,Credit Card,1
+512,1154,2023-01-22 07:00:00,Male,50,India,Registered,1,Desktop,Safari,Evening,21,4,47,39,Ads,None,1,0,Books,1,6,127.12,UPI,1
+513,3537,2023-01-22 08:00:00,Male,37,USA,Registered,0,Mobile,Chrome,Morning,51,1,93,41,Ads,None,0,0,Home,0,7,218.24,Debit Card,0
+514,2409,2023-01-22 09:00:00,Male,33,UK,Registered,0,Desktop,Firefox,Afternoon,50,8,42,44,Organic,Campaign_B,0,0,Electronics,3,6,329.2,Credit Card,1
+515,1784,2023-01-22 10:00:00,Male,51,UK,Registered,1,Desktop,Chrome,Evening,11,5,38,37,Social,Campaign_C,1,0,Clothing,3,3,83.64,UPI,1
+516,4175,2023-01-22 11:00:00,Female,19,Germany,Guest,1,Desktop,Chrome,Night,56,2,88,1,Social,None,0,1,Home,9,7,369.94,Credit Card,0
+517,4464,2023-01-22 12:00:00,Female,52,UK,Premium,0,Desktop,Edge,Evening,7,12,32,15,Social,None,0,1,Beauty,1,4,346.51,COD,0
+518,4882,2023-01-22 13:00:00,Male,57,Australia,Guest,0,Desktop,Edge,Evening,42,17,12,32,Referral,Campaign_B,1,0,Clothing,6,5,273.83,Debit Card,1
+519,1245,2023-01-22 14:00:00,Male,45,India,Guest,0,Mobile,Chrome,Afternoon,39,7,54,8,Organic,None,1,0,Beauty,2,2,285.12,Credit Card,1
+520,4247,2023-01-22 15:00:00,Female,64,USA,Guest,1,Desktop,Safari,Evening,5,11,17,33,Ads,None,1,1,Sports,6,4,57.36,Debit Card,1
+521,4110,2023-01-22 16:00:00,Male,56,Australia,Guest,0,Mobile,Edge,Morning,44,4,95,18,Ads,Campaign_A,0,1,Beauty,6,7,220.79,UPI,1
+522,2500,2023-01-22 17:00:00,Female,23,India,Guest,0,Tablet,Chrome,Night,48,5,38,45,Ads,Campaign_A,0,1,Electronics,0,4,47.85,NetBanking,1
+523,2705,2023-01-22 18:00:00,Female,26,Canada,Premium,1,Mobile,Edge,Afternoon,57,6,11,29,Referral,Campaign_A,0,1,Sports,5,6,157.39,Credit Card,0
+524,3806,2023-01-22 19:00:00,Female,37,Germany,Premium,0,Mobile,Chrome,Night,21,11,59,32,Referral,None,0,0,Sports,3,1,450.65,Debit Card,1
+525,1537,2023-01-22 20:00:00,Female,18,UK,Guest,1,Mobile,Edge,Morning,18,1,74,33,Social,Campaign_A,0,1,Books,7,4,289.39,Credit Card,0
+526,2890,2023-01-22 21:00:00,Female,25,Canada,Guest,0,Desktop,Edge,Morning,35,10,29,5,Referral,Campaign_C,0,0,Beauty,7,2,372.64,UPI,0
+527,2841,2023-01-22 22:00:00,Male,40,UK,Guest,0,Mobile,Firefox,Evening,20,11,61,18,Social,Campaign_A,1,0,Books,2,3,289.07,UPI,0
+528,1920,2023-01-22 23:00:00,Female,20,Australia,Guest,1,Mobile,Chrome,Evening,15,17,94,48,Social,None,0,1,Beauty,3,0,101.15,Debit Card,0
+529,3455,2023-01-23 00:00:00,Female,21,USA,Guest,0,Tablet,Chrome,Evening,5,8,46,10,Ads,Campaign_B,0,1,Sports,0,1,299.43,COD,0
+530,1524,2023-01-23 01:00:00,Male,42,USA,Premium,0,Tablet,Chrome,Night,13,13,81,36,Referral,None,0,1,Books,9,2,378.92,Credit Card,0
+531,3875,2023-01-23 02:00:00,Female,64,USA,Guest,0,Mobile,Chrome,Morning,51,18,36,33,Social,None,0,0,Clothing,1,1,73.51,Credit Card,1
+532,2529,2023-01-23 03:00:00,Female,55,UK,Registered,1,Mobile,Edge,Afternoon,12,16,56,23,Organic,Campaign_A,1,0,Beauty,6,7,409.37,UPI,1
+533,3950,2023-01-23 04:00:00,Female,32,Canada,Guest,1,Desktop,Firefox,Evening,55,2,15,40,Organic,Campaign_C,0,0,Beauty,6,5,279.92,Credit Card,1
+534,4896,2023-01-23 05:00:00,Female,38,USA,Premium,1,Tablet,Firefox,Night,21,5,69,5,Referral,Campaign_A,0,1,Books,8,7,7.12,Debit Card,1
+535,1035,2023-01-23 06:00:00,Female,52,Canada,Registered,0,Mobile,Safari,Evening,37,18,54,34,Ads,None,0,0,Beauty,9,3,262.29,NetBanking,1
+536,1684,2023-01-23 07:00:00,Female,63,UK,Premium,0,Desktop,Chrome,Morning,6,3,53,24,Ads,Campaign_C,0,1,Sports,8,4,200.86,UPI,0
+537,1019,2023-01-23 08:00:00,Female,31,Australia,Registered,0,Mobile,Safari,Afternoon,7,17,92,17,Social,Campaign_A,0,0,Books,8,7,151.74,NetBanking,1
+538,3368,2023-01-23 09:00:00,Female,53,Canada,Guest,1,Desktop,Edge,Morning,26,16,27,31,Referral,Campaign_A,1,1,Books,5,5,386.77,Credit Card,1
+539,4847,2023-01-23 10:00:00,Female,29,Australia,Guest,0,Desktop,Safari,Night,42,6,74,7,Organic,Campaign_B,0,1,Home,7,4,450.25,COD,1
+540,3559,2023-01-23 11:00:00,Female,34,UK,Registered,1,Mobile,Chrome,Evening,48,19,34,17,Social,None,0,0,Home,8,7,382.51,Debit Card,0
+541,1399,2023-01-23 12:00:00,Female,56,UK,Guest,0,Mobile,Firefox,Morning,8,7,36,28,Social,None,0,0,Sports,6,6,424.15,Credit Card,1
+542,3701,2023-01-23 13:00:00,Male,26,Germany,Registered,1,Tablet,Firefox,Night,9,18,16,38,Direct,None,1,1,Clothing,3,2,454.85,Debit Card,1
+543,1971,2023-01-23 14:00:00,Female,52,UK,Guest,1,Desktop,Chrome,Evening,27,14,53,22,Referral,Campaign_B,1,0,Beauty,3,3,456.75,Credit Card,0
+544,2906,2023-01-23 15:00:00,Female,30,UK,Guest,1,Mobile,Edge,Afternoon,4,6,38,15,Social,Campaign_A,0,1,Electronics,5,0,61.75,Credit Card,0
+545,3518,2023-01-23 16:00:00,Male,32,India,Registered,0,Desktop,Chrome,Morning,21,8,53,37,Organic,None,0,1,Beauty,3,0,230.91,Credit Card,0
+546,2166,2023-01-23 17:00:00,Female,35,USA,Registered,0,Desktop,Edge,Evening,31,15,45,15,Direct,Campaign_A,1,0,Electronics,6,4,5.14,UPI,1
+547,2115,2023-01-23 18:00:00,Male,50,Germany,Registered,0,Mobile,Firefox,Evening,21,15,28,25,Organic,None,1,1,Sports,7,5,255.7,NetBanking,0
+548,4425,2023-01-23 19:00:00,Male,23,Germany,Guest,0,Desktop,Edge,Evening,40,15,15,21,Ads,Campaign_B,1,0,Clothing,7,6,462.5,COD,1
+549,1833,2023-01-23 20:00:00,Female,44,Germany,Registered,0,Mobile,Chrome,Evening,25,16,34,38,Direct,Campaign_A,1,1,Clothing,7,3,103.56,NetBanking,1
+550,2823,2023-01-23 21:00:00,Male,40,India,Guest,0,Tablet,Chrome,Morning,39,1,40,2,Direct,None,0,0,Clothing,1,3,321.69,NetBanking,1
+551,3774,2023-01-23 22:00:00,Female,44,Australia,Guest,0,Mobile,Chrome,Evening,15,11,18,27,Social,None,0,1,Home,9,2,323.97,Debit Card,0
+552,2982,2023-01-23 23:00:00,Female,51,UK,Registered,1,Mobile,Edge,Night,53,5,93,49,Ads,None,1,0,Sports,1,5,84.38,UPI,1
+553,1853,2023-01-24 00:00:00,Female,63,USA,Guest,1,Mobile,Edge,Morning,35,5,83,32,Social,Campaign_A,1,0,Electronics,1,0,123.07,UPI,0
+554,1050,2023-01-24 01:00:00,Male,55,Canada,Guest,0,Desktop,Edge,Evening,49,6,46,21,Referral,Campaign_A,0,0,Clothing,1,2,233.7,Credit Card,0
+555,4736,2023-01-24 02:00:00,Male,31,Australia,Guest,1,Desktop,Firefox,Morning,43,2,36,4,Organic,Campaign_C,0,1,Sports,3,7,98.16,NetBanking,0
+556,4769,2023-01-24 03:00:00,Female,53,UK,Guest,0,Desktop,Safari,Night,41,6,22,44,Organic,None,1,0,Beauty,4,1,294.57,COD,1
+557,1574,2023-01-24 04:00:00,Other,25,India,Guest,0,Desktop,Safari,Night,37,14,50,19,Social,None,0,1,Electronics,3,3,244.85,Debit Card,1
+558,4261,2023-01-24 05:00:00,Female,52,UK,Guest,0,Mobile,Chrome,Morning,57,11,75,2,Organic,Campaign_A,1,0,Home,4,0,262.0,UPI,0
+559,2148,2023-01-24 06:00:00,Male,36,UK,Guest,1,Tablet,Firefox,Evening,42,4,94,26,Organic,None,0,1,Books,3,2,71.56,Credit Card,1
+560,3197,2023-01-24 07:00:00,Female,47,India,Guest,0,Mobile,Edge,Evening,47,9,33,34,Referral,None,0,1,Electronics,6,4,261.04,COD,1
+561,3361,2023-01-24 08:00:00,Female,31,Germany,Registered,0,Desktop,Chrome,Night,28,3,53,14,Ads,None,0,0,Beauty,9,1,29.49,NetBanking,0
+562,3617,2023-01-24 09:00:00,Female,37,Germany,Guest,1,Mobile,Firefox,Evening,14,16,69,15,Direct,Campaign_C,0,0,Electronics,0,2,441.36,COD,1
+563,4413,2023-01-24 10:00:00,Male,42,USA,Guest,0,Desktop,Chrome,Night,4,11,18,20,Social,Campaign_C,0,0,Electronics,0,4,174.91,UPI,1
+564,3352,2023-01-24 11:00:00,Female,57,USA,Guest,1,Desktop,Firefox,Evening,53,4,11,34,Social,None,0,0,Books,1,0,428.89,Debit Card,1
+565,2715,2023-01-24 12:00:00,Female,41,Germany,Registered,1,Desktop,Firefox,Night,20,1,65,36,Referral,Campaign_C,1,0,Clothing,0,0,352.32,NetBanking,1
+566,1681,2023-01-24 13:00:00,Other,31,Australia,Premium,1,Mobile,Safari,Afternoon,34,16,39,19,Referral,None,1,1,Beauty,9,1,384.26,Debit Card,0
+567,1837,2023-01-24 14:00:00,Male,43,Canada,Registered,0,Mobile,Chrome,Evening,12,19,31,9,Direct,None,0,0,Books,9,4,160.7,COD,1
+568,4854,2023-01-24 15:00:00,Female,55,UK,Registered,0,Mobile,Edge,Evening,33,16,84,7,Ads,None,0,1,Electronics,2,3,117.73,COD,1
+569,2077,2023-01-24 16:00:00,Female,40,Canada,Registered,0,Desktop,Safari,Evening,24,11,90,30,Social,Campaign_C,0,1,Beauty,5,6,206.34,Credit Card,1
+570,4050,2023-01-24 17:00:00,Male,39,UK,Registered,0,Mobile,Safari,Morning,20,8,22,13,Referral,Campaign_A,0,0,Home,9,6,16.99,NetBanking,1
+571,3491,2023-01-24 18:00:00,Female,36,Germany,Registered,0,Tablet,Edge,Evening,5,1,80,27,Social,Campaign_A,0,1,Electronics,5,0,459.78,COD,0
+572,3660,2023-01-24 19:00:00,Female,63,USA,Guest,0,Mobile,Firefox,Morning,38,9,25,44,Organic,Campaign_B,0,0,Home,0,5,196.57,UPI,0
+573,4040,2023-01-24 20:00:00,Male,20,Australia,Guest,1,Mobile,Edge,Morning,30,12,54,35,Social,Campaign_A,0,1,Sports,5,3,494.34,UPI,0
+574,3311,2023-01-24 21:00:00,Male,59,USA,Guest,1,Desktop,Chrome,Night,24,8,74,13,Ads,Campaign_B,0,0,Home,4,3,381.92,Debit Card,1
+575,4124,2023-01-24 22:00:00,Female,36,Canada,Premium,0,Mobile,Edge,Morning,43,17,20,15,Ads,Campaign_B,0,1,Electronics,6,6,44.85,UPI,0
+576,2595,2023-01-24 23:00:00,Male,26,USA,Registered,0,Tablet,Firefox,Morning,40,10,79,46,Social,Campaign_B,1,1,Books,5,2,331.79,COD,1
+577,4051,2023-01-25 00:00:00,Female,45,Germany,Registered,0,Desktop,Edge,Afternoon,7,7,29,9,Organic,Campaign_C,0,0,Electronics,6,7,139.07,UPI,1
+578,4691,2023-01-25 01:00:00,Male,37,Australia,Guest,0,Mobile,Firefox,Evening,36,19,72,45,Ads,Campaign_A,1,1,Electronics,1,2,125.64,NetBanking,1
+579,1004,2023-01-25 02:00:00,Female,62,Canada,Registered,1,Mobile,Firefox,Morning,38,6,99,23,Referral,Campaign_A,1,0,Sports,0,0,132.0,Debit Card,0
+580,2126,2023-01-25 03:00:00,Male,24,Australia,Guest,1,Mobile,Chrome,Evening,16,19,21,36,Social,None,1,0,Clothing,6,3,458.46,NetBanking,1
+581,2219,2023-01-25 04:00:00,Female,31,UK,Guest,1,Mobile,Edge,Morning,52,18,71,40,Organic,Campaign_C,1,1,Electronics,8,2,252.49,COD,1
+582,1773,2023-01-25 05:00:00,Other,26,USA,Premium,1,Desktop,Edge,Night,15,15,51,3,Referral,Campaign_C,0,0,Sports,1,4,336.39,COD,1
+583,1876,2023-01-25 06:00:00,Other,36,Australia,Registered,0,Mobile,Chrome,Afternoon,46,2,92,34,Social,None,0,1,Books,6,4,144.07,UPI,1
+584,1991,2023-01-25 07:00:00,Female,64,India,Guest,1,Mobile,Firefox,Morning,23,14,78,19,Organic,None,0,0,Sports,2,7,263.86,Credit Card,0
+585,3931,2023-01-25 08:00:00,Male,31,USA,Premium,0,Mobile,Edge,Evening,12,10,67,28,Referral,Campaign_C,1,1,Sports,5,4,178.3,Credit Card,0
+586,4421,2023-01-25 09:00:00,Female,55,UK,Guest,0,Mobile,Chrome,Night,29,16,14,23,Ads,None,1,0,Home,2,7,163.96,COD,1
+587,1046,2023-01-25 10:00:00,Male,53,Australia,Premium,0,Mobile,Firefox,Evening,44,7,36,40,Social,None,1,0,Clothing,9,4,127.25,COD,1
+588,3914,2023-01-25 11:00:00,Male,57,Canada,Guest,0,Desktop,Chrome,Night,48,8,37,49,Social,None,0,0,Clothing,4,7,207.46,Debit Card,0
+589,3870,2023-01-25 12:00:00,Male,34,UK,Guest,0,Desktop,Edge,Afternoon,15,10,35,45,Ads,Campaign_C,1,0,Beauty,1,7,331.71,COD,1
+590,3983,2023-01-25 13:00:00,Female,47,India,Guest,0,Desktop,Chrome,Night,29,15,58,7,Direct,None,0,0,Books,7,7,114.91,COD,1
+591,4891,2023-01-25 14:00:00,Female,26,Australia,Guest,1,Desktop,Safari,Evening,45,8,30,41,Referral,Campaign_A,0,0,Beauty,7,3,482.89,Debit Card,1
+592,3703,2023-01-25 15:00:00,Female,50,Germany,Guest,0,Mobile,Firefox,Evening,43,13,10,12,Ads,Campaign_C,1,0,Sports,6,4,66.68,NetBanking,0
+593,1268,2023-01-25 16:00:00,Male,42,USA,Registered,0,Desktop,Safari,Morning,49,12,67,14,Social,None,0,0,Books,5,3,242.7,NetBanking,1
+594,1369,2023-01-25 17:00:00,Male,31,Canada,Premium,0,Mobile,Safari,Night,21,8,88,46,Referral,Campaign_C,1,0,Books,0,6,47.09,Debit Card,0
+595,1635,2023-01-25 18:00:00,Other,28,Germany,Registered,1,Mobile,Firefox,Evening,15,15,64,15,Referral,None,0,0,Clothing,7,0,16.22,Debit Card,1
+596,2129,2023-01-25 19:00:00,Male,52,Australia,Guest,0,Mobile,Firefox,Morning,14,12,90,3,Direct,Campaign_C,1,0,Clothing,0,7,461.73,NetBanking,1
+597,2693,2023-01-25 20:00:00,Male,58,Australia,Registered,1,Mobile,Chrome,Afternoon,42,11,35,15,Social,None,0,1,Clothing,7,0,406.14,NetBanking,0
+598,2682,2023-01-25 21:00:00,Male,31,UK,Guest,1,Desktop,Firefox,Evening,44,19,93,24,Organic,Campaign_C,1,0,Electronics,1,4,348.61,NetBanking,1
+599,1656,2023-01-25 22:00:00,Female,47,Australia,Guest,0,Mobile,Safari,Morning,16,14,34,46,Direct,Campaign_A,1,0,Sports,7,4,433.27,NetBanking,0
+600,1119,2023-01-25 23:00:00,Female,58,Canada,Registered,1,Desktop,Safari,Evening,15,18,86,8,Direct,Campaign_C,1,0,Books,9,4,402.41,UPI,1
+601,1830,2023-01-26 00:00:00,Male,21,Germany,Registered,0,Mobile,Edge,Night,42,13,42,5,Organic,Campaign_B,0,1,Sports,3,7,325.38,Debit Card,1
+602,2810,2023-01-26 01:00:00,Male,21,Canada,Guest,0,Mobile,Firefox,Morning,4,4,98,4,Organic,Campaign_A,1,0,Books,6,0,424.43,Credit Card,0
+603,4675,2023-01-26 02:00:00,Female,45,India,Guest,1,Desktop,Safari,Night,27,17,81,14,Direct,None,0,1,Books,4,2,198.45,UPI,1
+604,2081,2023-01-26 03:00:00,Female,25,India,Premium,0,Mobile,Edge,Afternoon,23,19,78,16,Referral,Campaign_B,0,0,Beauty,7,0,278.61,Credit Card,0
+605,2974,2023-01-26 04:00:00,Male,19,USA,Guest,0,Mobile,Edge,Night,29,9,15,20,Ads,None,0,0,Books,5,4,389.27,Credit Card,1
+606,2369,2023-01-26 05:00:00,Female,58,USA,Registered,0,Mobile,Chrome,Morning,41,7,32,24,Ads,Campaign_B,1,1,Books,4,2,46.98,COD,1
+607,1740,2023-01-26 06:00:00,Male,63,India,Registered,0,Desktop,Safari,Evening,53,1,39,6,Direct,Campaign_A,0,0,Home,0,7,430.03,Debit Card,0
+608,4545,2023-01-26 07:00:00,Male,39,Australia,Guest,1,Desktop,Chrome,Morning,52,7,87,31,Referral,None,1,0,Home,2,2,82.63,UPI,1
+609,1116,2023-01-26 08:00:00,Female,58,Canada,Guest,0,Mobile,Safari,Night,9,7,63,6,Organic,Campaign_B,1,1,Beauty,9,1,432.95,Debit Card,1
+610,2853,2023-01-26 09:00:00,Male,33,India,Guest,1,Tablet,Chrome,Night,53,7,96,35,Direct,None,0,1,Electronics,8,6,159.11,NetBanking,1
+611,3838,2023-01-26 10:00:00,Female,46,USA,Registered,0,Desktop,Chrome,Evening,57,8,20,15,Social,None,1,1,Clothing,8,3,166.76,Debit Card,0
+612,2150,2023-01-26 11:00:00,Male,47,India,Registered,1,Desktop,Firefox,Afternoon,56,16,40,29,Referral,Campaign_C,0,1,Books,4,6,41.6,Credit Card,0
+613,4464,2023-01-26 12:00:00,Male,29,Australia,Registered,0,Desktop,Chrome,Morning,52,3,15,3,Social,None,1,1,Sports,2,4,443.52,NetBanking,0
+614,2931,2023-01-26 13:00:00,Other,52,India,Premium,0,Mobile,Firefox,Evening,43,13,20,11,Social,None,0,1,Home,5,3,91.38,Debit Card,1
+615,2012,2023-01-26 14:00:00,Male,28,Canada,Registered,1,Desktop,Edge,Evening,43,10,86,3,Direct,Campaign_C,0,0,Clothing,4,1,316.87,Debit Card,1
+616,2664,2023-01-26 15:00:00,Female,63,Germany,Registered,0,Mobile,Safari,Evening,7,18,21,28,Referral,None,0,1,Electronics,0,3,323.76,Credit Card,0
+617,2081,2023-01-26 16:00:00,Male,38,Australia,Registered,0,Mobile,Edge,Morning,53,7,75,10,Social,Campaign_A,0,1,Clothing,1,4,144.17,NetBanking,0
+618,1633,2023-01-26 17:00:00,Male,38,USA,Registered,0,Tablet,Safari,Morning,42,5,62,33,Referral,Campaign_C,0,0,Books,4,1,492.9,Credit Card,1
+619,1512,2023-01-26 18:00:00,Male,22,Canada,Registered,1,Desktop,Edge,Morning,4,7,45,48,Ads,None,0,0,Clothing,8,3,36.76,Debit Card,0
+620,4822,2023-01-26 19:00:00,Female,37,India,Registered,0,Mobile,Safari,Afternoon,5,17,26,16,Social,None,0,0,Books,3,7,305.9,UPI,0
+621,3849,2023-01-26 20:00:00,Male,54,India,Registered,1,Mobile,Chrome,Evening,5,4,37,10,Social,None,0,1,Beauty,8,0,242.37,UPI,0
+622,2119,2023-01-26 21:00:00,Female,20,Germany,Guest,0,Desktop,Safari,Night,11,16,31,33,Referral,None,0,0,Home,2,2,126.51,COD,1
+623,4709,2023-01-26 22:00:00,Male,61,USA,Registered,0,Mobile,Safari,Night,41,19,16,36,Ads,None,1,1,Home,0,6,85.96,UPI,1
+624,2141,2023-01-26 23:00:00,Other,50,USA,Guest,1,Mobile,Edge,Evening,28,10,24,3,Social,None,0,0,Books,5,1,369.86,NetBanking,1
+625,1559,2023-01-27 00:00:00,Male,26,UK,Guest,1,Mobile,Edge,Night,16,3,20,5,Direct,Campaign_B,1,1,Sports,9,0,458.58,COD,0
+626,4672,2023-01-27 01:00:00,Female,26,USA,Guest,1,Mobile,Edge,Afternoon,41,3,33,12,Referral,Campaign_A,0,0,Home,6,4,58.24,NetBanking,1
+627,1487,2023-01-27 02:00:00,Female,21,Germany,Registered,1,Desktop,Firefox,Afternoon,54,17,76,44,Referral,Campaign_C,0,1,Sports,3,2,101.02,UPI,0
+628,4308,2023-01-27 03:00:00,Female,52,UK,Registered,0,Mobile,Firefox,Morning,30,10,39,13,Social,None,0,1,Books,9,6,493.2,UPI,1
+629,4956,2023-01-27 04:00:00,Female,34,UK,Guest,0,Desktop,Safari,Morning,4,17,79,24,Ads,Campaign_B,0,1,Beauty,4,1,12.44,Debit Card,0
+630,1896,2023-01-27 05:00:00,Female,51,India,Registered,0,Mobile,Safari,Morning,2,17,75,44,Social,Campaign_A,0,1,Books,3,2,256.58,NetBanking,0
+631,4343,2023-01-27 06:00:00,Female,41,India,Registered,1,Desktop,Chrome,Morning,46,4,70,32,Organic,Campaign_B,0,1,Beauty,2,5,260.48,Credit Card,1
+632,2212,2023-01-27 07:00:00,Male,49,USA,Guest,1,Tablet,Chrome,Morning,3,6,87,16,Social,None,1,0,Home,0,7,135.26,Debit Card,0
+633,1703,2023-01-27 08:00:00,Male,18,UK,Registered,0,Desktop,Safari,Night,50,12,50,32,Organic,None,1,0,Sports,5,5,333.2,NetBanking,1
+634,2470,2023-01-27 09:00:00,Female,25,India,Registered,0,Desktop,Firefox,Night,21,17,91,45,Direct,Campaign_C,0,1,Books,9,1,472.75,COD,1
+635,1580,2023-01-27 10:00:00,Female,62,Germany,Registered,0,Tablet,Safari,Morning,6,17,60,37,Referral,Campaign_A,1,0,Home,4,1,227.86,NetBanking,1
+636,3837,2023-01-27 11:00:00,Female,40,India,Registered,1,Mobile,Chrome,Afternoon,43,10,53,36,Referral,Campaign_B,0,0,Beauty,0,3,375.96,COD,0
+637,3908,2023-01-27 12:00:00,Female,64,Australia,Registered,0,Desktop,Firefox,Night,53,7,22,21,Ads,Campaign_A,0,0,Books,4,2,324.8,COD,1
+638,3294,2023-01-27 13:00:00,Male,57,Australia,Guest,0,Desktop,Firefox,Afternoon,18,16,99,47,Social,Campaign_A,0,0,Beauty,5,5,239.11,UPI,1
+639,4147,2023-01-27 14:00:00,Male,29,India,Guest,0,Mobile,Chrome,Afternoon,44,13,21,12,Direct,None,1,0,Clothing,9,6,29.66,Credit Card,0
+640,1153,2023-01-27 15:00:00,Female,29,UK,Guest,1,Mobile,Safari,Evening,5,3,91,21,Organic,None,1,1,Beauty,4,5,372.17,NetBanking,0
+641,2679,2023-01-27 16:00:00,Male,63,UK,Premium,1,Tablet,Edge,Evening,9,2,18,21,Ads,Campaign_A,1,0,Clothing,0,2,184.81,Credit Card,0
+642,4506,2023-01-27 17:00:00,Male,64,Canada,Guest,1,Desktop,Safari,Morning,20,16,94,43,Direct,Campaign_A,0,0,Home,4,5,116.12,COD,1
+643,1996,2023-01-27 18:00:00,Female,32,Australia,Guest,0,Mobile,Safari,Afternoon,28,6,57,6,Direct,Campaign_B,0,0,Books,9,6,474.39,UPI,0
+644,4157,2023-01-27 19:00:00,Male,58,Germany,Premium,0,Mobile,Chrome,Night,26,6,58,9,Organic,Campaign_C,1,1,Home,0,0,387.88,Credit Card,0
+645,3744,2023-01-27 20:00:00,Female,36,UK,Premium,1,Desktop,Firefox,Evening,18,13,62,1,Organic,Campaign_B,0,1,Electronics,2,7,481.32,Debit Card,1
+646,4356,2023-01-27 21:00:00,Male,43,USA,Registered,1,Mobile,Chrome,Evening,19,7,65,12,Referral,Campaign_B,0,1,Beauty,1,5,131.83,COD,1
+647,2243,2023-01-27 22:00:00,Female,46,Australia,Guest,0,Desktop,Safari,Afternoon,3,5,49,14,Social,Campaign_B,0,0,Home,0,7,418.72,Debit Card,1
+648,2092,2023-01-27 23:00:00,Male,39,Germany,Guest,0,Desktop,Edge,Evening,9,7,33,6,Ads,None,0,1,Home,3,5,305.82,Credit Card,1
+649,4118,2023-01-28 00:00:00,Male,57,Germany,Guest,0,Desktop,Edge,Evening,36,2,81,1,Social,None,0,1,Clothing,1,4,490.84,Credit Card,1
+650,2008,2023-01-28 01:00:00,Male,38,UK,Guest,0,Mobile,Edge,Night,31,17,42,22,Ads,None,0,1,Beauty,4,0,473.43,Credit Card,0
+651,3141,2023-01-28 02:00:00,Male,55,Germany,Guest,1,Desktop,Chrome,Afternoon,49,13,32,34,Direct,Campaign_B,0,1,Clothing,9,3,486.62,NetBanking,1
+652,2773,2023-01-28 03:00:00,Male,37,UK,Registered,0,Desktop,Firefox,Evening,17,16,86,11,Organic,None,0,0,Books,0,1,476.12,COD,1
+653,1957,2023-01-28 04:00:00,Male,46,India,Premium,0,Desktop,Chrome,Afternoon,55,2,63,3,Organic,None,0,0,Home,9,6,8.79,COD,0
+654,4059,2023-01-28 05:00:00,Female,21,Australia,Guest,0,Mobile,Edge,Evening,23,5,62,42,Direct,Campaign_A,0,0,Beauty,0,5,371.84,COD,0
+655,1452,2023-01-28 06:00:00,Male,24,Canada,Registered,0,Mobile,Safari,Night,34,18,58,6,Direct,Campaign_B,0,0,Home,9,6,139.61,NetBanking,1
+656,2227,2023-01-28 07:00:00,Female,45,India,Registered,0,Tablet,Firefox,Afternoon,41,7,87,6,Ads,Campaign_C,0,1,Books,3,3,353.99,Credit Card,1
+657,3959,2023-01-28 08:00:00,Female,45,Australia,Guest,0,Mobile,Chrome,Evening,41,11,87,20,Direct,Campaign_A,0,1,Sports,6,3,490.4,Credit Card,1
+658,3265,2023-01-28 09:00:00,Female,21,UK,Registered,0,Mobile,Chrome,Night,5,11,89,21,Ads,Campaign_C,0,1,Books,1,0,24.48,Debit Card,0
+659,3521,2023-01-28 10:00:00,Male,39,Australia,Guest,1,Mobile,Firefox,Evening,15,17,58,2,Social,Campaign_C,1,0,Clothing,1,6,285.66,NetBanking,0
+660,3479,2023-01-28 11:00:00,Female,29,UK,Guest,0,Desktop,Firefox,Afternoon,47,16,69,26,Organic,Campaign_C,1,0,Clothing,0,1,368.8,UPI,0
+661,3388,2023-01-28 12:00:00,Male,62,India,Registered,0,Mobile,Safari,Evening,3,13,99,31,Organic,Campaign_B,0,0,Home,4,4,130.41,NetBanking,0
+662,1550,2023-01-28 13:00:00,Male,20,USA,Guest,1,Mobile,Firefox,Afternoon,19,5,99,26,Organic,Campaign_C,0,0,Clothing,5,3,116.44,Debit Card,1
+663,2635,2023-01-28 14:00:00,Other,39,USA,Premium,1,Mobile,Safari,Afternoon,28,16,74,32,Social,None,1,0,Beauty,5,4,34.87,Debit Card,0
+664,2312,2023-01-28 15:00:00,Male,61,Australia,Guest,1,Desktop,Edge,Evening,3,16,41,10,Social,Campaign_B,0,1,Books,1,1,51.49,Debit Card,0
+665,4325,2023-01-28 16:00:00,Female,19,USA,Registered,0,Mobile,Edge,Night,38,16,88,23,Referral,None,0,0,Home,6,1,330.09,Credit Card,1
+666,2757,2023-01-28 17:00:00,Female,41,UK,Registered,0,Mobile,Chrome,Morning,4,14,30,6,Ads,Campaign_A,0,1,Books,5,7,255.08,UPI,0
+667,1356,2023-01-28 18:00:00,Female,51,Germany,Guest,0,Mobile,Edge,Night,24,6,27,23,Ads,Campaign_A,0,0,Books,7,0,19.89,Debit Card,0
+668,3070,2023-01-28 19:00:00,Female,44,UK,Guest,0,Desktop,Edge,Night,31,2,69,28,Referral,Campaign_C,0,1,Home,5,6,484.98,COD,0
+669,2785,2023-01-28 20:00:00,Male,58,Germany,Registered,0,Mobile,Safari,Evening,45,14,22,49,Organic,Campaign_A,1,0,Sports,8,2,329.74,Credit Card,0
+670,3569,2023-01-28 21:00:00,Male,18,India,Premium,1,Mobile,Chrome,Night,59,16,33,30,Ads,Campaign_A,1,0,Clothing,9,6,260.16,UPI,1
+671,2781,2023-01-28 22:00:00,Female,25,Canada,Premium,0,Mobile,Firefox,Night,45,13,39,14,Ads,Campaign_A,0,1,Electronics,1,5,140.0,COD,1
+672,4908,2023-01-28 23:00:00,Male,40,Germany,Registered,0,Tablet,Chrome,Morning,59,15,11,37,Organic,Campaign_C,0,1,Electronics,6,0,330.76,UPI,0
+673,4171,2023-01-29 00:00:00,Male,55,USA,Registered,0,Desktop,Edge,Night,11,12,92,32,Direct,None,0,0,Electronics,4,6,185.26,UPI,1
+674,3849,2023-01-29 01:00:00,Male,23,UK,Registered,0,Tablet,Firefox,Morning,37,9,34,49,Direct,Campaign_B,0,0,Clothing,0,4,352.73,COD,1
+675,4251,2023-01-29 02:00:00,Male,39,India,Registered,1,Desktop,Chrome,Evening,1,18,59,34,Referral,None,0,0,Sports,2,7,342.87,NetBanking,0
+676,4294,2023-01-29 03:00:00,Male,42,USA,Registered,0,Mobile,Chrome,Morning,9,14,23,41,Social,Campaign_A,0,1,Books,3,6,50.91,UPI,1
+677,4977,2023-01-29 04:00:00,Male,35,India,Registered,1,Desktop,Chrome,Afternoon,17,4,15,44,Ads,None,0,1,Home,1,0,455.08,NetBanking,0
+678,3809,2023-01-29 05:00:00,Female,34,Canada,Premium,1,Mobile,Chrome,Afternoon,54,8,85,22,Ads,Campaign_C,0,0,Sports,6,1,246.05,UPI,0
+679,4730,2023-01-29 06:00:00,Female,29,UK,Guest,0,Mobile,Safari,Morning,1,8,93,31,Referral,None,0,0,Electronics,0,7,199.51,COD,1
+680,3489,2023-01-29 07:00:00,Female,23,Australia,Premium,0,Mobile,Chrome,Afternoon,3,16,96,7,Referral,None,1,1,Beauty,2,3,477.95,UPI,0
+681,2631,2023-01-29 08:00:00,Male,43,UK,Registered,1,Mobile,Edge,Evening,47,10,39,41,Ads,None,0,0,Clothing,8,7,221.91,Debit Card,1
+682,3816,2023-01-29 09:00:00,Male,44,Canada,Guest,1,Tablet,Edge,Afternoon,26,17,39,21,Organic,Campaign_A,1,1,Clothing,1,7,362.0,Debit Card,1
+683,2015,2023-01-29 10:00:00,Male,25,UK,Guest,0,Mobile,Safari,Morning,53,1,47,16,Organic,None,0,0,Home,4,5,329.29,UPI,0
+684,2348,2023-01-29 11:00:00,Female,36,Australia,Guest,1,Desktop,Firefox,Evening,31,18,67,20,Social,Campaign_A,0,0,Beauty,3,5,86.74,COD,1
+685,1515,2023-01-29 12:00:00,Female,59,Germany,Registered,0,Mobile,Firefox,Afternoon,26,10,50,43,Ads,None,0,0,Books,2,2,495.62,COD,1
+686,4087,2023-01-29 13:00:00,Male,18,India,Premium,1,Mobile,Edge,Evening,23,4,66,44,Ads,Campaign_B,0,0,Sports,4,1,234.48,Credit Card,1
+687,3839,2023-01-29 14:00:00,Female,46,Australia,Guest,0,Desktop,Edge,Morning,30,1,45,47,Ads,Campaign_B,0,0,Beauty,5,5,200.42,COD,0
+688,1335,2023-01-29 15:00:00,Male,62,USA,Premium,0,Desktop,Safari,Afternoon,10,4,73,19,Ads,Campaign_A,1,1,Sports,0,7,460.21,NetBanking,1
+689,2782,2023-01-29 16:00:00,Female,52,Canada,Premium,1,Desktop,Firefox,Evening,8,4,25,48,Referral,Campaign_A,1,1,Sports,1,5,266.97,UPI,1
+690,3305,2023-01-29 17:00:00,Female,57,Germany,Guest,0,Mobile,Firefox,Evening,44,4,97,32,Direct,None,0,1,Books,0,3,354.01,Debit Card,0
+691,1496,2023-01-29 18:00:00,Female,31,USA,Premium,0,Mobile,Chrome,Afternoon,25,17,87,15,Ads,None,0,1,Books,2,4,423.89,COD,0
+692,1895,2023-01-29 19:00:00,Female,52,USA,Premium,0,Desktop,Chrome,Evening,22,9,99,5,Direct,None,0,0,Books,7,4,121.57,Debit Card,0
+693,3207,2023-01-29 20:00:00,Female,62,Canada,Registered,1,Desktop,Chrome,Evening,15,19,81,11,Organic,None,0,0,Home,7,4,88.89,Credit Card,1
+694,4546,2023-01-29 21:00:00,Male,37,Germany,Registered,1,Mobile,Safari,Morning,59,13,23,15,Social,None,0,1,Clothing,3,0,38.91,UPI,0
+695,1851,2023-01-29 22:00:00,Female,30,USA,Premium,1,Tablet,Edge,Morning,41,4,40,29,Organic,Campaign_B,0,0,Electronics,5,4,449.08,COD,1
+696,2687,2023-01-29 23:00:00,Male,55,USA,Registered,0,Desktop,Safari,Morning,56,5,75,45,Ads,Campaign_A,0,0,Books,8,4,104.18,Debit Card,0
+697,2931,2023-01-30 00:00:00,Female,63,Germany,Guest,1,Tablet,Firefox,Morning,57,13,77,4,Organic,Campaign_A,0,0,Clothing,6,0,157.34,COD,0
+698,3737,2023-01-30 01:00:00,Female,25,UK,Premium,0,Desktop,Edge,Morning,10,16,74,49,Referral,Campaign_B,0,0,Books,1,7,146.47,Credit Card,1
+699,4746,2023-01-30 02:00:00,Female,60,USA,Registered,0,Desktop,Chrome,Morning,20,5,64,36,Direct,Campaign_B,0,0,Electronics,1,7,155.77,Debit Card,1
+700,3427,2023-01-30 03:00:00,Male,37,India,Registered,1,Mobile,Safari,Afternoon,41,8,93,48,Ads,Campaign_A,0,1,Beauty,2,7,335.69,Debit Card,0
+701,2568,2023-01-30 04:00:00,Female,50,Germany,Guest,0,Mobile,Safari,Morning,47,16,87,23,Referral,Campaign_A,1,1,Books,7,3,477.29,UPI,0
+702,1956,2023-01-30 05:00:00,Female,43,USA,Registered,0,Desktop,Chrome,Evening,23,1,49,15,Direct,Campaign_A,0,1,Clothing,9,1,168.08,UPI,0
+703,3738,2023-01-30 06:00:00,Female,56,Canada,Guest,0,Mobile,Safari,Afternoon,53,6,34,46,Referral,None,1,1,Home,8,5,206.79,Debit Card,1
+704,4498,2023-01-30 07:00:00,Male,38,Australia,Premium,0,Mobile,Chrome,Evening,53,11,34,44,Organic,Campaign_A,1,1,Beauty,2,2,386.72,UPI,1
+705,2636,2023-01-30 08:00:00,Male,59,India,Guest,1,Mobile,Firefox,Morning,1,16,12,3,Ads,Campaign_C,1,0,Beauty,8,5,219.01,Debit Card,0
+706,2291,2023-01-30 09:00:00,Male,60,Australia,Guest,0,Mobile,Edge,Morning,2,5,78,32,Organic,Campaign_C,1,0,Beauty,9,7,463.39,NetBanking,0
+707,4906,2023-01-30 10:00:00,Male,58,Australia,Registered,1,Tablet,Firefox,Evening,58,16,35,10,Social,Campaign_C,0,1,Electronics,7,7,254.09,COD,0
+708,4648,2023-01-30 11:00:00,Female,26,USA,Guest,0,Desktop,Firefox,Evening,19,7,49,40,Ads,Campaign_A,1,0,Clothing,4,4,177.13,NetBanking,1
+709,2440,2023-01-30 12:00:00,Male,41,India,Registered,0,Mobile,Chrome,Evening,14,19,47,38,Organic,Campaign_B,0,0,Sports,9,4,485.93,NetBanking,1
+710,2191,2023-01-30 13:00:00,Other,54,India,Premium,0,Mobile,Safari,Night,8,1,47,22,Ads,Campaign_A,0,0,Sports,2,6,215.76,COD,1
+711,4913,2023-01-30 14:00:00,Male,58,UK,Premium,1,Desktop,Firefox,Night,38,9,77,14,Direct,Campaign_B,1,0,Sports,6,5,119.43,Debit Card,1
+712,2066,2023-01-30 15:00:00,Male,34,Australia,Guest,1,Desktop,Firefox,Night,12,18,16,17,Ads,Campaign_A,1,0,Home,8,7,92.96,Debit Card,1
+713,4627,2023-01-30 16:00:00,Female,41,India,Guest,1,Tablet,Firefox,Night,26,13,39,21,Ads,Campaign_C,1,0,Books,5,5,497.61,UPI,1
+714,1284,2023-01-30 17:00:00,Female,38,UK,Premium,1,Mobile,Safari,Afternoon,27,15,28,48,Direct,None,1,0,Books,2,6,377.73,Credit Card,1
+715,3444,2023-01-30 18:00:00,Female,56,Germany,Premium,0,Mobile,Safari,Morning,29,3,44,15,Organic,Campaign_C,1,1,Books,4,4,207.29,Debit Card,1
+716,1011,2023-01-30 19:00:00,Female,58,UK,Registered,1,Mobile,Chrome,Evening,15,10,42,15,Ads,Campaign_C,1,0,Home,6,7,414.05,COD,0
+717,2630,2023-01-30 20:00:00,Female,56,Canada,Registered,1,Tablet,Firefox,Morning,46,9,42,1,Referral,Campaign_B,1,1,Sports,7,0,275.67,Credit Card,0
+718,4373,2023-01-30 21:00:00,Male,30,USA,Guest,1,Desktop,Edge,Evening,53,13,87,24,Ads,None,0,0,Beauty,3,7,162.11,COD,0
+719,4969,2023-01-30 22:00:00,Other,28,Germany,Premium,0,Desktop,Safari,Morning,1,16,47,12,Organic,Campaign_B,1,0,Books,1,0,372.98,COD,0
+720,4324,2023-01-30 23:00:00,Other,63,Germany,Registered,0,Mobile,Chrome,Afternoon,43,3,19,10,Direct,None,1,0,Beauty,9,0,374.22,COD,0
+721,3546,2023-01-31 00:00:00,Female,36,Canada,Guest,1,Desktop,Firefox,Night,28,15,66,46,Organic,None,1,0,Beauty,1,2,252.58,Credit Card,1
+722,1753,2023-01-31 01:00:00,Male,28,UK,Guest,1,Desktop,Edge,Morning,57,17,37,42,Social,Campaign_C,0,1,Home,2,1,27.35,NetBanking,1
+723,3082,2023-01-31 02:00:00,Female,30,USA,Premium,0,Mobile,Safari,Evening,3,14,87,42,Ads,Campaign_B,0,1,Home,7,4,43.13,COD,0
+724,3774,2023-01-31 03:00:00,Male,63,UK,Guest,1,Mobile,Edge,Morning,51,7,47,31,Ads,Campaign_C,0,1,Clothing,0,3,395.43,UPI,1
+725,3896,2023-01-31 04:00:00,Male,62,India,Guest,1,Mobile,Safari,Afternoon,18,16,25,11,Direct,Campaign_A,1,1,Books,6,5,412.62,Debit Card,1
+726,1089,2023-01-31 05:00:00,Male,18,UK,Registered,0,Mobile,Chrome,Afternoon,52,8,30,16,Ads,Campaign_A,0,0,Sports,5,5,340.75,Debit Card,1
+727,1775,2023-01-31 06:00:00,Male,57,Germany,Guest,1,Mobile,Edge,Morning,34,4,15,9,Referral,Campaign_A,0,0,Electronics,1,4,420.34,Debit Card,1
+728,3652,2023-01-31 07:00:00,Female,61,USA,Guest,0,Mobile,Firefox,Night,32,15,50,47,Referral,Campaign_A,0,0,Home,8,4,361.15,Credit Card,0
+729,4993,2023-01-31 08:00:00,Female,36,UK,Premium,0,Mobile,Firefox,Evening,29,5,24,14,Organic,Campaign_C,1,0,Beauty,4,4,448.98,UPI,0
+730,4017,2023-01-31 09:00:00,Female,29,USA,Premium,0,Mobile,Safari,Afternoon,25,13,12,19,Direct,None,1,0,Clothing,1,5,79.45,UPI,1
+731,2625,2023-01-31 10:00:00,Male,25,USA,Premium,0,Mobile,Firefox,Afternoon,26,6,52,31,Social,Campaign_B,1,0,Electronics,2,6,196.93,UPI,1
+732,4069,2023-01-31 11:00:00,Male,25,India,Premium,1,Desktop,Edge,Morning,39,5,56,9,Organic,None,0,0,Home,6,4,234.73,UPI,0
+733,1417,2023-01-31 12:00:00,Male,62,India,Registered,0,Mobile,Chrome,Afternoon,8,17,23,36,Direct,None,0,0,Clothing,6,5,152.34,UPI,1
+734,1114,2023-01-31 13:00:00,Other,29,Germany,Premium,0,Desktop,Safari,Afternoon,19,7,75,39,Direct,None,0,0,Beauty,9,1,364.06,NetBanking,1
+735,1616,2023-01-31 14:00:00,Male,50,Canada,Guest,0,Mobile,Edge,Evening,54,6,38,26,Organic,None,0,1,Books,0,3,456.66,UPI,1
+736,4974,2023-01-31 15:00:00,Female,62,USA,Registered,0,Desktop,Safari,Night,47,2,13,8,Organic,Campaign_B,1,1,Clothing,9,0,209.18,UPI,0
+737,4267,2023-01-31 16:00:00,Female,43,Canada,Premium,0,Mobile,Chrome,Evening,42,11,35,24,Ads,Campaign_A,0,1,Home,3,6,471.06,Credit Card,1
+738,1825,2023-01-31 17:00:00,Male,56,Germany,Guest,1,Desktop,Safari,Night,22,7,21,8,Social,Campaign_C,0,1,Books,5,3,260.8,Credit Card,1
+739,4572,2023-01-31 18:00:00,Female,45,USA,Guest,0,Mobile,Firefox,Evening,29,8,11,19,Referral,Campaign_C,0,0,Beauty,7,4,263.65,UPI,1
+740,2649,2023-01-31 19:00:00,Female,22,USA,Registered,1,Desktop,Firefox,Morning,33,5,26,47,Ads,None,0,0,Sports,2,3,302.11,NetBanking,1
+741,2516,2023-01-31 20:00:00,Female,25,Australia,Guest,1,Mobile,Safari,Afternoon,38,18,44,48,Direct,None,1,0,Clothing,2,4,137.82,UPI,1
+742,4146,2023-01-31 21:00:00,Female,42,Canada,Guest,0,Desktop,Chrome,Night,45,16,19,30,Social,Campaign_C,0,1,Electronics,7,3,194.76,UPI,1
+743,1412,2023-01-31 22:00:00,Male,44,UK,Premium,1,Mobile,Chrome,Morning,46,14,95,22,Social,Campaign_B,1,1,Beauty,7,2,278.85,UPI,0
+744,4447,2023-01-31 23:00:00,Male,63,India,Premium,0,Mobile,Firefox,Afternoon,35,12,52,9,Organic,Campaign_A,0,0,Books,7,7,471.28,COD,0
+745,4491,2023-02-01 00:00:00,Female,40,UK,Registered,0,Mobile,Chrome,Afternoon,43,17,30,44,Social,Campaign_A,0,0,Beauty,0,3,323.13,NetBanking,1
+746,1728,2023-02-01 01:00:00,Female,47,Canada,Guest,0,Desktop,Safari,Afternoon,3,5,24,48,Social,Campaign_C,0,1,Books,7,7,169.89,Debit Card,0
+747,4348,2023-02-01 02:00:00,Male,62,India,Guest,0,Tablet,Edge,Evening,19,14,44,4,Direct,Campaign_C,0,0,Beauty,7,0,10.18,UPI,0
+748,4068,2023-02-01 03:00:00,Female,64,UK,Premium,0,Desktop,Safari,Morning,10,6,94,37,Ads,None,1,1,Sports,1,0,490.92,Debit Card,0
+749,3808,2023-02-01 04:00:00,Female,40,Australia,Registered,1,Mobile,Firefox,Morning,27,15,94,8,Social,Campaign_C,0,0,Clothing,8,6,249.03,NetBanking,0
+750,1675,2023-02-01 05:00:00,Female,64,India,Guest,0,Mobile,Firefox,Afternoon,15,7,94,1,Organic,None,0,0,Electronics,6,3,469.56,UPI,0
+751,4465,2023-02-01 06:00:00,Male,37,USA,Registered,1,Tablet,Firefox,Night,11,14,69,28,Ads,None,0,1,Sports,7,5,276.93,Debit Card,1
+752,2892,2023-02-01 07:00:00,Female,35,UK,Guest,0,Mobile,Chrome,Morning,47,18,53,6,Organic,None,0,1,Clothing,1,7,304.71,Debit Card,0
+753,3504,2023-02-01 08:00:00,Female,35,India,Registered,1,Desktop,Safari,Evening,26,1,14,47,Social,Campaign_A,1,1,Electronics,3,5,357.4,NetBanking,0
+754,3967,2023-02-01 09:00:00,Male,19,Australia,Premium,0,Tablet,Edge,Night,59,6,82,36,Ads,None,0,0,Beauty,6,5,163.88,UPI,1
+755,3239,2023-02-01 10:00:00,Male,21,India,Registered,0,Desktop,Safari,Night,24,3,27,11,Social,None,0,0,Electronics,5,3,351.0,COD,1
+756,3786,2023-02-01 11:00:00,Other,47,India,Registered,0,Mobile,Edge,Night,13,5,30,5,Direct,Campaign_A,1,1,Home,6,5,265.76,NetBanking,1
+757,4760,2023-02-01 12:00:00,Male,50,Australia,Guest,0,Mobile,Safari,Night,32,12,81,24,Ads,Campaign_A,0,0,Electronics,0,1,337.88,COD,1
+758,2122,2023-02-01 13:00:00,Female,53,UK,Registered,0,Mobile,Firefox,Morning,37,11,83,47,Organic,None,0,0,Clothing,7,3,418.74,UPI,1
+759,2571,2023-02-01 14:00:00,Female,35,Germany,Registered,1,Desktop,Edge,Afternoon,4,13,60,18,Direct,Campaign_A,0,1,Sports,6,0,96.19,Debit Card,0
+760,1977,2023-02-01 15:00:00,Male,54,UK,Guest,0,Mobile,Safari,Night,13,16,50,20,Referral,Campaign_C,0,0,Sports,3,7,308.71,NetBanking,1
+761,2008,2023-02-01 16:00:00,Female,36,Canada,Registered,1,Mobile,Chrome,Evening,9,18,33,28,Organic,Campaign_B,1,0,Home,0,6,30.8,NetBanking,1
+762,3143,2023-02-01 17:00:00,Male,64,Australia,Guest,1,Mobile,Chrome,Evening,57,17,33,13,Social,None,0,1,Clothing,7,5,55.55,NetBanking,0
+763,2687,2023-02-01 18:00:00,Female,45,UK,Premium,1,Mobile,Safari,Afternoon,49,17,47,5,Organic,None,1,1,Electronics,9,2,338.92,Credit Card,1
+764,3710,2023-02-01 19:00:00,Male,57,India,Registered,0,Desktop,Firefox,Morning,34,11,53,30,Referral,Campaign_B,0,0,Home,6,5,40.11,UPI,1
+765,4261,2023-02-01 20:00:00,Female,37,Australia,Premium,0,Desktop,Edge,Afternoon,56,10,66,1,Organic,Campaign_C,1,0,Beauty,7,0,299.7,Credit Card,0
+766,4807,2023-02-01 21:00:00,Male,50,USA,Guest,1,Mobile,Safari,Night,37,16,68,22,Direct,None,0,1,Books,9,1,113.91,NetBanking,0
+767,1036,2023-02-01 22:00:00,Male,29,UK,Registered,1,Mobile,Chrome,Morning,48,2,43,18,Organic,None,0,1,Beauty,0,3,155.52,NetBanking,0
+768,4851,2023-02-01 23:00:00,Other,32,Australia,Registered,0,Tablet,Edge,Morning,7,17,84,46,Ads,None,0,1,Clothing,4,5,69.17,COD,1
+769,4440,2023-02-02 00:00:00,Male,58,UK,Registered,0,Mobile,Chrome,Night,1,10,91,5,Referral,Campaign_C,0,0,Home,8,2,128.09,Credit Card,0
+770,4766,2023-02-02 01:00:00,Female,56,Australia,Guest,0,Desktop,Chrome,Evening,58,13,32,31,Organic,Campaign_B,1,0,Sports,4,7,411.54,Debit Card,0
+771,2548,2023-02-02 02:00:00,Male,19,India,Registered,0,Tablet,Safari,Night,12,12,95,6,Referral,Campaign_C,1,1,Home,9,6,321.24,UPI,1
+772,3326,2023-02-02 03:00:00,Female,46,USA,Registered,1,Mobile,Chrome,Afternoon,21,15,52,27,Direct,None,0,1,Books,2,0,475.13,Debit Card,1
+773,3264,2023-02-02 04:00:00,Male,58,USA,Guest,0,Mobile,Edge,Night,11,7,91,25,Ads,Campaign_A,0,1,Clothing,8,6,29.13,Debit Card,1
+774,3914,2023-02-02 05:00:00,Other,27,Canada,Guest,0,Tablet,Firefox,Evening,44,13,49,29,Social,Campaign_B,0,0,Home,8,6,397.24,UPI,1
+775,1872,2023-02-02 06:00:00,Male,19,Australia,Registered,0,Mobile,Safari,Night,51,12,56,28,Organic,Campaign_A,1,0,Beauty,3,2,351.04,NetBanking,0
+776,2821,2023-02-02 07:00:00,Male,28,UK,Registered,0,Mobile,Edge,Afternoon,58,12,50,16,Direct,Campaign_C,1,0,Electronics,3,7,134.14,COD,1
+777,2296,2023-02-02 08:00:00,Male,30,USA,Guest,1,Mobile,Safari,Afternoon,44,2,56,12,Referral,None,0,1,Beauty,7,4,365.94,NetBanking,0
+778,4952,2023-02-02 09:00:00,Male,27,USA,Guest,1,Mobile,Chrome,Evening,44,5,29,20,Referral,Campaign_A,1,1,Clothing,6,0,359.69,NetBanking,0
+779,3109,2023-02-02 10:00:00,Female,31,Germany,Guest,0,Desktop,Chrome,Afternoon,14,2,86,18,Direct,None,1,0,Home,4,4,232.38,Credit Card,0
+780,1595,2023-02-02 11:00:00,Male,35,Germany,Registered,1,Desktop,Edge,Afternoon,34,13,74,34,Organic,None,0,0,Beauty,5,2,345.88,Debit Card,1
+781,2903,2023-02-02 12:00:00,Female,26,USA,Registered,0,Desktop,Edge,Night,34,3,77,23,Social,Campaign_B,1,0,Home,2,3,225.07,Debit Card,0
+782,1728,2023-02-02 13:00:00,Male,56,Australia,Premium,0,Mobile,Firefox,Morning,25,11,33,45,Organic,None,0,0,Beauty,5,3,171.1,Debit Card,1
+783,2365,2023-02-02 14:00:00,Male,45,Canada,Premium,0,Mobile,Edge,Afternoon,4,16,45,27,Ads,None,0,1,Clothing,7,3,235.91,COD,1
+784,1396,2023-02-02 15:00:00,Female,20,USA,Registered,0,Desktop,Edge,Afternoon,52,1,54,49,Organic,None,0,1,Sports,9,6,448.09,COD,0
+785,1698,2023-02-02 16:00:00,Female,37,India,Guest,0,Mobile,Safari,Evening,55,19,11,17,Ads,Campaign_B,0,0,Beauty,8,4,195.37,COD,0
+786,4090,2023-02-02 17:00:00,Male,23,UK,Guest,0,Desktop,Chrome,Evening,26,11,37,48,Referral,Campaign_A,0,0,Electronics,2,6,204.83,UPI,1
+787,3224,2023-02-02 18:00:00,Male,44,Canada,Guest,1,Mobile,Edge,Night,16,9,35,21,Ads,Campaign_A,0,1,Beauty,7,3,306.16,COD,1
+788,2635,2023-02-02 19:00:00,Male,19,India,Premium,0,Desktop,Firefox,Night,10,14,32,40,Social,None,1,0,Clothing,2,6,377.73,Credit Card,0
+789,1395,2023-02-02 20:00:00,Female,46,Canada,Registered,1,Mobile,Edge,Afternoon,45,9,88,31,Direct,None,0,0,Beauty,1,1,368.64,Credit Card,1
+790,3492,2023-02-02 21:00:00,Female,55,India,Guest,0,Mobile,Chrome,Morning,2,7,45,3,Ads,None,0,1,Electronics,4,0,14.8,NetBanking,0
+791,4304,2023-02-02 22:00:00,Male,20,UK,Guest,1,Mobile,Edge,Morning,35,16,15,17,Organic,Campaign_B,1,1,Electronics,3,0,345.27,NetBanking,0
+792,4986,2023-02-02 23:00:00,Female,33,UK,Registered,1,Mobile,Safari,Night,19,3,44,26,Ads,Campaign_A,0,1,Clothing,4,7,228.02,NetBanking,0
+793,1075,2023-02-03 00:00:00,Female,47,Germany,Registered,0,Mobile,Chrome,Evening,6,19,47,23,Referral,Campaign_C,0,0,Home,5,6,264.42,NetBanking,1
+794,1264,2023-02-03 01:00:00,Female,57,Australia,Guest,1,Desktop,Edge,Afternoon,19,4,44,6,Ads,Campaign_C,1,0,Beauty,2,7,283.02,Credit Card,0
+795,3502,2023-02-03 02:00:00,Female,19,India,Premium,0,Desktop,Safari,Afternoon,59,7,83,28,Social,None,1,0,Sports,0,2,367.2,NetBanking,1
+796,2819,2023-02-03 03:00:00,Male,34,Germany,Registered,1,Desktop,Chrome,Morning,53,12,62,8,Ads,Campaign_C,0,0,Electronics,3,5,416.51,Credit Card,1
+797,1717,2023-02-03 04:00:00,Male,58,India,Guest,0,Tablet,Edge,Night,52,18,47,45,Social,Campaign_B,0,1,Electronics,5,4,324.9,COD,1
+798,3782,2023-02-03 05:00:00,Male,29,Germany,Premium,1,Mobile,Safari,Morning,51,5,68,8,Organic,Campaign_B,1,0,Beauty,1,0,284.13,COD,0
+799,4455,2023-02-03 06:00:00,Male,52,UK,Guest,1,Mobile,Firefox,Morning,8,10,52,19,Referral,Campaign_B,0,1,Home,1,6,190.02,UPI,0
+800,4635,2023-02-03 07:00:00,Female,60,Canada,Premium,0,Mobile,Safari,Night,14,12,13,38,Direct,Campaign_B,0,0,Beauty,0,4,73.25,NetBanking,1
+801,1850,2023-02-03 08:00:00,Female,18,Germany,Premium,0,Desktop,Firefox,Evening,10,8,14,29,Organic,Campaign_A,0,0,Clothing,8,2,479.5,COD,0
+802,4577,2023-02-03 09:00:00,Male,62,India,Registered,1,Mobile,Edge,Afternoon,3,19,77,23,Organic,Campaign_B,0,1,Sports,2,3,233.61,COD,0
+803,2390,2023-02-03 10:00:00,Male,32,India,Registered,0,Desktop,Safari,Evening,38,15,54,47,Direct,Campaign_A,1,0,Beauty,1,5,285.28,Debit Card,0
+804,1143,2023-02-03 11:00:00,Male,43,Australia,Guest,0,Mobile,Firefox,Night,29,1,89,32,Ads,Campaign_A,1,0,Electronics,3,2,376.78,Debit Card,0
+805,1884,2023-02-03 12:00:00,Female,54,UK,Premium,0,Tablet,Chrome,Night,15,3,34,10,Ads,None,1,0,Electronics,5,1,38.86,Credit Card,0
+806,4140,2023-02-03 13:00:00,Male,38,India,Registered,0,Tablet,Safari,Afternoon,23,18,87,27,Ads,Campaign_B,1,0,Clothing,0,3,428.23,UPI,1
+807,4170,2023-02-03 14:00:00,Female,48,USA,Registered,1,Mobile,Edge,Evening,23,18,20,49,Referral,None,0,0,Home,8,3,399.53,Debit Card,0
+808,1395,2023-02-03 15:00:00,Male,42,Canada,Premium,0,Mobile,Chrome,Afternoon,18,2,38,1,Organic,None,0,0,Beauty,8,3,388.34,UPI,1
+809,4096,2023-02-03 16:00:00,Male,40,Germany,Premium,0,Desktop,Firefox,Morning,46,5,43,39,Social,Campaign_C,1,1,Books,7,2,15.88,COD,0
+810,3995,2023-02-03 17:00:00,Other,41,Australia,Premium,1,Mobile,Safari,Morning,19,1,95,29,Direct,None,0,1,Home,5,1,265.63,Credit Card,0
+811,3938,2023-02-03 18:00:00,Other,55,Canada,Guest,1,Mobile,Safari,Morning,28,10,23,45,Organic,Campaign_A,0,0,Electronics,3,5,31.86,UPI,1
+812,2492,2023-02-03 19:00:00,Male,45,UK,Premium,0,Desktop,Edge,Evening,26,10,33,3,Ads,None,1,0,Beauty,1,4,277.68,Debit Card,1
+813,4555,2023-02-03 20:00:00,Female,38,Australia,Registered,0,Mobile,Chrome,Morning,10,5,68,47,Direct,None,0,1,Electronics,7,2,360.63,COD,1
+814,4636,2023-02-03 21:00:00,Female,60,Germany,Premium,1,Desktop,Safari,Afternoon,47,18,48,37,Social,None,0,0,Sports,6,0,65.32,NetBanking,0
+815,4222,2023-02-03 22:00:00,Female,35,Germany,Registered,1,Desktop,Safari,Evening,4,15,35,31,Organic,Campaign_A,1,1,Home,3,0,348.97,COD,0
+816,2167,2023-02-03 23:00:00,Male,53,USA,Guest,0,Mobile,Chrome,Afternoon,55,8,52,11,Organic,Campaign_B,1,1,Books,2,2,227.52,Debit Card,0
+817,3616,2023-02-04 00:00:00,Female,52,UK,Guest,0,Mobile,Safari,Night,2,17,45,22,Referral,Campaign_A,0,0,Sports,5,4,406.72,Debit Card,1
+818,2062,2023-02-04 01:00:00,Female,62,Australia,Registered,0,Mobile,Chrome,Evening,3,12,48,18,Organic,None,1,1,Books,0,0,269.13,NetBanking,1
+819,3156,2023-02-04 02:00:00,Female,26,Australia,Registered,0,Desktop,Chrome,Afternoon,7,12,70,35,Organic,None,0,1,Sports,1,4,171.38,COD,1
+820,4764,2023-02-04 03:00:00,Male,55,India,Guest,0,Mobile,Chrome,Afternoon,55,1,25,6,Social,Campaign_B,0,1,Home,6,3,169.34,UPI,0
+821,2065,2023-02-04 04:00:00,Male,47,USA,Registered,1,Desktop,Edge,Evening,16,4,68,3,Social,Campaign_C,1,0,Electronics,2,2,449.26,UPI,1
+822,2209,2023-02-04 05:00:00,Male,61,USA,Guest,0,Mobile,Chrome,Night,31,8,15,5,Direct,None,1,0,Books,0,3,229.17,COD,1
+823,3982,2023-02-04 06:00:00,Female,51,Australia,Premium,1,Mobile,Chrome,Evening,10,1,65,9,Ads,Campaign_C,0,1,Home,1,0,205.85,UPI,0
+824,3445,2023-02-04 07:00:00,Male,49,Australia,Registered,0,Mobile,Firefox,Morning,19,15,17,28,Social,None,0,0,Books,9,4,24.74,COD,1
+825,4294,2023-02-04 08:00:00,Female,20,Canada,Guest,1,Mobile,Firefox,Morning,28,18,36,19,Direct,None,0,1,Home,9,3,185.34,COD,1
+826,1633,2023-02-04 09:00:00,Other,20,Canada,Guest,1,Mobile,Edge,Night,17,1,80,28,Organic,Campaign_A,0,0,Sports,8,0,425.57,Debit Card,0
+827,2156,2023-02-04 10:00:00,Male,45,Canada,Guest,0,Mobile,Chrome,Afternoon,28,11,36,27,Direct,None,0,0,Home,6,6,381.69,Credit Card,1
+828,4234,2023-02-04 11:00:00,Female,61,USA,Registered,0,Mobile,Firefox,Afternoon,19,2,98,13,Direct,Campaign_B,0,1,Sports,6,1,114.35,Debit Card,1
+829,2238,2023-02-04 12:00:00,Male,32,India,Guest,0,Mobile,Firefox,Afternoon,37,1,55,38,Direct,Campaign_C,0,1,Electronics,9,3,209.46,UPI,0
+830,1732,2023-02-04 13:00:00,Female,58,Germany,Guest,1,Mobile,Safari,Evening,23,12,50,43,Direct,None,0,1,Sports,7,1,102.31,Credit Card,0
+831,1234,2023-02-04 14:00:00,Male,40,Canada,Premium,1,Desktop,Chrome,Evening,20,16,88,21,Social,None,0,1,Clothing,7,1,477.34,COD,1
+832,4914,2023-02-04 15:00:00,Female,57,India,Premium,0,Mobile,Firefox,Night,13,10,34,27,Ads,Campaign_C,1,0,Electronics,8,5,301.07,UPI,1
+833,3705,2023-02-04 16:00:00,Female,28,UK,Registered,0,Mobile,Edge,Morning,13,18,95,46,Direct,Campaign_B,0,0,Beauty,1,7,378.41,NetBanking,0
+834,1750,2023-02-04 17:00:00,Female,49,Canada,Premium,0,Desktop,Safari,Afternoon,43,15,27,6,Referral,Campaign_B,0,1,Beauty,7,0,358.34,UPI,0
+835,3635,2023-02-04 18:00:00,Female,53,Germany,Guest,1,Mobile,Safari,Morning,11,17,21,38,Organic,Campaign_C,1,0,Home,7,2,437.48,Credit Card,1
+836,4080,2023-02-04 19:00:00,Female,50,UK,Registered,0,Desktop,Chrome,Evening,48,10,96,49,Organic,Campaign_A,1,1,Home,4,4,474.92,Credit Card,0
+837,4145,2023-02-04 20:00:00,Female,41,UK,Registered,0,Mobile,Chrome,Evening,15,3,60,11,Organic,Campaign_C,0,0,Clothing,4,6,21.06,COD,0
+838,1953,2023-02-04 21:00:00,Female,56,Germany,Registered,0,Mobile,Safari,Evening,17,16,48,47,Organic,Campaign_A,0,0,Home,3,0,487.77,NetBanking,0
+839,3539,2023-02-04 22:00:00,Female,51,Canada,Guest,0,Tablet,Edge,Morning,54,6,98,41,Organic,Campaign_B,1,0,Electronics,4,5,435.92,COD,0
+840,3960,2023-02-04 23:00:00,Male,45,USA,Registered,1,Mobile,Chrome,Night,50,3,19,17,Direct,Campaign_B,0,0,Electronics,1,5,194.56,NetBanking,0
+841,4324,2023-02-05 00:00:00,Female,54,Germany,Registered,0,Desktop,Chrome,Night,28,9,83,39,Ads,None,1,1,Sports,1,6,419.35,NetBanking,1
+842,4301,2023-02-05 01:00:00,Female,24,Germany,Registered,1,Mobile,Safari,Evening,19,11,86,7,Referral,None,0,1,Books,4,3,369.6,COD,1
+843,2542,2023-02-05 02:00:00,Female,21,Germany,Guest,0,Desktop,Safari,Afternoon,4,13,63,30,Social,Campaign_B,0,1,Home,2,4,397.59,UPI,1
+844,2197,2023-02-05 03:00:00,Male,54,UK,Guest,0,Desktop,Chrome,Morning,22,18,38,21,Referral,Campaign_A,0,0,Clothing,0,5,114.24,Debit Card,1
+845,2676,2023-02-05 04:00:00,Female,18,India,Guest,1,Mobile,Firefox,Evening,22,4,50,1,Social,Campaign_C,1,0,Beauty,8,2,326.04,NetBanking,1
+846,2191,2023-02-05 05:00:00,Male,18,USA,Guest,1,Desktop,Chrome,Morning,55,8,18,25,Social,Campaign_B,1,0,Electronics,1,0,17.83,Credit Card,0
+847,3217,2023-02-05 06:00:00,Female,64,Canada,Registered,1,Mobile,Firefox,Morning,37,13,72,32,Referral,Campaign_C,0,0,Electronics,9,2,424.87,COD,0
+848,2416,2023-02-05 07:00:00,Male,37,Canada,Guest,0,Desktop,Safari,Night,39,10,86,8,Direct,None,0,0,Electronics,1,3,475.77,UPI,1
+849,3993,2023-02-05 08:00:00,Female,36,India,Premium,0,Mobile,Firefox,Evening,34,2,46,5,Organic,None,0,0,Books,3,7,332.75,NetBanking,0
+850,3842,2023-02-05 09:00:00,Other,46,Germany,Guest,1,Desktop,Edge,Night,33,8,23,30,Direct,None,0,0,Books,1,0,258.77,UPI,0
+851,3681,2023-02-05 10:00:00,Male,27,USA,Guest,0,Mobile,Safari,Evening,44,6,82,8,Organic,Campaign_C,1,0,Home,6,3,364.24,COD,0
+852,2217,2023-02-05 11:00:00,Other,35,Canada,Registered,0,Mobile,Chrome,Morning,42,16,81,49,Ads,None,0,0,Beauty,9,4,166.55,Credit Card,1
+853,2540,2023-02-05 12:00:00,Male,45,Australia,Guest,1,Desktop,Chrome,Night,40,18,48,19,Social,None,1,0,Clothing,0,4,315.06,NetBanking,0
+854,3076,2023-02-05 13:00:00,Female,52,Canada,Registered,1,Desktop,Safari,Morning,33,17,49,44,Referral,Campaign_C,0,0,Books,1,7,360.89,NetBanking,1
+855,4236,2023-02-05 14:00:00,Female,60,Germany,Registered,1,Mobile,Safari,Evening,12,6,63,30,Ads,Campaign_B,1,0,Sports,4,2,75.63,UPI,1
+856,2445,2023-02-05 15:00:00,Female,64,Australia,Guest,1,Mobile,Edge,Afternoon,2,13,12,15,Organic,Campaign_C,1,1,Books,1,2,74.33,COD,0
+857,3386,2023-02-05 16:00:00,Female,48,India,Guest,1,Mobile,Safari,Night,59,14,64,36,Direct,Campaign_A,0,0,Electronics,8,4,359.49,Debit Card,1
+858,4719,2023-02-05 17:00:00,Female,44,USA,Guest,0,Mobile,Chrome,Night,28,10,42,44,Referral,None,0,1,Clothing,3,1,218.73,NetBanking,1
+859,2519,2023-02-05 18:00:00,Male,28,India,Guest,0,Mobile,Edge,Morning,10,11,80,27,Social,Campaign_C,0,0,Home,8,4,445.15,Credit Card,0
+860,2388,2023-02-05 19:00:00,Male,55,India,Guest,0,Desktop,Chrome,Morning,22,13,28,13,Ads,Campaign_A,0,1,Books,0,6,159.41,NetBanking,1
+861,2856,2023-02-05 20:00:00,Female,22,USA,Guest,0,Mobile,Firefox,Afternoon,17,12,43,14,Social,Campaign_A,0,0,Electronics,0,0,26.0,NetBanking,0
+862,2365,2023-02-05 21:00:00,Female,25,USA,Guest,0,Desktop,Safari,Night,26,9,87,37,Organic,Campaign_C,0,1,Sports,0,6,326.69,Debit Card,1
+863,1499,2023-02-05 22:00:00,Female,51,Canada,Registered,0,Desktop,Firefox,Evening,3,4,59,48,Social,None,1,0,Sports,3,3,343.7,Debit Card,0
+864,2680,2023-02-05 23:00:00,Female,29,Canada,Registered,0,Mobile,Chrome,Evening,7,7,56,30,Direct,Campaign_C,0,1,Home,8,4,279.03,COD,0
+865,1510,2023-02-06 00:00:00,Male,55,USA,Registered,0,Mobile,Firefox,Night,44,2,55,39,Ads,None,1,0,Home,7,4,343.25,NetBanking,1
+866,4398,2023-02-06 01:00:00,Female,18,Australia,Guest,0,Mobile,Firefox,Night,8,7,65,47,Ads,Campaign_B,1,0,Books,6,7,264.26,NetBanking,1
+867,1216,2023-02-06 02:00:00,Male,48,UK,Guest,0,Mobile,Chrome,Night,20,9,66,13,Direct,Campaign_C,1,1,Home,0,7,347.85,UPI,0
+868,2324,2023-02-06 03:00:00,Female,21,Canada,Premium,0,Desktop,Chrome,Afternoon,12,5,92,16,Social,Campaign_C,0,0,Beauty,2,5,26.75,UPI,0
+869,2155,2023-02-06 04:00:00,Male,62,UK,Registered,1,Mobile,Safari,Evening,35,15,60,44,Direct,None,0,1,Beauty,8,3,187.36,Credit Card,1
+870,2827,2023-02-06 05:00:00,Male,22,Australia,Premium,0,Desktop,Firefox,Evening,17,18,63,7,Referral,Campaign_A,0,0,Electronics,8,5,109.35,Credit Card,1
+871,4141,2023-02-06 06:00:00,Male,47,USA,Guest,0,Mobile,Edge,Morning,28,4,99,48,Direct,Campaign_C,0,0,Electronics,4,3,54.17,UPI,1
+872,4323,2023-02-06 07:00:00,Male,41,Australia,Registered,1,Mobile,Edge,Morning,41,19,90,27,Social,Campaign_B,0,1,Electronics,5,6,120.88,Credit Card,1
+873,4486,2023-02-06 08:00:00,Female,20,Canada,Registered,0,Mobile,Chrome,Night,10,7,37,45,Direct,Campaign_B,1,0,Beauty,5,0,99.7,NetBanking,0
+874,2810,2023-02-06 09:00:00,Male,28,India,Guest,0,Mobile,Chrome,Morning,22,8,28,35,Organic,None,0,0,Books,9,3,486.7,Debit Card,1
+875,3492,2023-02-06 10:00:00,Male,62,USA,Registered,0,Mobile,Firefox,Afternoon,38,17,36,15,Direct,Campaign_A,0,1,Books,3,2,146.84,NetBanking,1
+876,3923,2023-02-06 11:00:00,Male,21,Germany,Registered,0,Mobile,Chrome,Evening,57,13,57,28,Direct,Campaign_B,1,1,Home,0,7,119.32,UPI,0
+877,2205,2023-02-06 12:00:00,Male,43,UK,Guest,1,Desktop,Edge,Evening,33,11,28,35,Social,Campaign_C,0,1,Books,4,4,418.26,COD,1
+878,3214,2023-02-06 13:00:00,Male,44,Australia,Guest,0,Desktop,Safari,Morning,22,1,60,7,Referral,None,0,0,Electronics,0,7,212.46,COD,0
+879,1090,2023-02-06 14:00:00,Male,63,USA,Registered,1,Mobile,Safari,Night,44,2,16,46,Referral,Campaign_C,1,0,Clothing,0,3,213.63,UPI,1
+880,1713,2023-02-06 15:00:00,Female,60,Australia,Premium,0,Mobile,Firefox,Morning,37,17,38,46,Social,None,0,0,Electronics,4,0,224.58,NetBanking,0
+881,2881,2023-02-06 16:00:00,Female,44,USA,Guest,0,Mobile,Safari,Night,13,5,52,20,Social,None,0,0,Beauty,4,3,211.18,Credit Card,1
+882,4602,2023-02-06 17:00:00,Female,59,Canada,Guest,0,Mobile,Chrome,Afternoon,27,6,78,32,Social,Campaign_B,0,1,Clothing,6,4,166.65,Credit Card,0
+883,1038,2023-02-06 18:00:00,Male,23,Canada,Guest,0,Mobile,Chrome,Evening,15,7,67,38,Organic,Campaign_B,1,0,Home,1,1,146.74,COD,0
+884,4197,2023-02-06 19:00:00,Male,32,Canada,Registered,0,Mobile,Chrome,Afternoon,22,15,17,40,Ads,Campaign_B,0,0,Sports,5,3,441.57,UPI,1
+885,4522,2023-02-06 20:00:00,Female,47,Australia,Guest,0,Mobile,Chrome,Evening,30,19,51,32,Direct,None,0,0,Books,1,2,85.05,UPI,1
+886,1172,2023-02-06 21:00:00,Female,59,Germany,Premium,0,Mobile,Firefox,Afternoon,43,16,85,26,Social,Campaign_A,0,1,Books,9,7,94.63,Debit Card,1
+887,1652,2023-02-06 22:00:00,Male,54,Canada,Guest,1,Mobile,Safari,Morning,40,13,51,39,Social,Campaign_B,0,1,Beauty,4,4,288.0,COD,1
+888,1753,2023-02-06 23:00:00,Male,54,USA,Guest,0,Mobile,Edge,Afternoon,37,5,22,20,Social,None,0,1,Electronics,3,0,175.11,UPI,0
+889,2243,2023-02-07 00:00:00,Male,59,Canada,Registered,1,Desktop,Safari,Afternoon,34,3,35,18,Referral,Campaign_C,0,0,Electronics,9,6,213.66,Debit Card,0
+890,4709,2023-02-07 01:00:00,Male,54,India,Premium,1,Mobile,Chrome,Morning,44,3,27,15,Social,Campaign_C,0,1,Clothing,4,6,404.24,Credit Card,0
+891,2081,2023-02-07 02:00:00,Male,52,Canada,Registered,0,Mobile,Edge,Evening,34,19,51,22,Direct,Campaign_C,0,1,Books,1,4,452.3,COD,0
+892,2683,2023-02-07 03:00:00,Female,40,Australia,Registered,0,Mobile,Firefox,Evening,58,14,60,22,Social,Campaign_A,0,0,Beauty,7,5,396.32,COD,1
+893,3523,2023-02-07 04:00:00,Female,23,Germany,Premium,0,Desktop,Chrome,Morning,48,16,93,21,Direct,Campaign_C,0,0,Home,7,1,121.29,UPI,0
+894,1455,2023-02-07 05:00:00,Female,21,India,Guest,1,Desktop,Chrome,Afternoon,53,17,25,2,Organic,Campaign_C,0,0,Electronics,5,0,490.09,UPI,1
+895,1828,2023-02-07 06:00:00,Female,35,Australia,Premium,0,Desktop,Edge,Afternoon,35,4,12,40,Ads,None,0,0,Books,2,1,184.77,NetBanking,1
+896,1894,2023-02-07 07:00:00,Female,26,Australia,Guest,1,Mobile,Firefox,Afternoon,42,13,88,43,Referral,Campaign_B,0,1,Sports,3,6,88.69,Credit Card,1
+897,2384,2023-02-07 08:00:00,Female,46,Australia,Registered,0,Mobile,Edge,Night,19,8,54,18,Direct,None,1,0,Beauty,0,1,252.25,Credit Card,1
+898,2958,2023-02-07 09:00:00,Female,30,USA,Registered,1,Desktop,Firefox,Evening,8,19,31,23,Organic,None,1,0,Clothing,8,2,364.02,Debit Card,1
+899,4072,2023-02-07 10:00:00,Male,64,Australia,Guest,0,Mobile,Chrome,Afternoon,39,5,32,13,Ads,Campaign_A,0,1,Electronics,9,7,46.22,Debit Card,0
+900,3434,2023-02-07 11:00:00,Male,34,USA,Premium,1,Mobile,Safari,Evening,33,2,68,41,Ads,None,0,1,Electronics,4,6,318.97,NetBanking,0
+901,2996,2023-02-07 12:00:00,Male,62,Australia,Guest,0,Desktop,Chrome,Afternoon,44,15,71,9,Ads,Campaign_A,0,1,Home,7,3,429.75,Credit Card,0
+902,3395,2023-02-07 13:00:00,Female,49,UK,Guest,0,Mobile,Safari,Morning,28,2,77,49,Direct,None,0,0,Electronics,2,2,134.58,Debit Card,0
+903,1189,2023-02-07 14:00:00,Female,39,India,Registered,0,Mobile,Safari,Morning,37,11,63,7,Organic,None,0,0,Beauty,3,2,348.1,Credit Card,1
+904,1504,2023-02-07 15:00:00,Male,21,UK,Guest,0,Mobile,Firefox,Evening,48,13,66,41,Social,Campaign_B,0,0,Books,3,5,202.95,Credit Card,1
+905,2214,2023-02-07 16:00:00,Female,22,Australia,Registered,1,Mobile,Edge,Evening,25,10,32,1,Organic,Campaign_B,1,0,Books,7,2,210.0,Debit Card,1
+906,2531,2023-02-07 17:00:00,Male,54,India,Guest,0,Mobile,Firefox,Morning,36,3,69,2,Organic,Campaign_B,0,0,Books,8,0,144.0,UPI,0
+907,4440,2023-02-07 18:00:00,Female,58,India,Guest,0,Desktop,Chrome,Night,17,5,82,4,Organic,Campaign_B,0,0,Sports,2,3,314.07,UPI,1
+908,4480,2023-02-07 19:00:00,Male,30,Germany,Guest,0,Desktop,Edge,Morning,24,3,97,14,Direct,Campaign_B,1,0,Sports,6,3,183.69,Debit Card,0
+909,1823,2023-02-07 20:00:00,Male,51,UK,Guest,0,Mobile,Safari,Afternoon,21,6,94,32,Direct,Campaign_B,0,0,Electronics,8,6,416.3,NetBanking,1
+910,1928,2023-02-07 21:00:00,Female,62,Germany,Registered,0,Desktop,Safari,Night,2,13,64,36,Direct,None,0,0,Sports,1,0,481.64,COD,0
+911,1933,2023-02-07 22:00:00,Male,39,India,Registered,1,Mobile,Chrome,Morning,31,10,89,2,Organic,Campaign_A,1,1,Sports,3,2,467.87,Credit Card,1
+912,2140,2023-02-07 23:00:00,Male,40,USA,Premium,0,Mobile,Edge,Night,44,19,72,40,Direct,None,1,1,Home,2,2,85.75,COD,1
+913,1133,2023-02-08 00:00:00,Male,20,India,Premium,1,Desktop,Chrome,Night,33,8,65,14,Ads,None,1,0,Sports,7,1,12.02,Debit Card,0
+914,3105,2023-02-08 01:00:00,Female,59,Germany,Guest,0,Desktop,Chrome,Night,30,18,64,20,Direct,Campaign_C,0,0,Clothing,3,6,222.04,Credit Card,1
+915,4627,2023-02-08 02:00:00,Female,51,UK,Registered,0,Desktop,Firefox,Evening,12,3,34,25,Referral,None,0,0,Clothing,8,6,365.8,COD,1
+916,1684,2023-02-08 03:00:00,Male,49,Australia,Guest,1,Desktop,Chrome,Morning,44,17,35,42,Direct,Campaign_B,1,0,Clothing,0,1,488.84,UPI,1
+917,3719,2023-02-08 04:00:00,Female,62,Australia,Guest,1,Desktop,Edge,Evening,12,8,58,49,Direct,Campaign_A,0,0,Electronics,0,5,392.79,NetBanking,0
+918,3220,2023-02-08 05:00:00,Female,38,UK,Registered,0,Desktop,Chrome,Evening,51,10,72,8,Direct,None,1,1,Books,3,4,292.37,COD,1
+919,2852,2023-02-08 06:00:00,Male,63,Australia,Guest,1,Mobile,Edge,Afternoon,57,2,54,28,Direct,Campaign_C,0,1,Home,2,1,18.04,NetBanking,0
+920,1814,2023-02-08 07:00:00,Male,61,Australia,Guest,0,Desktop,Safari,Afternoon,49,12,82,46,Referral,Campaign_C,0,1,Electronics,2,3,413.64,UPI,1
+921,2172,2023-02-08 08:00:00,Male,38,Germany,Premium,0,Tablet,Chrome,Night,52,6,88,21,Social,None,1,1,Books,9,7,92.69,COD,1
+922,1079,2023-02-08 09:00:00,Male,61,UK,Registered,1,Desktop,Edge,Night,24,2,48,23,Direct,None,0,1,Home,1,0,32.53,Debit Card,0
+923,3933,2023-02-08 10:00:00,Female,28,Canada,Registered,0,Mobile,Safari,Afternoon,24,3,74,32,Ads,None,0,0,Home,9,2,425.93,Credit Card,0
+924,4284,2023-02-08 11:00:00,Male,56,USA,Guest,0,Mobile,Edge,Afternoon,58,17,78,8,Referral,None,0,1,Home,9,4,285.29,UPI,0
+925,1202,2023-02-08 12:00:00,Female,21,USA,Guest,1,Mobile,Safari,Morning,11,7,65,31,Social,Campaign_A,0,0,Clothing,1,1,68.63,NetBanking,1
+926,3811,2023-02-08 13:00:00,Female,18,Australia,Premium,1,Mobile,Firefox,Night,13,5,18,37,Direct,Campaign_A,0,1,Clothing,7,6,196.34,NetBanking,1
+927,2252,2023-02-08 14:00:00,Male,45,USA,Guest,0,Tablet,Chrome,Night,27,1,79,16,Social,None,0,0,Clothing,0,4,47.34,UPI,0
+928,2699,2023-02-08 15:00:00,Female,41,UK,Registered,0,Mobile,Chrome,Afternoon,8,8,37,40,Ads,Campaign_C,0,0,Home,7,0,320.82,Debit Card,0
+929,2250,2023-02-08 16:00:00,Male,52,UK,Guest,0,Mobile,Safari,Morning,10,12,54,42,Referral,Campaign_C,1,1,Beauty,9,7,144.8,Debit Card,0
+930,2682,2023-02-08 17:00:00,Other,30,India,Registered,1,Tablet,Firefox,Afternoon,8,14,35,27,Referral,Campaign_B,0,0,Home,2,0,433.72,NetBanking,0
+931,2555,2023-02-08 18:00:00,Female,64,India,Guest,1,Mobile,Edge,Afternoon,20,16,37,40,Social,None,1,0,Clothing,1,6,182.11,UPI,1
+932,4512,2023-02-08 19:00:00,Female,51,USA,Premium,0,Mobile,Firefox,Evening,8,10,49,41,Direct,Campaign_A,0,0,Home,8,4,249.84,UPI,0
+933,4473,2023-02-08 20:00:00,Female,28,Canada,Premium,0,Mobile,Edge,Night,9,15,24,18,Organic,None,0,0,Clothing,4,4,36.44,Credit Card,1
+934,3094,2023-02-08 21:00:00,Male,53,India,Registered,0,Desktop,Edge,Morning,7,15,15,35,Referral,Campaign_A,0,1,Clothing,4,5,141.42,NetBanking,0
+935,2256,2023-02-08 22:00:00,Female,34,India,Guest,1,Mobile,Chrome,Evening,14,10,36,49,Organic,Campaign_A,1,1,Clothing,5,4,340.0,Debit Card,0
+936,4376,2023-02-08 23:00:00,Female,52,UK,Premium,1,Tablet,Safari,Night,28,7,47,15,Referral,Campaign_B,1,0,Beauty,3,2,369.45,COD,1
+937,2549,2023-02-09 00:00:00,Female,35,Canada,Registered,1,Mobile,Chrome,Afternoon,2,3,77,27,Direct,Campaign_B,1,0,Books,6,7,125.2,Debit Card,1
+938,2166,2023-02-09 01:00:00,Female,57,Australia,Guest,1,Mobile,Chrome,Morning,57,2,84,17,Direct,None,0,1,Home,6,7,254.39,Debit Card,0
+939,4486,2023-02-09 02:00:00,Female,39,USA,Registered,0,Mobile,Chrome,Night,43,6,94,40,Referral,Campaign_A,0,0,Electronics,8,7,409.68,COD,1
+940,4584,2023-02-09 03:00:00,Male,41,India,Guest,0,Desktop,Edge,Afternoon,8,9,73,2,Social,Campaign_A,1,0,Clothing,5,3,193.06,NetBanking,0
+941,2396,2023-02-09 04:00:00,Male,36,Canada,Guest,0,Mobile,Chrome,Evening,13,10,39,49,Direct,Campaign_C,1,0,Beauty,0,1,71.22,Credit Card,1
+942,4637,2023-02-09 05:00:00,Female,54,Canada,Registered,0,Mobile,Edge,Morning,21,4,91,31,Direct,Campaign_C,1,1,Electronics,8,6,218.78,Debit Card,1
+943,4957,2023-02-09 06:00:00,Male,56,USA,Guest,0,Mobile,Safari,Night,47,3,12,37,Ads,Campaign_A,0,0,Books,9,1,302.31,Debit Card,0
+944,4330,2023-02-09 07:00:00,Female,38,Canada,Registered,0,Desktop,Edge,Evening,28,9,71,41,Direct,Campaign_A,1,0,Home,8,7,8.66,NetBanking,0
+945,3703,2023-02-09 08:00:00,Female,25,Canada,Guest,1,Mobile,Edge,Afternoon,35,17,21,41,Ads,None,0,0,Beauty,4,1,177.54,NetBanking,1
+946,1470,2023-02-09 09:00:00,Male,45,Canada,Premium,1,Desktop,Firefox,Afternoon,23,14,39,34,Direct,None,0,0,Clothing,6,4,305.68,UPI,0
+947,4018,2023-02-09 10:00:00,Male,22,India,Premium,0,Desktop,Chrome,Night,46,10,94,34,Direct,Campaign_B,0,0,Clothing,0,6,476.2,NetBanking,1
+948,2035,2023-02-09 11:00:00,Female,34,USA,Premium,0,Mobile,Chrome,Afternoon,15,13,47,3,Social,Campaign_C,0,0,Clothing,3,4,207.23,NetBanking,1
+949,2353,2023-02-09 12:00:00,Male,54,Canada,Guest,0,Mobile,Chrome,Morning,2,12,94,17,Social,Campaign_B,1,0,Beauty,9,5,85.67,Debit Card,0
+950,3783,2023-02-09 13:00:00,Female,53,Canada,Guest,1,Mobile,Chrome,Night,51,1,69,14,Direct,Campaign_B,1,0,Electronics,3,4,269.44,Credit Card,0
+951,3831,2023-02-09 14:00:00,Male,36,India,Registered,1,Mobile,Firefox,Evening,12,19,47,14,Referral,None,1,0,Books,4,5,146.45,Debit Card,1
+952,1967,2023-02-09 15:00:00,Female,44,USA,Guest,0,Mobile,Firefox,Night,57,19,24,46,Referral,None,0,1,Home,5,5,111.32,NetBanking,1
+953,1357,2023-02-09 16:00:00,Male,51,UK,Guest,0,Mobile,Firefox,Night,52,6,27,38,Direct,Campaign_A,0,1,Books,3,2,297.25,UPI,1
+954,4019,2023-02-09 17:00:00,Female,28,India,Registered,0,Mobile,Firefox,Evening,36,13,61,35,Referral,None,1,0,Clothing,5,2,458.36,Credit Card,1
+955,4479,2023-02-09 18:00:00,Male,62,USA,Registered,0,Mobile,Chrome,Afternoon,3,19,38,1,Direct,Campaign_A,0,0,Books,9,2,418.44,UPI,0
+956,1667,2023-02-09 19:00:00,Female,64,Canada,Premium,0,Mobile,Edge,Evening,5,13,69,48,Social,Campaign_B,1,0,Electronics,6,7,95.23,COD,0
+957,1372,2023-02-09 20:00:00,Male,29,USA,Guest,1,Mobile,Safari,Morning,3,4,30,29,Organic,Campaign_A,0,1,Sports,2,2,384.11,UPI,0
+958,2031,2023-02-09 21:00:00,Female,38,USA,Guest,1,Desktop,Firefox,Afternoon,57,2,26,4,Ads,Campaign_A,0,1,Sports,8,0,118.78,UPI,1
+959,2145,2023-02-09 22:00:00,Female,28,Australia,Guest,0,Tablet,Edge,Night,47,15,27,33,Referral,None,0,0,Home,7,2,148.9,NetBanking,1
+960,2371,2023-02-09 23:00:00,Male,56,USA,Premium,1,Desktop,Firefox,Afternoon,19,12,66,17,Referral,Campaign_C,1,1,Home,0,2,460.43,NetBanking,1
+961,3723,2023-02-10 00:00:00,Male,45,UK,Registered,1,Mobile,Chrome,Afternoon,2,7,46,28,Social,Campaign_A,0,1,Books,1,2,455.97,NetBanking,0
+962,1089,2023-02-10 01:00:00,Male,22,USA,Premium,0,Mobile,Chrome,Morning,44,18,69,26,Referral,None,0,1,Home,1,5,88.47,NetBanking,1
+963,4719,2023-02-10 02:00:00,Female,34,UK,Premium,0,Mobile,Edge,Afternoon,37,13,47,8,Direct,None,1,0,Beauty,9,1,36.77,NetBanking,1
+964,3745,2023-02-10 03:00:00,Female,37,Canada,Registered,1,Mobile,Edge,Afternoon,54,17,21,34,Direct,None,0,0,Electronics,8,6,150.09,UPI,1
+965,4387,2023-02-10 04:00:00,Female,58,UK,Registered,0,Mobile,Edge,Afternoon,17,4,84,18,Organic,None,1,0,Clothing,8,1,292.98,COD,0
+966,4249,2023-02-10 05:00:00,Male,63,Canada,Guest,1,Desktop,Chrome,Night,14,14,93,31,Organic,Campaign_B,0,1,Clothing,8,1,439.06,NetBanking,1
+967,1539,2023-02-10 06:00:00,Male,29,Canada,Registered,1,Mobile,Chrome,Afternoon,28,13,82,27,Organic,None,0,1,Books,0,3,63.82,COD,0
+968,3779,2023-02-10 07:00:00,Female,23,UK,Registered,1,Mobile,Safari,Evening,27,3,10,16,Direct,None,1,0,Clothing,6,0,210.4,COD,0
+969,1868,2023-02-10 08:00:00,Female,34,India,Registered,1,Tablet,Edge,Afternoon,54,18,67,10,Organic,None,0,0,Books,2,5,139.52,Debit Card,1
+970,1040,2023-02-10 09:00:00,Other,36,Germany,Premium,1,Mobile,Safari,Morning,10,14,12,40,Organic,None,0,0,Home,8,4,12.39,Debit Card,1
+971,1739,2023-02-10 10:00:00,Male,43,USA,Premium,1,Mobile,Firefox,Afternoon,3,15,72,12,Direct,Campaign_B,0,0,Home,7,5,395.28,Credit Card,0
+972,4775,2023-02-10 11:00:00,Female,61,Australia,Registered,0,Mobile,Safari,Afternoon,36,3,30,22,Social,None,0,0,Beauty,2,2,407.58,Debit Card,0
+973,2946,2023-02-10 12:00:00,Male,61,Germany,Registered,0,Mobile,Firefox,Night,38,1,32,16,Referral,Campaign_B,0,0,Beauty,0,1,114.51,NetBanking,1
+974,3549,2023-02-10 13:00:00,Male,49,USA,Registered,0,Desktop,Firefox,Evening,56,17,18,12,Ads,Campaign_B,0,0,Electronics,8,5,79.86,COD,1
+975,4006,2023-02-10 14:00:00,Female,23,USA,Guest,1,Mobile,Safari,Afternoon,25,3,92,11,Direct,Campaign_A,1,1,Clothing,9,0,76.56,Credit Card,1
+976,4216,2023-02-10 15:00:00,Female,53,Canada,Guest,0,Mobile,Edge,Evening,22,14,64,20,Direct,None,1,0,Beauty,0,2,234.65,Debit Card,0
+977,2224,2023-02-10 16:00:00,Other,55,USA,Registered,0,Desktop,Firefox,Morning,48,3,28,1,Ads,Campaign_B,0,0,Electronics,2,3,127.02,UPI,0
+978,1928,2023-02-10 17:00:00,Male,28,Australia,Registered,0,Desktop,Edge,Night,39,13,71,27,Ads,Campaign_C,0,0,Sports,5,4,258.12,Credit Card,1
+979,3036,2023-02-10 18:00:00,Male,50,USA,Guest,1,Tablet,Chrome,Evening,47,15,96,3,Organic,Campaign_B,0,1,Beauty,5,2,195.5,NetBanking,0
+980,4795,2023-02-10 19:00:00,Female,41,UK,Premium,1,Desktop,Firefox,Night,30,18,48,12,Ads,None,0,0,Electronics,9,6,109.39,COD,1
+981,3508,2023-02-10 20:00:00,Female,40,Germany,Guest,1,Mobile,Chrome,Afternoon,21,14,85,30,Referral,Campaign_B,0,1,Books,3,4,376.84,NetBanking,1
+982,3779,2023-02-10 21:00:00,Male,32,UK,Guest,0,Mobile,Safari,Morning,30,3,36,9,Referral,None,0,0,Books,1,5,79.43,NetBanking,0
+983,3799,2023-02-10 22:00:00,Male,44,Australia,Registered,1,Mobile,Edge,Night,28,19,55,37,Referral,None,0,1,Electronics,9,2,400.46,UPI,0
+984,1924,2023-02-10 23:00:00,Male,28,USA,Guest,1,Mobile,Safari,Afternoon,31,8,43,1,Referral,Campaign_C,0,1,Home,5,3,282.92,UPI,1
+985,3956,2023-02-11 00:00:00,Female,34,Australia,Guest,0,Desktop,Firefox,Evening,57,4,42,42,Referral,Campaign_B,0,0,Sports,9,5,416.86,COD,0
+986,2581,2023-02-11 01:00:00,Male,31,Canada,Guest,0,Desktop,Chrome,Morning,52,4,59,49,Organic,None,1,1,Electronics,4,0,7.36,Debit Card,1
+987,4618,2023-02-11 02:00:00,Male,44,UK,Registered,0,Mobile,Firefox,Morning,26,19,29,4,Direct,None,1,0,Beauty,5,4,375.85,NetBanking,1
+988,4324,2023-02-11 03:00:00,Male,35,UK,Registered,1,Mobile,Safari,Evening,43,11,49,15,Ads,None,0,0,Home,6,4,30.5,Debit Card,1
+989,1389,2023-02-11 04:00:00,Male,45,India,Registered,0,Mobile,Edge,Evening,22,1,67,27,Direct,Campaign_B,1,0,Electronics,8,0,475.3,COD,0
+990,2617,2023-02-11 05:00:00,Male,64,USA,Registered,0,Tablet,Edge,Morning,21,8,40,8,Ads,None,0,0,Clothing,6,7,352.86,NetBanking,1
+991,3930,2023-02-11 06:00:00,Female,64,Canada,Guest,1,Mobile,Firefox,Night,1,15,47,23,Organic,Campaign_B,1,1,Beauty,3,7,163.49,Debit Card,0
+992,1255,2023-02-11 07:00:00,Male,21,UK,Premium,0,Desktop,Firefox,Morning,37,1,95,15,Organic,Campaign_C,0,1,Beauty,9,6,163.33,NetBanking,0
+993,1708,2023-02-11 08:00:00,Female,24,UK,Guest,0,Desktop,Chrome,Evening,13,7,54,27,Social,None,1,0,Books,4,7,431.44,UPI,1
+994,2838,2023-02-11 09:00:00,Male,62,Canada,Premium,1,Tablet,Safari,Night,21,11,50,31,Social,Campaign_A,0,0,Clothing,5,4,451.91,UPI,0
+995,2944,2023-02-11 10:00:00,Female,52,Australia,Registered,0,Desktop,Firefox,Afternoon,46,14,18,39,Organic,None,0,0,Clothing,8,7,446.33,Credit Card,1
+996,3497,2023-02-11 11:00:00,Female,26,Australia,Premium,1,Desktop,Chrome,Morning,9,16,18,47,Organic,Campaign_C,0,1,Beauty,4,5,405.33,COD,0
+997,1009,2023-02-11 12:00:00,Female,25,USA,Guest,0,Mobile,Firefox,Evening,17,14,72,8,Ads,None,0,0,Sports,4,1,410.42,Debit Card,0
+998,3871,2023-02-11 13:00:00,Female,62,India,Registered,1,Mobile,Edge,Afternoon,47,12,88,30,Organic,Campaign_A,0,1,Home,6,6,288.52,NetBanking,1
+999,1797,2023-02-11 14:00:00,Male,34,UK,Guest,1,Mobile,Chrome,Morning,21,17,86,42,Direct,Campaign_C,0,0,Books,1,0,18.97,Credit Card,1
+1000,4313,2023-02-11 15:00:00,Male,34,India,Guest,0,Mobile,Chrome,Morning,31,14,31,18,Ads,None,1,0,Clothing,2,3,47.95,COD,1
+1001,4322,2023-02-11 16:00:00,Female,50,Australia,Registered,0,Tablet,Firefox,Night,39,10,25,4,Organic,Campaign_A,0,1,Books,1,6,326.53,COD,0
+1002,1876,2023-02-11 17:00:00,Other,49,Australia,Guest,1,Mobile,Safari,Evening,59,14,41,47,Ads,Campaign_A,0,0,Beauty,9,2,203.58,COD,1
+1003,2028,2023-02-11 18:00:00,Female,25,Germany,Registered,1,Desktop,Edge,Afternoon,54,18,75,43,Ads,None,0,0,Home,9,7,285.82,Debit Card,0
+1004,4190,2023-02-11 19:00:00,Female,36,USA,Guest,1,Mobile,Safari,Morning,22,9,99,22,Referral,Campaign_B,1,0,Electronics,1,2,119.38,UPI,1
+1005,2015,2023-02-11 20:00:00,Female,55,Germany,Guest,1,Mobile,Chrome,Night,12,17,23,3,Social,None,1,0,Clothing,2,0,326.46,Credit Card,0
+1006,2824,2023-02-11 21:00:00,Male,20,Germany,Registered,0,Tablet,Safari,Afternoon,55,6,47,15,Ads,Campaign_A,1,1,Home,5,7,125.2,Debit Card,1
+1007,1373,2023-02-11 22:00:00,Male,22,Germany,Registered,0,Mobile,Chrome,Afternoon,6,8,17,35,Ads,Campaign_B,0,0,Books,4,1,233.1,NetBanking,1
+1008,4136,2023-02-11 23:00:00,Female,30,USA,Registered,1,Mobile,Safari,Morning,53,13,30,47,Referral,None,0,0,Beauty,4,5,241.97,Debit Card,1
+1009,3193,2023-02-12 00:00:00,Female,64,USA,Registered,0,Mobile,Firefox,Afternoon,16,18,65,38,Organic,None,0,0,Home,1,3,92.95,NetBanking,1
+1010,1223,2023-02-12 01:00:00,Male,63,Canada,Premium,0,Desktop,Safari,Morning,26,5,55,33,Ads,Campaign_C,0,0,Electronics,1,2,438.72,NetBanking,1
+1011,2262,2023-02-12 02:00:00,Female,48,India,Guest,0,Mobile,Chrome,Night,5,6,52,14,Referral,Campaign_C,0,1,Home,0,2,265.28,COD,0
+1012,3224,2023-02-12 03:00:00,Male,33,India,Registered,0,Mobile,Edge,Night,9,19,55,48,Direct,None,0,1,Beauty,2,5,434.06,Debit Card,1
+1013,2802,2023-02-12 04:00:00,Female,49,Canada,Premium,0,Mobile,Edge,Afternoon,46,4,57,1,Referral,Campaign_B,0,1,Books,6,1,134.96,UPI,1
+1014,1852,2023-02-12 05:00:00,Male,39,Canada,Registered,1,Desktop,Edge,Morning,40,7,79,49,Social,Campaign_C,0,0,Clothing,4,4,90.31,NetBanking,1
+1015,4353,2023-02-12 06:00:00,Male,46,Australia,Registered,0,Desktop,Chrome,Evening,14,4,93,26,Social,Campaign_A,0,0,Clothing,6,6,13.92,COD,0
+1016,1062,2023-02-12 07:00:00,Female,39,Germany,Registered,0,Mobile,Safari,Night,44,11,40,8,Organic,Campaign_C,1,0,Sports,8,0,51.46,UPI,1
+1017,2240,2023-02-12 08:00:00,Male,60,Canada,Registered,1,Mobile,Edge,Morning,42,12,42,16,Organic,Campaign_B,0,1,Books,5,1,78.0,Debit Card,1
+1018,4925,2023-02-12 09:00:00,Female,20,UK,Registered,1,Desktop,Edge,Morning,30,14,53,38,Social,Campaign_B,1,0,Sports,1,1,44.03,UPI,1
+1019,3874,2023-02-12 10:00:00,Female,27,India,Guest,0,Mobile,Edge,Morning,52,13,80,10,Social,Campaign_C,0,0,Sports,0,1,448.96,Debit Card,1
+1020,3842,2023-02-12 11:00:00,Female,59,Canada,Guest,0,Mobile,Firefox,Afternoon,52,10,17,42,Ads,Campaign_A,0,1,Beauty,0,1,456.16,NetBanking,1
+1021,1688,2023-02-12 12:00:00,Male,38,UK,Premium,1,Mobile,Chrome,Evening,26,18,82,37,Social,Campaign_A,0,0,Beauty,9,4,468.99,Credit Card,1
+1022,2484,2023-02-12 13:00:00,Male,33,UK,Guest,1,Desktop,Chrome,Afternoon,53,16,11,26,Organic,None,1,0,Beauty,8,5,480.13,Credit Card,1
+1023,2633,2023-02-12 14:00:00,Male,29,UK,Registered,1,Mobile,Chrome,Night,45,5,26,28,Social,Campaign_C,0,0,Electronics,5,3,248.46,NetBanking,1
+1024,3152,2023-02-12 15:00:00,Other,19,Australia,Guest,1,Mobile,Chrome,Afternoon,29,8,61,12,Organic,None,1,0,Books,5,6,267.36,UPI,0
+1025,4170,2023-02-12 16:00:00,Female,58,Australia,Registered,1,Desktop,Chrome,Morning,19,14,54,20,Direct,None,0,0,Clothing,3,1,69.76,Debit Card,1
+1026,1510,2023-02-12 17:00:00,Female,41,UK,Guest,0,Desktop,Firefox,Afternoon,47,5,46,49,Social,Campaign_A,0,0,Books,1,6,72.84,Credit Card,1
+1027,1384,2023-02-12 18:00:00,Female,52,Australia,Guest,1,Mobile,Safari,Morning,8,8,51,14,Organic,None,1,0,Beauty,9,1,387.51,Debit Card,1
+1028,1404,2023-02-12 19:00:00,Female,47,Germany,Premium,0,Mobile,Firefox,Evening,23,6,53,46,Referral,Campaign_A,0,0,Electronics,2,0,428.59,NetBanking,0
+1029,3870,2023-02-12 20:00:00,Female,47,UK,Premium,1,Desktop,Edge,Afternoon,53,16,90,35,Ads,None,1,1,Books,2,2,393.43,UPI,0
+1030,1517,2023-02-12 21:00:00,Male,64,Germany,Registered,1,Tablet,Firefox,Afternoon,42,4,47,29,Organic,None,0,0,Books,7,4,418.12,Debit Card,0
+1031,1475,2023-02-12 22:00:00,Female,52,Germany,Registered,0,Desktop,Chrome,Afternoon,35,12,15,12,Social,Campaign_C,0,1,Sports,5,1,141.9,UPI,1
+1032,3000,2023-02-12 23:00:00,Male,36,UK,Registered,0,Mobile,Firefox,Morning,31,11,77,18,Social,None,1,0,Books,6,7,235.7,Credit Card,0
+1033,3756,2023-02-13 00:00:00,Female,25,India,Registered,0,Mobile,Chrome,Morning,53,3,60,44,Direct,Campaign_B,1,0,Sports,8,3,232.3,Debit Card,0
+1034,4934,2023-02-13 01:00:00,Female,43,UK,Registered,0,Desktop,Firefox,Afternoon,35,12,44,2,Referral,Campaign_C,0,1,Sports,0,3,497.67,COD,1
+1035,2668,2023-02-13 02:00:00,Female,57,UK,Guest,1,Desktop,Chrome,Afternoon,32,5,67,2,Organic,None,1,0,Home,1,3,474.84,Credit Card,1
+1036,2893,2023-02-13 03:00:00,Male,24,Australia,Registered,0,Mobile,Edge,Evening,58,6,66,17,Referral,Campaign_A,0,0,Beauty,8,7,301.25,UPI,1
+1037,3818,2023-02-13 04:00:00,Male,47,UK,Registered,1,Mobile,Chrome,Evening,5,19,82,10,Direct,Campaign_B,1,1,Electronics,4,0,73.3,NetBanking,1
+1038,2460,2023-02-13 05:00:00,Male,24,India,Premium,0,Desktop,Firefox,Night,16,18,15,18,Ads,Campaign_C,0,0,Sports,3,3,133.01,COD,1
+1039,4094,2023-02-13 06:00:00,Male,20,Australia,Guest,1,Mobile,Edge,Evening,17,16,22,22,Referral,None,0,0,Books,0,5,185.06,Debit Card,1
+1040,4044,2023-02-13 07:00:00,Male,18,USA,Registered,1,Mobile,Firefox,Evening,32,11,68,19,Direct,Campaign_B,0,0,Sports,8,0,437.24,Credit Card,0
+1041,4636,2023-02-13 08:00:00,Female,53,USA,Registered,1,Mobile,Edge,Evening,38,5,95,1,Organic,None,0,1,Sports,8,4,89.46,Debit Card,1
+1042,3724,2023-02-13 09:00:00,Female,42,Germany,Registered,0,Mobile,Safari,Morning,58,9,39,24,Ads,Campaign_A,0,1,Sports,3,3,113.77,Debit Card,1
+1043,1713,2023-02-13 10:00:00,Male,54,Germany,Guest,1,Mobile,Safari,Evening,32,3,11,36,Social,Campaign_B,0,0,Clothing,8,2,177.95,COD,0
+1044,4529,2023-02-13 11:00:00,Male,18,India,Registered,0,Desktop,Safari,Evening,52,8,67,25,Direct,None,0,0,Clothing,9,1,463.82,COD,1
+1045,1082,2023-02-13 12:00:00,Male,32,Canada,Guest,0,Mobile,Firefox,Afternoon,20,6,45,36,Social,Campaign_B,1,0,Clothing,0,4,254.39,COD,0
+1046,2168,2023-02-13 13:00:00,Female,54,USA,Guest,0,Mobile,Firefox,Morning,48,4,81,31,Ads,None,0,0,Clothing,4,5,325.18,COD,0
+1047,4156,2023-02-13 14:00:00,Female,30,Germany,Registered,0,Mobile,Edge,Night,56,12,54,31,Direct,Campaign_A,0,0,Home,0,2,196.68,NetBanking,0
+1048,4149,2023-02-13 15:00:00,Female,57,USA,Registered,1,Mobile,Edge,Night,2,12,18,2,Direct,Campaign_A,0,0,Sports,3,4,98.32,UPI,0
+1049,3504,2023-02-13 16:00:00,Female,25,India,Registered,0,Mobile,Edge,Evening,20,16,74,19,Ads,Campaign_A,1,0,Home,4,5,115.29,COD,0
+1050,2901,2023-02-13 17:00:00,Other,22,India,Premium,1,Mobile,Edge,Night,47,10,86,12,Organic,None,0,0,Books,2,3,402.32,Credit Card,1
+1051,3048,2023-02-13 18:00:00,Female,26,Canada,Guest,1,Desktop,Chrome,Night,18,14,59,10,Direct,Campaign_C,0,1,Beauty,1,4,447.27,Debit Card,0
+1052,1050,2023-02-13 19:00:00,Male,18,Canada,Guest,0,Mobile,Safari,Night,1,13,88,31,Ads,None,0,0,Electronics,5,4,249.07,COD,1
+1053,1684,2023-02-13 20:00:00,Female,53,Australia,Registered,1,Mobile,Chrome,Evening,58,9,41,45,Referral,Campaign_B,0,0,Home,2,4,181.71,Credit Card,1
+1054,1716,2023-02-13 21:00:00,Male,52,India,Guest,0,Mobile,Chrome,Night,29,7,52,22,Social,Campaign_C,0,0,Clothing,9,0,404.88,NetBanking,0
+1055,4843,2023-02-13 22:00:00,Female,19,Germany,Guest,0,Mobile,Chrome,Evening,29,12,87,23,Direct,Campaign_C,0,1,Clothing,0,7,338.18,Credit Card,1
+1056,2469,2023-02-13 23:00:00,Male,57,USA,Guest,0,Desktop,Chrome,Afternoon,19,5,63,23,Referral,None,0,1,Books,4,2,25.23,Credit Card,0
+1057,1448,2023-02-14 00:00:00,Female,40,UK,Guest,1,Mobile,Safari,Afternoon,44,18,56,15,Direct,None,0,1,Sports,1,6,178.62,NetBanking,1
+1058,1880,2023-02-14 01:00:00,Female,26,Canada,Premium,1,Tablet,Chrome,Night,40,4,23,26,Organic,None,0,0,Electronics,1,5,342.68,NetBanking,1
+1059,1487,2023-02-14 02:00:00,Female,51,UK,Guest,0,Mobile,Edge,Afternoon,6,2,57,3,Ads,Campaign_A,0,1,Home,3,7,288.97,Debit Card,0
+1060,2823,2023-02-14 03:00:00,Female,63,Germany,Registered,0,Desktop,Firefox,Evening,44,3,64,23,Direct,Campaign_C,0,0,Sports,3,3,489.14,COD,0
+1061,3081,2023-02-14 04:00:00,Male,31,Canada,Guest,1,Mobile,Edge,Afternoon,39,12,38,20,Ads,Campaign_C,1,0,Sports,3,1,433.73,Credit Card,1
+1062,4419,2023-02-14 05:00:00,Male,21,UK,Registered,0,Desktop,Firefox,Night,50,3,56,45,Direct,None,1,0,Beauty,6,3,34.57,UPI,0
+1063,3142,2023-02-14 06:00:00,Male,47,Germany,Guest,1,Mobile,Edge,Evening,54,4,72,40,Organic,Campaign_B,0,1,Beauty,0,3,364.26,UPI,1
+1064,4143,2023-02-14 07:00:00,Male,48,USA,Registered,0,Mobile,Edge,Morning,46,6,28,39,Organic,Campaign_B,0,1,Home,7,0,171.48,Debit Card,0
+1065,2574,2023-02-14 08:00:00,Female,55,Germany,Registered,0,Desktop,Firefox,Evening,8,12,18,8,Referral,Campaign_C,0,1,Home,9,0,342.63,UPI,0
+1066,3201,2023-02-14 09:00:00,Male,28,Australia,Guest,1,Desktop,Safari,Afternoon,24,19,46,18,Organic,Campaign_B,0,1,Home,8,4,310.53,Debit Card,1
+1067,1249,2023-02-14 10:00:00,Other,52,Canada,Registered,0,Mobile,Chrome,Morning,20,10,61,41,Ads,Campaign_A,0,0,Home,9,7,254.01,COD,0
+1068,1673,2023-02-14 11:00:00,Female,25,India,Guest,1,Mobile,Edge,Evening,54,1,66,6,Organic,None,0,0,Clothing,5,3,427.21,Debit Card,0
+1069,1437,2023-02-14 12:00:00,Female,20,USA,Registered,1,Mobile,Safari,Morning,14,17,97,27,Direct,Campaign_C,1,0,Sports,3,2,355.8,NetBanking,0
+1070,3165,2023-02-14 13:00:00,Male,31,UK,Guest,0,Desktop,Chrome,Morning,5,16,37,36,Organic,None,1,1,Sports,5,0,445.33,NetBanking,0
+1071,1770,2023-02-14 14:00:00,Female,30,Canada,Premium,0,Mobile,Safari,Morning,41,9,45,15,Ads,None,0,0,Clothing,9,5,144.39,NetBanking,1
+1072,4962,2023-02-14 15:00:00,Female,62,India,Guest,1,Mobile,Safari,Evening,40,9,73,37,Direct,Campaign_B,0,1,Sports,6,7,177.32,NetBanking,0
+1073,4377,2023-02-14 16:00:00,Female,49,Germany,Registered,1,Desktop,Chrome,Afternoon,34,9,27,5,Referral,Campaign_C,1,0,Home,5,0,312.87,NetBanking,0
+1074,1267,2023-02-14 17:00:00,Female,51,India,Guest,0,Desktop,Edge,Evening,16,12,98,39,Referral,Campaign_A,1,0,Electronics,0,2,483.4,NetBanking,0
+1075,2984,2023-02-14 18:00:00,Female,62,Canada,Guest,1,Desktop,Safari,Afternoon,45,9,44,9,Referral,None,1,0,Beauty,4,0,188.93,NetBanking,0
+1076,2077,2023-02-14 19:00:00,Male,36,Canada,Registered,0,Desktop,Edge,Evening,7,15,77,7,Direct,Campaign_C,0,0,Beauty,7,6,20.99,NetBanking,0
+1077,1235,2023-02-14 20:00:00,Female,55,Australia,Premium,0,Desktop,Edge,Evening,16,2,87,41,Referral,Campaign_B,0,1,Sports,7,2,225.71,NetBanking,0
+1078,1388,2023-02-14 21:00:00,Male,33,Australia,Guest,1,Mobile,Edge,Evening,7,11,48,20,Organic,Campaign_B,0,0,Electronics,9,7,274.25,COD,1
+1079,4037,2023-02-14 22:00:00,Male,19,India,Guest,0,Mobile,Chrome,Afternoon,27,11,99,10,Direct,Campaign_C,0,0,Beauty,8,6,401.49,NetBanking,1
+1080,4805,2023-02-14 23:00:00,Male,57,Germany,Guest,1,Desktop,Firefox,Evening,14,8,17,26,Direct,Campaign_B,0,0,Electronics,3,6,365.66,Debit Card,0
+1081,1762,2023-02-15 00:00:00,Male,34,India,Guest,0,Mobile,Edge,Morning,14,6,97,4,Direct,Campaign_B,0,0,Clothing,9,1,482.51,COD,1
+1082,2848,2023-02-15 01:00:00,Male,51,Canada,Guest,1,Tablet,Firefox,Evening,44,7,89,38,Social,None,1,0,Books,5,2,392.43,UPI,1
+1083,3448,2023-02-15 02:00:00,Male,59,Canada,Registered,0,Mobile,Firefox,Morning,33,3,93,24,Ads,None,1,0,Sports,6,1,152.82,Credit Card,0
+1084,1623,2023-02-15 03:00:00,Other,33,UK,Guest,0,Mobile,Safari,Night,33,8,24,14,Social,Campaign_B,0,1,Clothing,4,5,322.48,COD,1
+1085,3814,2023-02-15 04:00:00,Female,55,Australia,Guest,1,Tablet,Edge,Night,44,18,16,41,Social,Campaign_C,1,0,Clothing,7,4,337.76,NetBanking,1
+1086,4374,2023-02-15 05:00:00,Other,19,UK,Registered,0,Desktop,Edge,Afternoon,20,17,26,1,Social,None,0,0,Electronics,2,4,499.02,COD,1
+1087,3966,2023-02-15 06:00:00,Male,19,USA,Guest,0,Mobile,Edge,Afternoon,53,11,95,17,Ads,Campaign_A,1,0,Sports,7,7,73.68,Credit Card,1
+1088,4278,2023-02-15 07:00:00,Male,43,Canada,Guest,0,Desktop,Firefox,Night,47,2,95,45,Social,None,0,0,Clothing,4,7,99.71,Credit Card,0
+1089,2252,2023-02-15 08:00:00,Female,30,UK,Guest,0,Desktop,Chrome,Evening,36,19,73,24,Referral,Campaign_B,0,0,Home,0,7,81.98,NetBanking,1
+1090,3900,2023-02-15 09:00:00,Male,64,India,Registered,1,Mobile,Firefox,Evening,7,7,21,27,Direct,None,0,0,Clothing,5,6,296.58,NetBanking,1
+1091,4981,2023-02-15 10:00:00,Male,48,Australia,Guest,0,Mobile,Edge,Evening,32,18,91,7,Direct,Campaign_C,0,0,Home,1,0,71.97,Debit Card,1
+1092,1577,2023-02-15 11:00:00,Female,51,Australia,Registered,0,Desktop,Edge,Night,48,8,65,9,Organic,Campaign_C,0,1,Books,6,2,329.72,Credit Card,1
+1093,3122,2023-02-15 12:00:00,Male,56,Germany,Guest,0,Desktop,Edge,Morning,3,14,55,43,Referral,None,0,0,Home,8,0,402.87,NetBanking,0
+1094,1434,2023-02-15 13:00:00,Female,20,India,Registered,0,Mobile,Firefox,Afternoon,39,7,56,35,Ads,Campaign_A,1,1,Home,2,2,219.23,Credit Card,1
+1095,3150,2023-02-15 14:00:00,Female,25,Germany,Guest,0,Desktop,Edge,Morning,29,4,88,12,Direct,Campaign_B,0,1,Electronics,9,7,282.54,Debit Card,0
+1096,4493,2023-02-15 15:00:00,Male,40,UK,Registered,0,Desktop,Safari,Night,24,17,25,21,Social,Campaign_C,0,0,Clothing,3,0,456.8,UPI,1
+1097,4775,2023-02-15 16:00:00,Male,31,USA,Premium,0,Mobile,Edge,Morning,22,5,78,3,Organic,None,0,0,Books,3,4,286.94,Credit Card,1
+1098,1763,2023-02-15 17:00:00,Female,44,India,Registered,1,Desktop,Chrome,Evening,6,12,11,15,Organic,Campaign_B,0,0,Clothing,3,5,108.26,Debit Card,0
+1099,3785,2023-02-15 18:00:00,Male,46,India,Guest,1,Mobile,Safari,Evening,48,9,63,21,Direct,None,0,0,Home,2,4,174.88,Debit Card,1
+1100,3853,2023-02-15 19:00:00,Male,56,India,Guest,0,Mobile,Edge,Morning,24,13,36,10,Referral,Campaign_B,1,1,Beauty,4,0,267.27,Debit Card,0
+1101,2329,2023-02-15 20:00:00,Other,56,Germany,Guest,0,Desktop,Safari,Night,40,18,40,33,Organic,Campaign_A,0,1,Home,8,2,81.67,COD,0
+1102,3145,2023-02-15 21:00:00,Male,18,UK,Guest,0,Desktop,Edge,Morning,23,9,50,46,Direct,None,0,0,Clothing,7,3,308.2,NetBanking,1
+1103,4921,2023-02-15 22:00:00,Female,34,India,Guest,0,Desktop,Chrome,Evening,54,4,45,6,Referral,Campaign_A,1,0,Books,9,5,499.63,Credit Card,1
+1104,3845,2023-02-15 23:00:00,Other,58,India,Registered,0,Mobile,Edge,Evening,38,8,56,2,Direct,Campaign_C,0,0,Beauty,1,2,328.0,COD,0
+1105,2358,2023-02-16 00:00:00,Male,47,Australia,Guest,0,Mobile,Safari,Night,10,1,52,29,Direct,Campaign_A,0,0,Books,8,0,189.34,Credit Card,0
+1106,3906,2023-02-16 01:00:00,Male,30,USA,Registered,0,Mobile,Chrome,Morning,16,17,74,40,Referral,Campaign_B,1,1,Electronics,9,2,169.21,COD,0
+1107,3482,2023-02-16 02:00:00,Male,38,Australia,Registered,0,Mobile,Firefox,Evening,11,9,59,33,Referral,None,0,0,Home,1,7,466.14,NetBanking,1
+1108,1446,2023-02-16 03:00:00,Male,36,Australia,Registered,0,Mobile,Chrome,Evening,32,13,10,4,Referral,Campaign_C,0,0,Home,6,1,436.4,Debit Card,1
+1109,3017,2023-02-16 04:00:00,Male,36,USA,Guest,0,Mobile,Chrome,Morning,45,2,81,4,Direct,Campaign_C,1,1,Electronics,4,2,238.82,Credit Card,0
+1110,2331,2023-02-16 05:00:00,Female,42,UK,Premium,0,Mobile,Chrome,Morning,6,13,66,29,Organic,Campaign_C,0,0,Clothing,6,4,179.94,Debit Card,1
+1111,1248,2023-02-16 06:00:00,Male,39,Australia,Guest,0,Desktop,Safari,Afternoon,24,9,25,37,Ads,Campaign_B,0,0,Home,4,6,356.68,NetBanking,1
+1112,1165,2023-02-16 07:00:00,Female,48,UK,Registered,0,Mobile,Chrome,Night,33,6,37,20,Ads,Campaign_C,1,0,Clothing,5,4,160.68,Credit Card,0
+1113,4552,2023-02-16 08:00:00,Other,34,Australia,Registered,0,Mobile,Edge,Night,53,1,95,41,Direct,None,0,0,Books,7,1,64.1,UPI,0
+1114,4031,2023-02-16 09:00:00,Female,40,Canada,Registered,0,Mobile,Chrome,Morning,51,5,91,23,Direct,None,0,1,Beauty,0,5,158.53,UPI,1
+1115,2358,2023-02-16 10:00:00,Female,49,USA,Registered,0,Mobile,Chrome,Night,12,3,31,45,Organic,Campaign_A,1,1,Beauty,0,2,219.98,UPI,1
+1116,2019,2023-02-16 11:00:00,Male,27,Australia,Guest,0,Mobile,Edge,Evening,56,4,50,18,Referral,Campaign_A,1,0,Beauty,4,5,131.43,NetBanking,1
+1117,1541,2023-02-16 12:00:00,Female,27,Canada,Guest,0,Mobile,Edge,Morning,27,1,85,49,Direct,None,0,1,Sports,0,3,112.32,UPI,1
+1118,1758,2023-02-16 13:00:00,Female,53,Germany,Registered,0,Desktop,Firefox,Morning,38,14,28,25,Social,Campaign_C,0,0,Electronics,2,2,8.04,Credit Card,1
+1119,4177,2023-02-16 14:00:00,Male,25,Canada,Guest,0,Mobile,Chrome,Morning,18,9,98,1,Referral,Campaign_C,1,1,Beauty,9,4,317.27,UPI,1
+1120,4634,2023-02-16 15:00:00,Male,37,India,Premium,1,Desktop,Safari,Afternoon,45,4,59,15,Direct,None,1,1,Home,8,6,309.15,Credit Card,1
+1121,3128,2023-02-16 16:00:00,Female,49,Australia,Guest,0,Tablet,Chrome,Night,39,18,68,34,Social,Campaign_B,0,0,Electronics,6,4,98.07,NetBanking,1
+1122,3180,2023-02-16 17:00:00,Male,31,Canada,Guest,0,Desktop,Chrome,Afternoon,55,14,78,48,Organic,Campaign_C,0,1,Books,5,5,472.11,Debit Card,1
+1123,1796,2023-02-16 18:00:00,Male,45,UK,Guest,1,Mobile,Edge,Evening,13,4,43,20,Social,None,0,0,Books,7,0,207.74,COD,0
+1124,3947,2023-02-16 19:00:00,Male,63,Germany,Guest,0,Tablet,Firefox,Night,53,10,48,37,Direct,None,1,0,Books,7,4,17.61,UPI,1
+1125,1137,2023-02-16 20:00:00,Male,41,Australia,Registered,0,Mobile,Chrome,Afternoon,40,3,83,27,Ads,Campaign_A,1,1,Books,5,0,113.79,COD,0
+1126,3231,2023-02-16 21:00:00,Female,32,India,Registered,1,Mobile,Safari,Morning,30,7,16,22,Direct,Campaign_A,1,1,Sports,3,4,347.57,Debit Card,1
+1127,4472,2023-02-16 22:00:00,Female,39,Canada,Registered,1,Desktop,Chrome,Afternoon,53,10,61,5,Ads,Campaign_B,1,1,Clothing,3,7,104.8,NetBanking,0
+1128,2353,2023-02-16 23:00:00,Female,47,Germany,Premium,0,Desktop,Safari,Morning,49,13,69,34,Organic,None,0,1,Clothing,3,4,31.69,NetBanking,0
+1129,3832,2023-02-17 00:00:00,Male,21,Australia,Premium,0,Mobile,Edge,Afternoon,41,4,61,39,Organic,Campaign_B,0,0,Beauty,5,6,310.76,Debit Card,1
+1130,4579,2023-02-17 01:00:00,Male,30,Germany,Premium,0,Mobile,Firefox,Afternoon,52,18,88,3,Referral,Campaign_A,1,0,Sports,0,3,261.59,COD,1
+1131,2875,2023-02-17 02:00:00,Female,40,India,Guest,0,Mobile,Chrome,Afternoon,13,11,33,17,Referral,None,1,1,Clothing,1,0,381.83,UPI,0
+1132,4031,2023-02-17 03:00:00,Male,25,Canada,Registered,0,Mobile,Firefox,Morning,34,4,35,24,Ads,Campaign_A,0,0,Books,5,0,387.45,Credit Card,1
+1133,1068,2023-02-17 04:00:00,Male,35,Germany,Guest,0,Mobile,Chrome,Afternoon,36,14,99,24,Ads,Campaign_A,0,1,Clothing,0,4,480.17,NetBanking,1
+1134,3593,2023-02-17 05:00:00,Female,29,Germany,Guest,0,Tablet,Safari,Night,30,18,99,3,Organic,Campaign_B,1,0,Electronics,8,7,33.22,Debit Card,0
+1135,4845,2023-02-17 06:00:00,Male,48,USA,Registered,1,Tablet,Firefox,Night,25,8,19,45,Social,Campaign_B,0,1,Beauty,5,0,24.3,COD,0
+1136,3100,2023-02-17 07:00:00,Female,31,Germany,Guest,1,Desktop,Chrome,Night,2,10,26,7,Ads,Campaign_C,0,0,Clothing,6,4,493.66,UPI,0
+1137,2473,2023-02-17 08:00:00,Male,51,USA,Guest,0,Mobile,Edge,Morning,36,5,87,25,Ads,None,0,1,Electronics,0,4,324.2,COD,1
+1138,1204,2023-02-17 09:00:00,Male,35,Canada,Guest,1,Desktop,Safari,Morning,18,7,11,3,Social,None,0,0,Home,7,5,359.11,UPI,1
+1139,3173,2023-02-17 10:00:00,Male,51,Australia,Guest,0,Tablet,Firefox,Night,5,12,86,15,Referral,Campaign_C,0,1,Electronics,4,2,52.76,Credit Card,0
+1140,4818,2023-02-17 11:00:00,Other,28,Australia,Premium,1,Desktop,Chrome,Night,19,3,36,29,Referral,Campaign_C,1,0,Electronics,4,0,39.56,Credit Card,0
+1141,1042,2023-02-17 12:00:00,Female,58,Canada,Guest,0,Mobile,Firefox,Night,42,4,82,29,Ads,Campaign_C,0,0,Books,5,6,84.33,Debit Card,0
+1142,4823,2023-02-17 13:00:00,Female,29,Canada,Guest,0,Mobile,Chrome,Evening,18,10,80,10,Referral,Campaign_B,0,1,Books,6,1,216.46,Debit Card,1
+1143,2906,2023-02-17 14:00:00,Female,32,UK,Registered,0,Mobile,Safari,Night,57,4,57,32,Referral,Campaign_A,0,1,Beauty,6,5,59.54,UPI,1
+1144,3158,2023-02-17 15:00:00,Male,48,Canada,Guest,0,Mobile,Edge,Afternoon,32,15,83,23,Referral,None,1,1,Books,4,0,225.94,UPI,1
+1145,1760,2023-02-17 16:00:00,Female,46,Germany,Premium,0,Desktop,Safari,Evening,21,10,18,39,Organic,Campaign_A,1,0,Electronics,0,6,282.96,UPI,1
+1146,4734,2023-02-17 17:00:00,Male,43,Australia,Guest,1,Desktop,Firefox,Evening,10,16,95,9,Direct,Campaign_A,1,0,Sports,8,7,5.16,UPI,1
+1147,4254,2023-02-17 18:00:00,Female,35,India,Registered,1,Mobile,Firefox,Morning,37,15,32,37,Ads,Campaign_C,1,0,Books,5,0,61.55,Credit Card,1
+1148,3895,2023-02-17 19:00:00,Male,49,Australia,Registered,0,Mobile,Chrome,Afternoon,49,19,80,40,Ads,Campaign_C,0,0,Books,8,3,190.72,Debit Card,1
+1149,3142,2023-02-17 20:00:00,Female,39,USA,Premium,0,Mobile,Safari,Morning,22,19,82,14,Organic,Campaign_A,0,1,Electronics,3,1,31.4,Debit Card,1
+1150,2994,2023-02-17 21:00:00,Male,55,Australia,Registered,0,Mobile,Chrome,Morning,13,18,36,4,Direct,Campaign_A,0,0,Home,1,1,71.1,NetBanking,0
+1151,4445,2023-02-17 22:00:00,Male,34,UK,Premium,1,Mobile,Safari,Afternoon,55,12,97,20,Direct,Campaign_B,0,0,Home,2,6,119.74,Debit Card,0
+1152,2935,2023-02-17 23:00:00,Female,40,Canada,Guest,1,Desktop,Firefox,Morning,17,16,90,28,Organic,None,1,0,Clothing,3,3,217.65,Debit Card,0
+1153,4591,2023-02-18 00:00:00,Male,41,Canada,Guest,1,Mobile,Chrome,Afternoon,9,1,93,14,Social,Campaign_B,0,0,Beauty,9,3,358.84,COD,0
+1154,1899,2023-02-18 01:00:00,Male,25,Australia,Guest,1,Desktop,Chrome,Afternoon,24,16,80,44,Social,Campaign_C,1,0,Home,7,0,70.68,COD,0
+1155,1359,2023-02-18 02:00:00,Male,58,India,Premium,0,Mobile,Safari,Morning,44,2,52,34,Direct,Campaign_C,0,0,Books,2,2,370.29,NetBanking,0
+1156,3947,2023-02-18 03:00:00,Male,23,India,Guest,0,Mobile,Edge,Night,14,15,16,13,Social,None,0,0,Sports,7,6,428.26,UPI,0
+1157,2719,2023-02-18 04:00:00,Female,22,UK,Guest,0,Mobile,Safari,Morning,46,7,92,31,Social,Campaign_B,0,0,Clothing,5,3,327.48,NetBanking,1
+1158,1280,2023-02-18 05:00:00,Female,61,USA,Guest,1,Desktop,Edge,Evening,8,1,72,33,Social,Campaign_A,0,1,Beauty,3,1,26.64,NetBanking,0
+1159,4266,2023-02-18 06:00:00,Female,46,Australia,Guest,0,Mobile,Safari,Morning,55,5,93,39,Direct,Campaign_C,0,0,Sports,6,6,223.12,Credit Card,1
+1160,2887,2023-02-18 07:00:00,Female,45,Canada,Guest,0,Desktop,Firefox,Afternoon,37,10,53,28,Social,None,0,0,Sports,4,1,331.73,Debit Card,0
+1161,4266,2023-02-18 08:00:00,Male,28,Australia,Premium,1,Mobile,Chrome,Evening,19,4,48,25,Ads,Campaign_A,0,1,Books,4,0,489.36,Credit Card,1
+1162,1666,2023-02-18 09:00:00,Female,18,UK,Registered,0,Desktop,Safari,Afternoon,28,14,49,32,Direct,Campaign_C,0,1,Electronics,8,6,476.15,Debit Card,0
+1163,1092,2023-02-18 10:00:00,Male,60,Germany,Registered,0,Desktop,Firefox,Night,46,13,16,9,Organic,Campaign_A,0,1,Electronics,2,2,200.87,NetBanking,1
+1164,1671,2023-02-18 11:00:00,Male,36,Germany,Registered,1,Mobile,Safari,Night,41,1,79,28,Social,Campaign_A,0,1,Electronics,9,4,309.89,Debit Card,0
+1165,2969,2023-02-18 12:00:00,Female,26,UK,Guest,0,Desktop,Chrome,Evening,30,16,34,31,Referral,Campaign_C,0,0,Home,3,6,445.95,UPI,0
+1166,1060,2023-02-18 13:00:00,Male,44,Canada,Guest,0,Mobile,Safari,Night,7,9,68,17,Direct,Campaign_B,0,1,Electronics,4,3,416.37,UPI,1
+1167,3681,2023-02-18 14:00:00,Female,51,UK,Guest,1,Desktop,Edge,Night,59,16,22,23,Organic,None,0,0,Beauty,0,3,242.31,NetBanking,0
+1168,4122,2023-02-18 15:00:00,Male,61,Canada,Guest,1,Mobile,Chrome,Morning,58,19,95,13,Ads,None,0,0,Books,6,0,134.31,COD,0
+1169,4474,2023-02-18 16:00:00,Female,21,India,Registered,1,Mobile,Edge,Morning,26,15,90,10,Organic,Campaign_C,0,1,Home,7,5,72.86,UPI,1
+1170,4860,2023-02-18 17:00:00,Female,53,UK,Guest,0,Desktop,Firefox,Night,40,14,95,16,Social,Campaign_C,0,0,Beauty,5,5,246.55,NetBanking,0
+1171,2028,2023-02-18 18:00:00,Female,35,Canada,Guest,0,Desktop,Firefox,Night,46,10,71,6,Referral,Campaign_C,0,1,Electronics,8,2,362.81,Credit Card,1
+1172,2489,2023-02-18 19:00:00,Female,32,UK,Registered,1,Mobile,Safari,Morning,54,12,17,48,Social,Campaign_A,0,1,Beauty,2,1,485.04,COD,1
+1173,1603,2023-02-18 20:00:00,Female,30,UK,Premium,0,Desktop,Edge,Night,46,1,54,11,Organic,None,0,0,Sports,1,1,431.6,UPI,1
+1174,1681,2023-02-18 21:00:00,Male,36,Canada,Premium,0,Mobile,Edge,Night,11,17,27,3,Direct,None,1,1,Books,4,4,106.1,NetBanking,1
+1175,4900,2023-02-18 22:00:00,Female,23,Canada,Premium,1,Mobile,Chrome,Afternoon,14,9,97,28,Referral,Campaign_A,0,0,Books,8,1,361.29,NetBanking,1
+1176,3581,2023-02-18 23:00:00,Male,29,USA,Registered,0,Desktop,Edge,Night,21,19,69,41,Referral,Campaign_A,0,0,Beauty,0,5,148.11,Credit Card,1
+1177,2428,2023-02-19 00:00:00,Female,54,UK,Guest,0,Mobile,Edge,Evening,8,18,69,15,Organic,Campaign_A,1,1,Clothing,0,5,343.32,Credit Card,1
+1178,3885,2023-02-19 01:00:00,Female,34,Germany,Registered,0,Mobile,Chrome,Afternoon,3,7,11,13,Social,None,0,0,Books,9,7,334.57,COD,1
+1179,4584,2023-02-19 02:00:00,Female,40,UK,Guest,0,Desktop,Chrome,Evening,28,9,75,42,Organic,None,1,1,Sports,2,3,139.85,UPI,1
+1180,3692,2023-02-19 03:00:00,Male,43,UK,Registered,0,Mobile,Edge,Night,29,12,23,45,Referral,None,0,0,Books,9,4,121.02,NetBanking,1
+1181,3280,2023-02-19 04:00:00,Male,46,Canada,Registered,0,Desktop,Safari,Morning,23,7,57,17,Organic,None,0,0,Clothing,2,2,56.45,COD,1
+1182,1523,2023-02-19 05:00:00,Female,50,UK,Guest,1,Mobile,Chrome,Afternoon,18,14,65,7,Referral,Campaign_C,1,1,Books,4,4,30.02,COD,1
+1183,3393,2023-02-19 06:00:00,Male,44,Australia,Registered,1,Mobile,Chrome,Morning,35,15,21,28,Social,None,0,0,Books,3,6,429.93,Credit Card,1
+1184,4117,2023-02-19 07:00:00,Male,42,UK,Premium,0,Mobile,Edge,Afternoon,13,15,64,38,Direct,None,0,0,Clothing,5,2,29.68,NetBanking,1
+1185,3593,2023-02-19 08:00:00,Male,27,Australia,Guest,0,Desktop,Edge,Morning,12,6,37,13,Direct,Campaign_C,0,0,Books,7,5,48.93,Debit Card,1
+1186,2968,2023-02-19 09:00:00,Female,64,Germany,Premium,0,Desktop,Chrome,Afternoon,47,14,98,17,Organic,Campaign_C,0,1,Beauty,7,1,123.23,Credit Card,0
+1187,2101,2023-02-19 10:00:00,Female,40,Canada,Guest,0,Mobile,Edge,Afternoon,50,2,13,15,Referral,None,0,0,Home,3,0,444.39,NetBanking,1
+1188,2753,2023-02-19 11:00:00,Male,38,UK,Registered,1,Mobile,Chrome,Evening,5,8,99,36,Direct,Campaign_C,0,1,Beauty,0,4,169.81,COD,1
+1189,2836,2023-02-19 12:00:00,Male,38,Australia,Registered,1,Tablet,Safari,Morning,39,13,45,28,Referral,None,1,0,Books,6,4,99.94,COD,1
+1190,4994,2023-02-19 13:00:00,Male,60,Australia,Registered,1,Mobile,Safari,Evening,11,6,59,15,Social,None,1,1,Electronics,5,3,359.2,UPI,0
+1191,4144,2023-02-19 14:00:00,Female,30,Australia,Premium,0,Desktop,Chrome,Evening,58,5,12,46,Organic,None,0,1,Electronics,4,7,162.94,Debit Card,0
+1192,3841,2023-02-19 15:00:00,Female,54,India,Premium,0,Mobile,Chrome,Morning,59,5,10,11,Referral,None,1,0,Home,3,7,170.02,Credit Card,1
+1193,3296,2023-02-19 16:00:00,Male,50,USA,Registered,0,Desktop,Firefox,Afternoon,11,1,26,31,Organic,Campaign_C,0,0,Books,5,7,370.79,UPI,1
+1194,3094,2023-02-19 17:00:00,Male,41,Germany,Guest,0,Mobile,Firefox,Evening,59,9,80,4,Referral,None,0,1,Sports,7,3,129.57,UPI,1
+1195,2144,2023-02-19 18:00:00,Male,61,UK,Premium,1,Desktop,Edge,Morning,47,6,71,35,Referral,Campaign_C,1,1,Books,5,5,448.9,Debit Card,1
+1196,3261,2023-02-19 19:00:00,Female,28,India,Guest,1,Desktop,Edge,Afternoon,42,7,57,34,Social,Campaign_B,1,0,Electronics,2,2,282.9,Credit Card,1
+1197,3286,2023-02-19 20:00:00,Female,34,UK,Premium,0,Mobile,Chrome,Evening,47,9,71,27,Organic,Campaign_A,1,1,Clothing,8,7,271.23,Credit Card,1
+1198,2079,2023-02-19 21:00:00,Male,21,UK,Guest,1,Mobile,Chrome,Evening,31,5,78,10,Ads,Campaign_C,0,1,Home,2,0,136.05,COD,0
+1199,3397,2023-02-19 22:00:00,Male,64,Canada,Guest,0,Desktop,Firefox,Evening,31,14,28,30,Referral,Campaign_C,0,1,Clothing,3,6,418.37,Credit Card,1
+1200,1106,2023-02-19 23:00:00,Male,42,Canada,Registered,0,Desktop,Firefox,Afternoon,13,5,43,45,Referral,None,1,1,Sports,4,3,288.51,UPI,1
